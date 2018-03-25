@@ -54,8 +54,7 @@ MonoBehaviour:
   gameController: {fileID: 114483022160203788, guid: 700d363ef21cd4345b8d6a7996402615,
     type: 2}
   nivelGenerator: {fileID: 0}
-  dataBaseNivels: {fileID: 114433754641276050, guid: 82686a64ee18ea145939cdb650eb38b1,
-    type: 2}
+  dataBaseNivels: {fileID: 11400000, guid: 05ac99fec27c8ff429c6a8b8898e804e, type: 2}
   playerPrefsController: {fileID: 114135491188948366, guid: cfc9971c1f0a01849b59835c1c08c2a6,
     type: 2}
   panelBlocks: {fileID: 114336012123013886, guid: 4ff15eca467687643abc06fcd8f8aa29,

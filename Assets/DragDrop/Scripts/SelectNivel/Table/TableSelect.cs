@@ -16,7 +16,7 @@ public class TableSelect : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		print(GameInst.Instance.dataBaseNivels.dataBaseNivels.Count);
 	}
 
 
