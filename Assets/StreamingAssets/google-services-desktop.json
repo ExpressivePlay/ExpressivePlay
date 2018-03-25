@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "245993666650",
+    "firebase_url": "https://firstproject-a814b.firebaseio.com",
+    "project_id": "firstproject-a814b",
+    "storage_bucket": "firstproject-a814b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245993666650:android:41bb902776ce8b12",
+        "android_client_info": {
+          "package_name": "com.projectaplicado.expressiveplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245993666650-e1hjvk3n3cqm6p92vifae2cpu9plug1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8J1Ea4M7Kj-YV08bo7i6LC9zRyze49K0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
