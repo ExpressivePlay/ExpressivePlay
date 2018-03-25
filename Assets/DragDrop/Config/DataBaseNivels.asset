@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585edc42ce05e2f47ae5e31209f02862, type: 3}
+  m_Name: DataBaseNivels
+  m_EditorClassIdentifier: 
+  dataBaseNivels:
+  - id: 0
+    level: 1
+    frase: 3
+    answer: 3
+    blocos:
+    - 1
+    - 2
+    - 3
+  - id: 2
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+  - id: 3
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+  - id: 4
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+  - id: 5
+    level: 0
+    frase: 
+    answer: 
+    blocos: []

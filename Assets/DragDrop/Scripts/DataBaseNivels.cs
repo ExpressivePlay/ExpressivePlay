@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DataBaseNivels : MonoBehaviour {
+[CreateAssetMenu]
+public class DataBaseNivels : ScriptableObject {
 
 	public List<Fase> dataBaseNivels;
 

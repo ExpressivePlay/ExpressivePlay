@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DragDrop/Scenes/MainMenu.unity
+    guid: 5fc0c9fa1467e2647b4bddc83370e224
+  - enabled: 1
+    path: Assets/DragDrop/Scenes/SelectNivel.unity
+    guid: b97ad23094a91b64ba51e68ed3ae8dc4
+  - enabled: 1
+    path: Assets/DragDrop/Scenes/GameMain.unity
+    guid: c0e5ce834ad59b547bd656dd795ba4ff

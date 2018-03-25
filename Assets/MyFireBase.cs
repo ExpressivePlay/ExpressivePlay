@@ -11,13 +11,16 @@ public class MyFireBase : MonoBehaviour {
 		// Get the root reference location of the database.
 		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
 
-		writeNewUser ("1", "Jordan", "jordan@gmail.com");
+		writeNewUser ("2", "Jordan", "jordan@gmail.com", "19");
+
 	}
 
-	private void writeNewUser(string userId, string name, string email) {
-		User user = new User (name, email);
+	private void writeNewUser(string userId, string name, string email, string idade) {
+		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+		User user = new User (name, email, idade);
 		string json = JsonUtility.ToJson (user);
-		print (json);
+
+		reference.Child("users2").Child(userId).SetRawJsonValueAsync(json);
 	}
 
 }
@@ -25,12 +28,14 @@ public class MyFireBase : MonoBehaviour {
 public class User {
 	public string username;
 	public string email;
+	public string idade;
 
 	public User() {
 	}
 
-	public User(string username, string email) {
+	public User(string username, string email, string idade) {
 		this.username = username;
+		this.idade = idade;
 		this.email = email;
 	}
 }

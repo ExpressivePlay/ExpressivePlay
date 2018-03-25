@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4808344608307554}
-  - component: {fileID: 114433754641276050}
   m_Layer: 0
   m_Name: DataBaseNivels
   m_TagString: Untagged
@@ -40,64 +39,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114433754641276050
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1944596225358334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 585edc42ce05e2f47ae5e31209f02862, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dataBaseNivels:
-  - id: 1
-    level: 1
-    frase: "\xC1gua"
-    answer: "\xC1gua "
-    blocos:
-    - "\xC1gua"
-    - Copo
-    - Torneira
-  - id: 2
-    level: 2
-    frase: 2 3
-    answer: '2 3 '
-    blocos:
-    - 1
-    - 2
-    - 3
-  - id: 3
-    level: 3
-    frase: 2 3 4
-    answer: '2 3 4 '
-    blocos:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-  - id: 4
-    level: 3
-    frase: 2 3 4
-    answer: '2 3 4 '
-    blocos:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-  - id: 5
-    level: 3
-    frase: 2 3 4
-    answer: '2 3 4 '
-    blocos:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
