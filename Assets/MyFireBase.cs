@@ -11,7 +11,21 @@ public class MyFireBase : MonoBehaviour {
 		// Get the root reference location of the database.
 		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
 
-		writeNewUser ("2", "Jordan", "jordan@gmail.com", "19");
+		//writeNewUser ("2", "Jordan", "jordan@gmail.com", "19");
+
+		print(reference.Database.GetReference ("users").GetValueAsync ().ContinueWith(task => {
+			if(task.IsFaulted){
+				print("Erroui");
+			} else if(task.IsCompleted){
+				DataSnapshot snapshot = task.Result;
+				foreach(DataSnapshot user in snapshot.Children){
+					string json = user.GetRawJsonValue();
+					User meuUser = JsonUtility.FromJson<User>(json);
+					print(meuUser.username + " - " + meuUser.email);
+				}
+			}
+		}));
+
 
 	}
 
