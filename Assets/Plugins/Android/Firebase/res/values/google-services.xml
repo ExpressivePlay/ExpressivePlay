@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
-  <string name="firebase_database_url" translatable="false">https://firstproject-a814b.firebaseio.com</string>
-  <string name="gcm_defaultSenderId" translatable="false">245993666650</string>
-  <string name="google_storage_bucket" translatable="false">firstproject-a814b.appspot.com</string>
-  <string name="project_id" translatable="false">firstproject-a814b</string>
-  <string name="google_api_key" translatable="false">AIzaSyB8J1Ea4M7Kj-YV08bo7i6LC9zRyze49K0</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB8J1Ea4M7Kj-YV08bo7i6LC9zRyze49K0</string>
-  <string name="google_app_id" translatable="false">1:245993666650:android:41bb902776ce8b12</string>
-  <string name="default_web_client_id" translatable="false">245993666650-e1hjvk3n3cqm6p92vifae2cpu9plug1l.apps.googleusercontent.com</string>
+  <string name="firebase_database_url" translatable="false">https://expressive-play.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">1075269345593</string>
+  <string name="google_storage_bucket" translatable="false">expressive-play.appspot.com</string>
+  <string name="project_id" translatable="false">expressive-play</string>
+  <string name="google_api_key" translatable="false">AIzaSyDFr3dcYtg8jTZEjNR2zCud-Xx-HFP_ubg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDFr3dcYtg8jTZEjNR2zCud-Xx-HFP_ubg</string>
+  <string name="google_app_id" translatable="false">1:1075269345593:android:41bb902776ce8b12</string>
+  <string name="default_web_client_id" translatable="false">1075269345593-pvja28j0g8t8vdsa8imeu75ubk3v6tka.apps.googleusercontent.com</string>
 </resources>

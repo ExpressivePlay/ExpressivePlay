@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Firebase.Database;
+using Firebase.Unity.Editor;
+
 public class LoginManager : MonoBehaviour {
 
 	//campo do usuario
@@ -26,7 +29,7 @@ public class LoginManager : MonoBehaviour {
 		
 	}
 
-	public void FazerLogin(){
+	public void FazerLogin2(){
 
 		if(usuarioFild.text == "" || senhaFild.text ==""){
 			FeedBackErro ("PREENCHA TODOS OS CAMPOS!");
@@ -36,6 +39,36 @@ public class LoginManager : MonoBehaviour {
 
 		WWW www = new WWW (url + "?login=" + login + "&pass=" + pass);
 		StartCoroutine (ValidaLogin(www));
+		}
+	}
+
+	public void FazerLogin(){
+		if(usuarioFild.text == "" || senhaFild.text ==""){
+			FeedBackErro ("PREENCHA TODOS OS CAMPOS!");
+		}else{
+			string login = usuarioFild.text;
+			string pass = senhaFild.text;
+
+			DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+			print (reference.Database.GetReference ("children").GetValueAsync ().ContinueWith (task => {
+				if (task.IsFaulted) {
+					FeedBackErro ("SERVIDOR INDISPONIVEL");
+				} else if (task.IsCompleted) {
+					DataSnapshot snapshot = task.Result;
+					if(snapshot.Child(login).Exists){
+						print(snapshot.Child(login).Child("pass").Value);
+						if(snapshot.Child(login).Child("pass").Value.ToString() == pass){
+							FeedBackOk ("LOGIN EFETUADO COM SUCESSO!\nCARREGANDO...");
+							StartCoroutine(CarregaScene());
+						} else {
+							FeedBackErro ("LOGIN OU SENHA INCORRETO");
+						}
+					} else {
+						FeedBackErro ("LOGIN OU SENHA INCORRETO");
+					}
+				}
+
+			}));
 		}
 	}
 
