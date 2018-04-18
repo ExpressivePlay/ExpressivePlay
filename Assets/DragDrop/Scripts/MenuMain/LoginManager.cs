@@ -59,6 +59,7 @@ public class LoginManager : MonoBehaviour {
 						print(snapshot.Child(login).Child("pass").Value);
 						if(snapshot.Child(login).Child("pass").Value.ToString() == pass){
 							FeedBackOk ("LOGIN EFETUADO COM SUCESSO!\nCARREGANDO...");
+							PlayerPrefs.SetString("criança", login);
 							StartCoroutine(CarregaScene());
 						} else {
 							FeedBackErro ("LOGIN OU SENHA INCORRETO");

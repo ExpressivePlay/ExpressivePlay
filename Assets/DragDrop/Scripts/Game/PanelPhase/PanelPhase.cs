@@ -21,7 +21,7 @@ public class PanelPhase : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GetAnswer ();
-		ValidAnswer ();
+		canValid ();
 	}
 
 
@@ -57,6 +57,22 @@ public class PanelPhase : MonoBehaviour {
 	public void ValidAnswer(){
 		if (answer == GameInst.Instance.nivelGenerator.nivel.answer) {
 			print ("Parabéns voce é o bixão");
+		} else {
+			StartCoroutine (waitToResetBlockPos ());
 		}
+	}
+
+	public void canValid(){
+		if (lvlActive.transform.GetChild (lvlActive.transform.childCount - 1).childCount != 0) {
+			ValidAnswer ();
+		}
+	}
+
+	IEnumerator waitToResetBlockPos(){
+		yield return new WaitForSeconds (2f);
+		for (int x = 0; x < lvlActive.transform.childCount; x++) {
+			lvlActive.transform.GetChild (x).GetChild (0).GetComponent<Block> ().ResetPos ();
+		}
+		StopAllCoroutines();
 	}
 }

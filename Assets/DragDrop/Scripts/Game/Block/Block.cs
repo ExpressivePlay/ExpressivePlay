@@ -71,4 +71,8 @@ public class Block : MonoBehaviour {
 			gameObject.transform.parent = GameObject.Find("OrgBlock").transform;
 		}
 	}
+
+	public void ResetPos(){
+		myTranform.position = posIni;
+	}
 }
