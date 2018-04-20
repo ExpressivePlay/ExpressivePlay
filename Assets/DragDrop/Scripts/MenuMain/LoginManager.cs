@@ -8,6 +8,8 @@ using Firebase.Unity.Editor;
 
 public class LoginManager : MonoBehaviour {
 
+	public Reports report;
+
 	//campo do usuario
 	[SerializeField]
 	private InputField usuarioFild = null;
@@ -21,7 +23,12 @@ public class LoginManager : MonoBehaviour {
 	private string url= "http://www.expressiveplay.tk/loginUnity/login.php";
 	// Use this for initialization
 	void Start () {
-		
+		print (System.DateTime.Now.Month.ToString ());
+		print (System.DateTime.Now.GetDateTimeFormats('u')[0].ToString());
+		string a = System.DateTime.Now.GetDateTimeFormats ('u') [0].ToString ();
+		a = a.Replace("-", "").Replace(":", "").Replace("Z", "");
+		print (a.Split (' ') [0]);
+		print (a.Split (' ') [1]);
 	}
 	
 	// Update is called once per frame
@@ -49,6 +56,7 @@ public class LoginManager : MonoBehaviour {
 			string login = usuarioFild.text;
 			string pass = senhaFild.text;
 
+
 			DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
 			print (reference.Database.GetReference ("children").GetValueAsync ().ContinueWith (task => {
 				if (task.IsFaulted) {
@@ -56,10 +64,9 @@ public class LoginManager : MonoBehaviour {
 				} else if (task.IsCompleted) {
 					DataSnapshot snapshot = task.Result;
 					if(snapshot.Child(login).Exists){
-						print(snapshot.Child(login).Child("pass").Value);
 						if(snapshot.Child(login).Child("pass").Value.ToString() == pass){
 							FeedBackOk ("LOGIN EFETUADO COM SUCESSO!\nCARREGANDO...");
-							PlayerPrefs.SetString("criança", login);
+							PlayerPrefs.SetString("child", login);
 							StartCoroutine(CarregaScene());
 						} else {
 							FeedBackErro ("LOGIN OU SENHA INCORRETO");
@@ -115,5 +122,18 @@ public class LoginManager : MonoBehaviour {
 
 	public void VoltarMenu(){
 		SceneManager.LoadScene ("MainMenu");
+	}
+
+	public void EnviarReport(){
+		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+
+		string date = System.DateTime.Now.Year.ToString() + System.DateTime.Now.Month.ToString() + System.DateTime.Now.Day.ToString();
+		string hour = System.DateTime.Now.Hour.ToString () + System.DateTime.Now.Minute.ToString () + System.DateTime.Now.Second.ToString ();
+		print (date + " " + hour);
+
+		string json = JsonUtility.ToJson (report); 
+		print (json);
+		reference.Child("children").Child(PlayerPrefs.GetString("child")).Child("reports").Child(date).Child(hour).SetRawJsonValueAsync(JsonUtility.ToJson(report));
+
 	}
 }

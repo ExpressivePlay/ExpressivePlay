@@ -10,5 +10,6 @@ public class Fase{
 	public string frase;
 	public string answer;
 	public List<string> blocos;
+	public Reports reports;
 
 }
