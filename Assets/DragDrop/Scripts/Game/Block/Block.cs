@@ -32,7 +32,7 @@ public class Block : MonoBehaviour {
 	}
 
 	void OnMouseDrag(){
-		myTranform.position = GameInst.Instance.gameController.MousePos();
+		myTranform.position = Camera.main.ScreenToWorldPoint (new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1f));
 		//print ("Arrasta");
 	}
 

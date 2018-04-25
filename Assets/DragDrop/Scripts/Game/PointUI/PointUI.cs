@@ -20,7 +20,7 @@ public class PointUI : MonoBehaviour {
 	}
 
 	void SetPhrasePosition(){
-		textPhrase.text = GameInst.Instance.nivelGenerator.nivel.frase;
+		textPhrase.text = GameController.Instance.nivelGenerator.nivel.frase;
 		textPhrase.transform.position = Camera.main.WorldToScreenPoint(pointPhrase.transform.position);
 	}
 }

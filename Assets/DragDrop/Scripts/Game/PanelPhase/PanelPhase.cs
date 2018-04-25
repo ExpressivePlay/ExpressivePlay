@@ -27,7 +27,7 @@ public class PanelPhase : MonoBehaviour {
 
 	//Points Generator
 	public void PointGenerate(){
-		switch(GameInst.Instance.nivelGenerator.nivel.level){
+		switch(GameController.Instance.nivelGenerator.nivel.level){
 		case 1:
 			lvls [0].SetActive (true);
 			lvlActive = lvls [0];
@@ -55,7 +55,7 @@ public class PanelPhase : MonoBehaviour {
 	}
 
 	public void ValidAnswer(){
-		if (answer == GameInst.Instance.nivelGenerator.nivel.answer) {
+		if (answer == GameController.Instance.nivelGenerator.nivel.answer) {
 			print ("Parabéns voce é o bixão");
 		} else {
 			StartCoroutine (waitToResetBlockPos ());

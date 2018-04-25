@@ -29,16 +29,16 @@ public class BlockGenerator : MonoBehaviour {
 	}
 
 	public void CatchPhases(){
-		for (int x = 0; x < GameInst.Instance.nivelGenerator.nivel.blocos.Count; x++) {	//Percorre os Blocos da Classe
-			blocks.Add (GameInst.Instance.nivelGenerator.nivel.blocos[x]);
-			auxBlocks.Add (GameInst.Instance.nivelGenerator.nivel.blocos[x]);  //Auxiliar para o InstantietBlocks, Fazendo a criação de blocos aleatoria
+		for (int x = 0; x < GameController.Instance.nivelGenerator.nivel.blocos.Count; x++) {	//Percorre os Blocos da Classe
+			blocks.Add (GameController.Instance.nivelGenerator.nivel.blocos[x]);
+			auxBlocks.Add (GameController.Instance.nivelGenerator.nivel.blocos[x]);  //Auxiliar para o InstantietBlocks, Fazendo a criação de blocos aleatoria
 		}
 	}
 		
 	public void InstantietBlocks(){
 		for (int x=0; x < blocks.Count; x++) {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
-			GameObject auxBlock = Instantiate (block, GameInst.Instance.panelBlocks.pointsBlocks [x].position, Quaternion.identity, orgBlock.transform);
+			GameObject auxBlock = Instantiate (block, GameController.Instance.panelBlocks.pointsBlocks [x].position, Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
 			auxBlock.GetComponent<Block> ().tipoBloco = auxBlocks[randomBlock];
 			auxBlock.GetComponent<Block> ().id = x;

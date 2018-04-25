@@ -23,28 +23,28 @@ public class TableSelect : MonoBehaviour {
 
 	public void CreateNivels(){
 		int countPoint = 0; //Contador dos pontos
-		for(int x=0; x<GameInst.Instance.dataBaseNivels.dataBaseNivels.Count; x++){
-			if (GameInst.Instance.dataBaseNivels.dataBaseNivels [x].level == 1) {
+		for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels.Count; x++){
+			if (GameController.Instance.dataBaseNivels.dataBaseNivels [x].level == 1) {
 				GameObject auxNivel = Instantiate (nivel, canvas.transform);
-				auxNivel.GetComponent<NivelUI> ().id = GameInst.Instance.dataBaseNivels.dataBaseNivels [x].id;
+				auxNivel.GetComponent<NivelUI> ().id = GameController.Instance.dataBaseNivels.dataBaseNivels [x].id;
 				auxNivel.GetComponent<NivelUI> ().idText.text = (countPoint+1).ToString();
 				auxNivel.GetComponent<Transform> ().position = Camera.main.WorldToScreenPoint(points[countPoint].transform.position);
 				countPoint++;
 			}
 		}
-		for (int x = 0; x < GameInst.Instance.dataBaseNivels.dataBaseNivels.Count; x++) {
-			if (GameInst.Instance.dataBaseNivels.dataBaseNivels [x].level == 2) {
+		for (int x = 0; x < GameController.Instance.dataBaseNivels.dataBaseNivels.Count; x++) {
+			if (GameController.Instance.dataBaseNivels.dataBaseNivels [x].level == 2) {
 				GameObject auxNivel = Instantiate (nivel, canvas.transform);
-				auxNivel.GetComponent<NivelUI> ().id = GameInst.Instance.dataBaseNivels.dataBaseNivels [x].id;
+				auxNivel.GetComponent<NivelUI> ().id = GameController.Instance.dataBaseNivels.dataBaseNivels [x].id;
 				auxNivel.GetComponent<NivelUI> ().idText.text = (countPoint+1).ToString();
 				auxNivel.GetComponent<Transform> ().position = Camera.main.WorldToScreenPoint(points[countPoint].transform.position);
 				countPoint++;
 			}
 		}
-		for (int x = 0; x < GameInst.Instance.dataBaseNivels.dataBaseNivels.Count; x++) {
-			if (GameInst.Instance.dataBaseNivels.dataBaseNivels [x].level == 3) {
+		for (int x = 0; x < GameController.Instance.dataBaseNivels.dataBaseNivels.Count; x++) {
+			if (GameController.Instance.dataBaseNivels.dataBaseNivels [x].level == 3) {
 				GameObject auxNivel = Instantiate (nivel, canvas.transform);
-				auxNivel.GetComponent<NivelUI> ().id = GameInst.Instance.dataBaseNivels.dataBaseNivels [x].id;
+				auxNivel.GetComponent<NivelUI> ().id = GameController.Instance.dataBaseNivels.dataBaseNivels [x].id;
 				auxNivel.GetComponent<NivelUI> ().idText.text = (countPoint+1).ToString();
 				auxNivel.GetComponent<Transform> ().position = Camera.main.WorldToScreenPoint(points[countPoint].transform.position);
 				countPoint++;

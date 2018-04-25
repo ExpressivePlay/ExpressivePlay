@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/DragDrop/Scenes/MainMenu.unity
     guid: 5fc0c9fa1467e2647b4bddc83370e224
   - enabled: 1
+    path: Assets/DragDrop/Scenes/MenuConfig.unity
+    guid: 14b30cda8e7f0c040bfd55343927212b
+  - enabled: 1
+    path: Assets/DragDrop/Scenes/Login.unity
+    guid: 5323cac3677358c49a5ec5f6e7e1b485
+  - enabled: 1
     path: Assets/DragDrop/Scenes/SelectNivel.unity
-    guid: b97ad23094a91b64ba51e68ed3ae8dc4
+    guid: 5787fd681603e29479beae78d4a3e817
   - enabled: 1
     path: Assets/DragDrop/Scenes/GameMain.unity
     guid: c0e5ce834ad59b547bd656dd795ba4ff

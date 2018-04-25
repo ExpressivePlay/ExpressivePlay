@@ -21,9 +21,9 @@ public class NivelGenerator : MonoBehaviour {
 
 	public void GetFase(){
 		selectNivel = PlayerPrefs.GetInt ("SelectNivel");
-		for(int x=0; x<GameInst.Instance.dataBaseNivels.dataBaseNivels.Count; x++){ // Procura o Nivel Pelo ID
-			if(GameInst.Instance.dataBaseNivels.dataBaseNivels[x].id == selectNivel ){
-				nivel = GameInst.Instance.dataBaseNivels.dataBaseNivels [x];
+		for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels.Count; x++){ // Procura o Nivel Pelo ID
+			if(GameController.Instance.dataBaseNivels.dataBaseNivels[x].id == selectNivel ){
+				nivel = GameController.Instance.dataBaseNivels.dataBaseNivels [x];
 				loaded = true;
 			}
 		}

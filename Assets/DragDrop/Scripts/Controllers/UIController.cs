@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MainCanvasManager : MonoBehaviour {
+public class UIController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -16,8 +15,11 @@ public class MainCanvasManager : MonoBehaviour {
 		
 	}
 
+	public void LoadScene (string name){
+		SceneManager.LoadScene (name);
+	}
 
-	public void ChangeScene(string scene){
-		SceneManager.LoadScene (scene);
+	public void LoadUrl(string url){
+		Application.OpenURL (url);
 	}
 }

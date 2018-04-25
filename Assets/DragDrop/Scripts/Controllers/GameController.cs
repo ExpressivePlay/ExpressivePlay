@@ -2,27 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameInst : MonoBehaviour {
+public class GameController : MonoBehaviour {
 
-	private static GameInst instance;
-	public static GameInst Instance{
+	private static GameController instance;
+	public static GameController Instance{
 		get {
 			if(instance == null){
-				instance = FindObjectOfType <GameInst>();
+				instance = FindObjectOfType <GameController>();
 			}
 			return instance;
 		}
 
 	}
 
-	//public static Game
-	public GameController gameController;
+	[Header("Scene Game")]
 	public NivelGenerator nivelGenerator;		//Coleta as Informações da Fase
 	public DataBaseNivels dataBaseNivels;
 	public PlayerPrefsController playerPrefsController;
 	public PanelBlocks panelBlocks;
 	public PanelPhase panelPhase;
 	public PointUI pointUI;
+
+	[Header("UI Controller")]
+	public UIController uiController;
 
 	// Use this for initialization
 	void Start () {
