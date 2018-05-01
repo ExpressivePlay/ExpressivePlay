@@ -26,6 +26,9 @@ public class GameController : MonoBehaviour {
 	[Header("UI Controller")]
 	public UIController uiController;
 
+	[Header("FireBase Controller")]
+	public FirebaseController firebaseController;
+
 	// Use this for initialization
 	void Start () {
 		

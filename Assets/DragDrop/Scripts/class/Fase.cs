@@ -9,7 +9,7 @@ public class Fase{
 	public int level;
 	public string frase;
 	public string answer;
-	public List<string> blocos;
+	public List<Palavra> blocos;
 	public Reports reports;
 
 }

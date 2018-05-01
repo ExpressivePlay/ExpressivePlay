@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class DataBaseNivels : ScriptableObject {
+public class Palavras : ScriptableObject {
 
-	public List<Fase> dataBaseNivels;
+	public List<Palavra> palavras;
 
 }
-	
-
-

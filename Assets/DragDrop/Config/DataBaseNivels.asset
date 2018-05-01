@@ -11,32 +11,141 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 585edc42ce05e2f47ae5e31209f02862, type: 3}
   m_Name: DataBaseNivels
   m_EditorClassIdentifier: 
-  dataBaseNivels:
+  dataBaseNivels01:
   - id: 0
     level: 1
-    frase: 3
-    answer: 3
+    frase: Bola
+    answer: bola
     blocos:
-    - 1
-    - 2
-    - 3
+    - tipo: S1
+      escrita: bola
+      imagem: {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+    - tipo: S2
+      escrita: banana
+      imagem: {fileID: 21300000, guid: cf3ee1bb0cf07ef459daa8cae6f875e1, type: 3}
+    - tipo: S3
+      escrita: boneco
+      imagem: {fileID: 21300000, guid: 22fa67e88d86a9e418dfe5099f05f0e3, type: 3}
+    reports:
+      combination: 
+      level: 1
+      tries: 0
+  - id: 1
+    level: 1
+    frase: Cama
+    answer: cama
+    blocos:
+    - tipo: S4
+      escrita: cama
+      imagem: {fileID: 21300000, guid: 630d908fd27817e4787beab56bc9d3a1, type: 3}
+    - tipo: S5
+      escrita: camisa
+      imagem: {fileID: 21300000, guid: 419131226a8ba0b4a9128a43ea030dd1, type: 3}
+    - tipo: S6
+      escrita: carro
+      imagem: {fileID: 21300000, guid: 9e5615c7757ab8e4cb2502d93e885696, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
   - id: 2
-    level: 0
-    frase: 
-    answer: 
-    blocos: []
+    level: 1
+    frase: Carro
+    answer: carro
+    blocos:
+    - tipo: S7
+      escrita: carro
+      imagem: {fileID: 21300000, guid: 9e5615c7757ab8e4cb2502d93e885696, type: 3}
+    - tipo: S8
+      escrita: cama
+      imagem: {fileID: 21300000, guid: 630d908fd27817e4787beab56bc9d3a1, type: 3}
+    - tipo: S9
+      escrita: bola
+      imagem: {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
   - id: 3
-    level: 0
-    frase: 
-    answer: 
-    blocos: []
+    level: 1
+    frase: Camisa
+    answer: camisa
+    blocos:
+    - tipo: S2
+      escrita: camisa
+      imagem: {fileID: 21300000, guid: 419131226a8ba0b4a9128a43ea030dd1, type: 3}
+    - tipo: S4
+      escrita: carro
+      imagem: {fileID: 21300000, guid: 9e5615c7757ab8e4cb2502d93e885696, type: 3}
+    - tipo: S12
+      escrita: pente
+      imagem: {fileID: 21300000, guid: 1694e9a6eb19e8142b101e806115881e, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
   - id: 4
+    level: 1
+    frase: Pente
+    answer: pente
+    blocos:
+    - tipo: S1
+      escrita: pente
+      imagem: {fileID: 21300000, guid: 1694e9a6eb19e8142b101e806115881e, type: 3}
+    - tipo: S4
+      escrita: prato
+      imagem: {fileID: 21300000, guid: e19d97440d5e1fd45954682586e90dc7, type: 3}
+    - tipo: S11
+      escrita: sapato
+      imagem: {fileID: 21300000, guid: 404153575b1de064181daf44d80d9b27, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  dataBaseNivels02:
+  - id: 0
     level: 0
     frase: 
     answer: 
     blocos: []
-  - id: 5
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  - id: 0
     level: 0
     frase: 
     answer: 
     blocos: []
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  - id: 0
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  - id: 0
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  - id: 0
+    level: 0
+    frase: 
+    answer: 
+    blocos: []
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+  dataBaseNivels03: []

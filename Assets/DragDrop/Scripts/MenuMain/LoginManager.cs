@@ -119,21 +119,4 @@ public class LoginManager : MonoBehaviour {
 	public void VoltarMenu(){
 		SceneManager.LoadScene ("MainMenu");
 	}
-
-	public void EnviarReport(){
-		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-
-
-
-
-		string a = System.DateTime.Now.GetDateTimeFormats ('u') [0].ToString ();
-		a = a.Replace("-", "").Replace(":", "").Replace("Z", "");
-
-		string date = a.Split (' ') [0];
-		string hour = a.Split (' ') [1];
-
-		string json = JsonUtility.ToJson (report); 
-		reference.Child("children").Child(PlayerPrefs.GetString("child")).Child("reports").Child(date).Child(hour).SetRawJsonValueAsync(JsonUtility.ToJson(report));
-
-	}
 }

@@ -49,14 +49,14 @@ public class PanelPhase : MonoBehaviour {
 		for(int x=0; x<lvlActive.transform.childCount; x++){
 			Transform auxPoint = lvlActive.transform.GetChild (x);
 			if (auxPoint.childCount != 0) {
-				answer += auxPoint.GetChild (0).GetComponent<Block> ().tipoBloco + " ";
+				answer += auxPoint.GetChild (0).GetComponent<Block> ().palavra.escrita + "";
 			}
 		}
 	}
 
 	public void ValidAnswer(){
 		if (answer == GameController.Instance.nivelGenerator.nivel.answer) {
-			print ("Parabéns voce é o bixão");
+			GameController.Instance.uiController.panelWin.SetActive (true);
 		} else {
 			StartCoroutine (waitToResetBlockPos ());
 		}
@@ -72,6 +72,7 @@ public class PanelPhase : MonoBehaviour {
 		yield return new WaitForSeconds (2f);
 		for (int x = 0; x < lvlActive.transform.childCount; x++) {
 			lvlActive.transform.GetChild (x).GetChild (0).GetComponent<Block> ().ResetPos ();
+			GameController.Instance.nivelGenerator.nivel.reports.tries += 1;
 		}
 		StopAllCoroutines();
 	}

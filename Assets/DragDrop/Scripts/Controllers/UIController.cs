@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour {
 
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,12 +16,19 @@ public class UIController : MonoBehaviour {
 	void Update () {
 		
 	}
-
+		
 	public void LoadScene (string name){
 		SceneManager.LoadScene (name);
 	}
 
 	public void LoadUrl(string url){
 		Application.OpenURL (url);
+	}
+
+	[Header("GameMain UI")]
+	public GameObject panelWin;
+
+	public void NextLevel(){
+		GameController.Instance.firebaseController.EnviarReport ();
 	}
 }

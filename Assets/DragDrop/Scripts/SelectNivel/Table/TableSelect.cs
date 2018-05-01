@@ -11,7 +11,7 @@ public class TableSelect : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//StartCoroutine ("Wait1Second");
-		CreateNivels();	
+		//CreateNivels();	
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,7 @@ public class TableSelect : MonoBehaviour {
 	}
 
 
-
+	/*
 	public void CreateNivels(){
 		int countPoint = 0; //Contador dos pontos
 		for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels.Count; x++){
@@ -55,5 +55,5 @@ public class TableSelect : MonoBehaviour {
 	IEnumerator Wait1Second(){
 		yield return new WaitForSeconds (1f);
 		CreateNivels ();
-	}
+	}*/
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BlockGenerator : MonoBehaviour {
 
-	public List<string> blocks;
+	public List<Palavra> blocks;
 
-	public List<string> auxBlocks; //Auxiliar para o InstantietBlocks, Fazendo a criação de blocos aleatoria
+	public List<Palavra> auxBlocks; //Auxiliar para o InstantietBlocks, Fazendo a criação de blocos aleatoria
 
 	public GameObject block;
 
@@ -40,8 +40,8 @@ public class BlockGenerator : MonoBehaviour {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
 			GameObject auxBlock = Instantiate (block, GameController.Instance.panelBlocks.pointsBlocks [x].position, Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
-			auxBlock.GetComponent<Block> ().tipoBloco = auxBlocks[randomBlock];
-			auxBlock.GetComponent<Block> ().id = x;
+			auxBlock.GetComponent<Block> ().palavra = auxBlocks[randomBlock];
+			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem;
 			auxBlocks.RemoveAt (randomBlock);
 		}
 	}

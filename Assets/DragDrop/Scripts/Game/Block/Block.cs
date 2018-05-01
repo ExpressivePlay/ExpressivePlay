@@ -13,8 +13,7 @@ public class Block : MonoBehaviour {
 	Transform auxPoint;
 
 	//  Informações
-	public int id;
-	public string tipoBloco;
+	public Palavra palavra;
 
 	// Use this for initialization
 	void Start () {
@@ -68,7 +67,7 @@ public class Block : MonoBehaviour {
 	void OnTriggerExit2D(Collider2D col){
 		if (col.gameObject.CompareTag ("Panel")) {
 			inPanel = false;
-			gameObject.transform.parent = GameObject.Find("OrgBlock").transform;
+			gameObject.transform.parent = GameController.Instance.panelBlocks.GetComponent<BlockGenerator>().orgBlock.transform;
 		}
 	}
 
