@@ -11,5 +11,6 @@ public class Fase{
 	public string answer;
 	public List<Palavra> blocos;
 	public Reports reports;
+	public AudioClip Audio;
 
 }

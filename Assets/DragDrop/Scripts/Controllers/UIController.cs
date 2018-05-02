@@ -19,6 +19,7 @@ public class UIController : MonoBehaviour {
 		
 	public void LoadScene (string name){
 		SceneManager.LoadScene (name);
+		GameController.Instance.audiocontroller.SaveTimeMenuBackGroundMusic ();
 	}
 
 	public void LoadUrl(string url){
@@ -31,4 +32,9 @@ public class UIController : MonoBehaviour {
 	public void NextLevel(){
 		GameController.Instance.firebaseController.EnviarReport ();
 	}
+
+	public void LevelSelect(int nivel){
+		PlayerPrefs.SetInt ("SelectNivel", nivel);
+	}
+
 }

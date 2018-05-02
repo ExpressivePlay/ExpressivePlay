@@ -15,6 +15,10 @@ public class NivelGenerator : MonoBehaviour {
 		nivel.reports.level = nivel.level;
 		nivel.reports.combination = nivel.frase;
 	}
+
+	void Start(){
+		GameController.Instance.audiocontroller.PlayFrase ();
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -26,28 +30,16 @@ public class NivelGenerator : MonoBehaviour {
 		selectNivel = PlayerPrefs.GetInt ("SelectNivel");
 		switch (selectNivel) {
 		case 1:
-			for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels01.Count; x++){ // Procura o Nivel Pelo ID
-				if(GameController.Instance.dataBaseNivels.dataBaseNivels01[x].id == selectNivel ){
-					nivel = GameController.Instance.dataBaseNivels.dataBaseNivels01 [x];
-					loaded = true;
-				}
-			}
+			nivel = GameController.Instance.dataBaseNivels.dataBaseNivels01 [Random.Range (0, GameController.Instance.dataBaseNivels.dataBaseNivels01.Count)];
+			loaded = true;
 			break;
 		case 2:
-			for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels02.Count; x++){ // Procura o Nivel Pelo ID
-				if(GameController.Instance.dataBaseNivels.dataBaseNivels02[x].id == selectNivel ){
-					nivel = GameController.Instance.dataBaseNivels.dataBaseNivels02 [x];
-					loaded = true;
-				}
-			}
+			nivel = GameController.Instance.dataBaseNivels.dataBaseNivels02 [Random.Range (0, GameController.Instance.dataBaseNivels.dataBaseNivels02.Count)];
+			loaded = true;
 			break;
 		case 3:
-			for(int x=0; x<GameController.Instance.dataBaseNivels.dataBaseNivels02.Count; x++){ // Procura o Nivel Pelo ID
-				if(GameController.Instance.dataBaseNivels.dataBaseNivels02[x].id == selectNivel ){
-					nivel = GameController.Instance.dataBaseNivels.dataBaseNivels02 [x];
-					loaded = true;
-				}
-			}
+			nivel = GameController.Instance.dataBaseNivels.dataBaseNivels02 [Random.Range (0, GameController.Instance.dataBaseNivels.dataBaseNivels03.Count)];
+			loaded = true;
 			break;
 
 

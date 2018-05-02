@@ -18,14 +18,16 @@ public class FirebaseController : MonoBehaviour {
 
 	public void EnviarReport(){
 		DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+		GameController.Instance.nivelGenerator.nivel.reports.tries += 1;
 
 		string a = System.DateTime.Now.GetDateTimeFormats ('u') [0].ToString ();
 		a = a.Replace("-", "").Replace(":", "").Replace("Z", "");
 
 		string date = a.Split (' ') [0];
 		string hour = a.Split (' ') [1];
-
-		reference.Child("children").Child(PlayerPrefs.GetString("child")).Child("reports").Child(date).Child(hour).SetRawJsonValueAsync(JsonUtility.ToJson(GameController.Instance.nivelGenerator.nivel.reports));
+		if (PlayerPrefs.HasKey ("child")) {
+			reference.Child("children").Child(PlayerPrefs.GetString("child")).Child("reports").Child(date).Child(hour).SetRawJsonValueAsync(JsonUtility.ToJson(GameController.Instance.nivelGenerator.nivel.reports));
+		}
 
 	}
 
