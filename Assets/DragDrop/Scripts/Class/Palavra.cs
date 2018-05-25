@@ -7,6 +7,7 @@ public class Palavra {
 
 	public string tipo;
 	public string escrita;
-	public Sprite imagem;
+	public List<Sprite> imagem;
+	public AudioClip voz;
 
 }

@@ -110,7 +110,7 @@ MonoBehaviour:
   dataBaseNivels02:
   - id: 0
     level: 2
-    frase: "Copo com \xC1gua"
+    frase: "Beber \xC1gua"
     answer: copoagua
     blocos:
     - tipo: 

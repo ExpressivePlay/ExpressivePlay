@@ -41,7 +41,8 @@ public class BlockGenerator : MonoBehaviour {
 			GameObject auxBlock = Instantiate (block, GameController.Instance.panelBlocks.pointsBlocks [x].position, Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
 			auxBlock.GetComponent<Block> ().palavra = auxBlocks[randomBlock];
-			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem;
+			//auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem; Mudar para puxar o tipo de imagem
+			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 		}
 	}
