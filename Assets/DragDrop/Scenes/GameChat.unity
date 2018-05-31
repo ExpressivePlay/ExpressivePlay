@@ -136,7 +136,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 56718613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.920044, y: 236, z: 0}
+  m_LocalPosition: {x: 2.4160156, y: 185.66188, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2060985237}
@@ -211,7 +211,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 73362859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -556.02, y: 316.66672, z: 0}
+  m_LocalPosition: {x: -410.06476, y: 249.08606, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2060985237}
@@ -379,7 +379,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 117948778}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -199.83948, y: -99.95754, z: 0}
+  m_LocalPosition: {x: -147.46346, y: -78.36888, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1715092324}
@@ -653,7 +653,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368046609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36053467, y: -0.0008239746, z: 0}
+  m_LocalPosition: {x: 0.26602173, y: -0.4283142, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 420754392}
@@ -1443,16 +1443,6 @@ Prefab:
       propertyPath: m_Name
       value: NivelGenerator
       objectReference: {fileID: 0}
-    - target: {fileID: 114140642598697880, guid: da4d1f0931d870d4490688203669476b,
-        type: 2}
-      propertyPath: gerarPeloId
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114140642598697880, guid: da4d1f0931d870d4490688203669476b,
-        type: 2}
-      propertyPath: nivel.id
-      value: 23
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da4d1f0931d870d4490688203669476b, type: 2}
   m_IsPrefabParent: 0
@@ -1597,12 +1587,6 @@ Prefab:
       propertyPath: audiocontroller
       value: 
       objectReference: {fileID: 1740733356}
-    - target: {fileID: 114354756150552038, guid: 6d11d2a64b671934aae25e84c2e5ec40,
-        type: 2}
-      propertyPath: dataBasePalavras
-      value: 
-      objectReference: {fileID: 11400000, guid: 238bb5b22c4f31a4c8c62f74378a68ca,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d11d2a64b671934aae25e84c2e5ec40, type: 2}
   m_IsPrefabParent: 0
@@ -1986,7 +1970,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1751989855}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 199.64227, y: -99.95754, z: 0}
+  m_LocalPosition: {x: 145.61435, y: -78.36888, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 436519250}
@@ -2318,7 +2302,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060985233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 640, y: 400, z: 0}
+  m_LocalPosition: {x: 472, y: 314.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 56718614}
@@ -2619,9 +2603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08272a7363a03f845856e1261293ad2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gerarPeloId: 0
   nivel:
-    id: 23
+    id: 32
     level: 2
     frase: 
     answer: 
@@ -2631,3 +2614,4 @@ MonoBehaviour:
       level: 0
       tries: 0
     Audio: {fileID: 0}
+  loaded: 0

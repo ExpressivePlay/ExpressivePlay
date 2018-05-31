@@ -49,7 +49,7 @@ public class PanelPhase : MonoBehaviour {
 		for(int x=0; x<lvlActive.transform.childCount; x++){
 			Transform auxPoint = lvlActive.transform.GetChild (x);
 			if (auxPoint.childCount != 0) {
-				answer += auxPoint.GetChild (0).GetComponent<Block> ().palavra.escrita + "";
+				answer += auxPoint.GetChild (0).GetComponent<Block> ().palavra.tipo + "-";
 			}
 		}
 	}

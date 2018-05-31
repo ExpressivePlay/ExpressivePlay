@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e798d0007ff16c489a38f183fd3c5a1, type: 3}
+  m_Name: DataBasePalavras
+  m_EditorClassIdentifier: 
+  palavras:
+  - tipo: S1
+    escrita: "\xE1gua"
+    imagem:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
+  - tipo: S2
+    escrita: banana
+    imagem: []
+    voz: {fileID: 8300000, guid: 4d14437eb50cb6e4984ea071608d10b6, type: 3}
+  - tipo: S3
+    escrita: banheiro
+    imagem: []
+    voz: {fileID: 8300000, guid: ba1441372fea4f24a9cf69f0a8a6233d, type: 3}
+  - tipo: S4
+    escrita: banho
+    imagem: []
+    voz: {fileID: 8300000, guid: 8d9a2cf5a10bd1947b822eba698d59f7, type: 3}
+  - tipo: S5
+    escrita: bola
+    imagem: []
+    voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
+  - tipo: S6
+    escrita: boneca
+    imagem: []
+    voz: {fileID: 8300000, guid: 6cfa4f97feb12a24db0750c88d4e120e, type: 3}
+  - tipo: S7
+    escrita: boneco
+    imagem: []
+    voz: {fileID: 8300000, guid: aa1afec6c2d8fdb4dac21a7cd5385449, type: 3}
+  - tipo: S8
+    escrita: brinquedo
+    imagem: []
+    voz: {fileID: 8300000, guid: e2bcfcbfada79ab42bd7e588ce335231, type: 3}
+  - tipo: S9
+    escrita: brinquedos
+    imagem: []
+    voz: {fileID: 8300000, guid: 476e9844bfb424c4db0ddc56c160fcca, type: 3}
+  - tipo: S10
+    escrita: "cabe\xE7a"
+    imagem: []
+    voz: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
+  - tipo: S11
+    escrita: cabelo
+    imagem: []
+    voz: {fileID: 8300000, guid: bf5cbf7e809fde74ebbda7ccc0b23ea9, type: 3}
+  - tipo: S12
+    escrita: "cal\xE7a"
+    imagem: []
+    voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
+  - tipo: S13
+    escrita: cama
+    imagem: []
+    voz: {fileID: 8300000, guid: a1283fcd80d9c9646ad175a8626e7bb9, type: 3}
+  - tipo: S14
+    escrita: camisa
+    imagem: []
+    voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
+  - tipo: S15
+    escrita: carrinho
+    imagem: []
+    voz: {fileID: 8300000, guid: 3c4e834e9eb535447a980dfee0dc5437, type: 3}
+  - tipo: S16
+    escrita: celular
+    imagem: []
+    voz: {fileID: 8300000, guid: efb228d55349cde42af9e44dc8dd5a93, type: 3}
+  - tipo: S17
+    escrita: chuveiro
+    imagem: []
+    voz: {fileID: 8300000, guid: c841e9d88da02534e96c88a288da09e6, type: 3}
+  - tipo: S18
+    escrita: comida
+    imagem: []
+    voz: {fileID: 8300000, guid: ed094c229d26b8f4bb7376fb9b6c941b, type: 3}
+  - tipo: S19
+    escrita: copo
+    imagem: []
+    voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+  - tipo: S20
+    escrita: dente
+    imagem: []
+    voz: {fileID: 8300000, guid: 232ce26e8d9c0ca4b8659faff4dca46d, type: 3}
+  - tipo: S21
+    escrita: dentes
+    imagem: []
+    voz: {fileID: 8300000, guid: 63489a89377bbe544a8648d8e9015d20, type: 3}
+  - tipo: S22
+    escrita: escova
+    imagem: []
+    voz: {fileID: 8300000, guid: 170a20c702982f942abd0e08291019a8, type: 3}
+  - tipo: S23
+    escrita: "l\xE1pis"
+    imagem: []
+    voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
+  - tipo: S24
+    escrita: livro
+    imagem: []
+    voz: {fileID: 8300000, guid: 4b92127e4c1f49c478a7839e8965d1c6, type: 3}
+  - tipo: S25
+    escrita: "ma\xE7\xE3"
+    imagem: []
+    voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+  - tipo: S26
+    escrita: "m\xE3o"
+    imagem: []
+    voz: {fileID: 8300000, guid: 0e099bbeeb8484241b9dd78e5e7fa254, type: 3}
+  - tipo: S27
+    escrita: "m\xE3os"
+    imagem: []
+    voz: {fileID: 8300000, guid: 4e92c63ee8a630b4a9b35d0cb30b054e, type: 3}
+  - tipo: S28
+    escrita: mesa
+    imagem: []
+    voz: {fileID: 0}
+  - tipo: S29
+    escrita: pente
+    imagem: []
+    voz: {fileID: 8300000, guid: d5fce41366556f14fbe483e183499bd5, type: 3}
+  - tipo: S30
+    escrita: prato
+    imagem: []
+    voz: {fileID: 8300000, guid: 52185b8536f30ef4eb715fb43b6b071f, type: 3}
+  - tipo: S31
+    escrita: roupa
+    imagem: []
+    voz: {fileID: 8300000, guid: a27fbcca5ac2b8e47bf08b98a7ef6c19, type: 3}
+  - tipo: S32
+    escrita: sabonete
+    imagem: []
+    voz: {fileID: 8300000, guid: c53e91b8cfe4c2a43aa3aa58c7def04b, type: 3}
+  - tipo: S33
+    escrita: "sandu\xEDche"
+    imagem: []
+    voz: {fileID: 8300000, guid: 12e53752edadf6a40bd72ba9725062c6, type: 3}
+  - tipo: S34
+    escrita: sapato
+    imagem: []
+    voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
+  - tipo: S35
+    escrita: sapatos
+    imagem: []
+    voz: {fileID: 8300000, guid: 031d4c8cdf2349f4188c9657da1260d1, type: 3}
+  - tipo: S36
+    escrita: suco
+    imagem: []
+    voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+  - tipo: S37
+    escrita: "televis\xE3o"
+    imagem: []
+    voz: {fileID: 8300000, guid: 5a728a83f28157c49824112438906167, type: 3}
+  - tipo: S38
+    escrita: torneira
+    imagem: []
+    voz: {fileID: 0}
+  - tipo: V1
+    escrita: "almo\xE7ar"
+    imagem: []
+    voz: {fileID: 8300000, guid: 453ff42baddeaa34aa9d139a465c177f, type: 3}
+  - tipo: V2
+    escrita: arrumar
+    imagem: []
+    voz: {fileID: 8300000, guid: 1d6f601a612017940866c31d99d85eea, type: 3}
+  - tipo: V3
+    escrita: assistir
+    imagem: []
+    voz: {fileID: 8300000, guid: 91f2a8dfd2176874f9f69f521b3823e3, type: 3}
+  - tipo: V4
+    escrita: beber
+    imagem: []
+    voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
+  - tipo: V5
+    escrita: brincar
+    imagem: []
+    voz: {fileID: 8300000, guid: c7a82e7be37f97b4ab025023cac382ce, type: 3}
+  - tipo: V6
+    escrita: comer
+    imagem: []
+    voz: {fileID: 8300000, guid: 4b444894d92046b4e94beaf8eedcac53, type: 3}
+  - tipo: V7
+    escrita: desenhar
+    imagem: []
+    voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
+  - tipo: V8
+    escrita: escovar
+    imagem: []
+    voz: {fileID: 8300000, guid: 1587e99d166007749b9e6049befa0be9, type: 3}
+  - tipo: V9
+    escrita: fazer
+    imagem: []
+    voz: {fileID: 8300000, guid: 0d46bf5c8f9f65f499eb8b71cc1132c2, type: 3}
+  - tipo: V10
+    escrita: ir
+    imagem: []
+    voz: {fileID: 8300000, guid: a263b94dc60aeb5449b6307eec533cec, type: 3}
+  - tipo: V11
+    escrita: jantar
+    imagem: []
+    voz: {fileID: 8300000, guid: 6b437740a6aa14343ad5cffadfb0c5a7, type: 3}
+  - tipo: V12
+    escrita: jogar
+    imagem: []
+    voz: {fileID: 8300000, guid: cdebc554a3d4e814ea602fa46526d785, type: 3}
+  - tipo: V13
+    escrita: lavar
+    imagem: []
+    voz: {fileID: 8300000, guid: 00123473114f6bd45a2649191b3273c0, type: 3}
+  - tipo: V14
+    escrita: ler
+    imagem: []
+    voz: {fileID: 0}
+  - tipo: V15
+    escrita: limpar
+    imagem: []
+    voz: {fileID: 8300000, guid: 631f7d8caecfb7242950d3f8a8643c03, type: 3}
+  - tipo: V16
+    escrita: pentear
+    imagem: []
+    voz: {fileID: 8300000, guid: 57efa05caff80be45a30982ff6382fb3, type: 3}
+  - tipo: V17
+    escrita: querer
+    imagem: []
+    voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
+  - tipo: V18
+    escrita: tomar
+    imagem: []
+    voz: {fileID: 8300000, guid: 51c5ffc982f4b3145a3d8290cffe5085, type: 3}
+  - tipo: V19
+    escrita: usar
+    imagem: []
+    voz: {fileID: 8300000, guid: a9f9494e6f2138b4fbbd49bee600b019, type: 3}
+  - tipo: V20
+    escrita: vir
+    imagem: []
+    voz: {fileID: 8300000, guid: e6e7b32e6e39ba446b70ddac423a68c1, type: 3}
+  - tipo: V12
+    escrita: jogar
+    imagem: []
+    voz: {fileID: 8300000, guid: cdebc554a3d4e814ea602fa46526d785, type: 3}
+  - tipo: V12
+    escrita: jogar
+    imagem: []
+    voz: {fileID: 8300000, guid: cdebc554a3d4e814ea602fa46526d785, type: 3}
+  - tipo: C1
+    escrita: com
+    imagem: []
+    voz: {fileID: 8300000, guid: 6e3f850f37dbe414db26aa90769cca34, type: 3}
+  - tipo: C2
+    escrita: da
+    imagem: []
+    voz: {fileID: 8300000, guid: 5386d729d2ea9cd499955078dd2932b8, type: 3}
+  - tipo: C3
+    escrita: das
+    imagem: []
+    voz: {fileID: 8300000, guid: 24906f8d551187341a48d8b40684d351, type: 3}
+  - tipo: C4
+    escrita: de
+    imagem: []
+    voz: {fileID: 8300000, guid: 56ef94a3b8144014c8875fba3d2c0e3e, type: 3}
+  - tipo: C5
+    escrita: do
+    imagem: []
+    voz: {fileID: 8300000, guid: 92184564e20a4bc4c9dfb982de6e83f0, type: 3}
+  - tipo: C6
+    escrita: dos
+    imagem: []
+    voz: {fileID: 0}
+  - tipo: C7
+    escrita: na
+    imagem: []
+    voz: {fileID: 8300000, guid: 1927889df73705a499d4621f2edc6476, type: 3}
+  - tipo: C8
+    escrita: nas
+    imagem: []
+    voz: {fileID: 8300000, guid: 58e8969a6bc58b84284e07120f3b3e68, type: 3}
+  - tipo: C9
+    escrita: no
+    imagem: []
+    voz: {fileID: 8300000, guid: 7eac9f06414ea5f4e951c8a572b5d7f1, type: 3}
+  - tipo: C10
+    escrita: nos
+    imagem: []
+    voz: {fileID: 8300000, guid: 06df2f3db8049f04387ae921b4129291, type: 3}
+  - tipo: C11
+    escrita: para
+    imagem: []
+    voz: {fileID: 8300000, guid: 7ce2c21051d9f8242aa11c54aac05871, type: 3}
+  - tipo: C12
+    escrita: sem
+    imagem: []
+    voz: {fileID: 8300000, guid: 2b87557bb677f434ea8d23c24f4cfce1, type: 3}
+  - tipo: C13
+    escrita: ao
+    imagem: []
+    voz: {fileID: 0}
+  - tipo: A1
+    escrita: o
+    imagem: []
+    voz: {fileID: 8300000, guid: 93767f767729f7547afb99d242903ae0, type: 3}
+  - tipo: A2
+    escrita: a
+    imagem: []
+    voz: {fileID: 8300000, guid: 4dca1ab0ab41432469ee8ed5ea8d5ad4, type: 3}
+  - tipo: A3
+    escrita: os
+    imagem: []
+    voz: {fileID: 8300000, guid: 98a0d4ac3481e824f986aae92bcbf61b, type: 3}
+  - tipo: A4
+    escrita: as
+    imagem: []
+    voz: {fileID: 8300000, guid: c1394377c18e9b2458a655607f5fa492, type: 3}
+  - tipo: A5
+    escrita: um
+    imagem: []
+    voz: {fileID: 8300000, guid: dcf0fb7f65370324aa1a86e832dae836, type: 3}
+  - tipo: A6
+    escrita: uma
+    imagem: []
+    voz: {fileID: 8300000, guid: d43c37ccf2275fd4aa370ae79fc5a1c0, type: 3}
+  - tipo: A7
+    escrita: uns
+    imagem: []
+    voz: {fileID: 8300000, guid: 3f1171ea98ac85a40bda73f7f90b110b, type: 3}
+  - tipo: A8
+    escrita: umas
+    imagem: []
+    voz: {fileID: 8300000, guid: 02e1758cad6a49348949921699197214, type: 3}

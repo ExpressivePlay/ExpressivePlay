@@ -17,8 +17,6 @@ public class GameController : MonoBehaviour {
 
 	[Header("Scene Game")]
 	public NivelGenerator nivelGenerator;		//Coleta as Informações da Fase
-	public DataBaseNivels dataBaseNivels;
-	public PlayerPrefsController playerPrefsController;
 	public PanelBlocks panelBlocks;
 	public PanelPhase panelPhase;
 	public PointUI pointUI;
@@ -31,6 +29,10 @@ public class GameController : MonoBehaviour {
 
 	[Header("Audio Controller")]
 	public AudioController audiocontroller;
+
+	[Header("ScriptableObject")]
+	public DataBaseNivels dataBaseNivels;
+	public Palavras dataBasePalavras;
 
 	// Use this for initialization
 	void Start () {
