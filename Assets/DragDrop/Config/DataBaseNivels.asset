@@ -14,8 +14,39 @@ MonoBehaviour:
   dataBaseNivels01:
   - id: 1
     level: 1
+    frase: "\xC1gua"
+    answer: S1-
+    blocos:
+    - tipo: S1
+      escrita: "\xE1gua"
+      imagem:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
+    reports:
+      combination: "\xC1gua"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
+  - id: 2
+    level: 1
+    frase: Banana
+    answer: S2-
+    blocos:
+    - tipo: S2
+      escrita: banana
+      imagem: []
+      voz: {fileID: 8300000, guid: 4d14437eb50cb6e4984ea071608d10b6, type: 3}
+    reports:
+      combination: Banana
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4d14437eb50cb6e4984ea071608d10b6, type: 3}
+  - id: 3
+    level: 1
     frase: Bola
-    answer: bola
+    answer: S5-
     blocos:
     - tipo: S5
       escrita: bola
@@ -26,6 +57,118 @@ MonoBehaviour:
       level: 1
       tries: 0
     Audio: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
+  - id: 4
+    level: 1
+    frase: Boneca
+    answer: S6-
+    blocos:
+    - tipo: S6
+      escrita: boneca
+      imagem: []
+      voz: {fileID: 8300000, guid: 6cfa4f97feb12a24db0750c88d4e120e, type: 3}
+    reports:
+      combination: Boneca
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6cfa4f97feb12a24db0750c88d4e120e, type: 3}
+  - id: 5
+    level: 1
+    frase: Boneco
+    answer: S7-
+    blocos:
+    - tipo: S7
+      escrita: boneco
+      imagem: []
+      voz: {fileID: 8300000, guid: aa1afec6c2d8fdb4dac21a7cd5385449, type: 3}
+    reports:
+      combination: Boneco
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: aa1afec6c2d8fdb4dac21a7cd5385449, type: 3}
+  - id: 6
+    level: 1
+    frase: "Cal\xE7a"
+    answer: S12-
+    blocos:
+    - tipo: S12
+      escrita: "cal\xE7a"
+      imagem: []
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
+    reports:
+      combination: "Cal\xE7a"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
+  - id: 7
+    level: 1
+    frase: Cama
+    answer: S13-
+    blocos:
+    - tipo: S13
+      escrita: cama
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: Cama
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+  - id: 8
+    level: 1
+    frase: Camisa
+    answer: S14-
+    blocos:
+    - tipo: S14
+      escrita: camisa
+      imagem: []
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
+    reports:
+      combination: Camisa
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 2e419cf9bca1ceb48ba424c2e25fddfb, type: 3}
+  - id: 9
+    level: 1
+    frase: Carrinho
+    answer: S15-
+    blocos:
+    - tipo: S15
+      escrita: carrinho
+      imagem: []
+      voz: {fileID: 8300000, guid: 3c4e834e9eb535447a980dfee0dc5437, type: 3}
+    reports:
+      combination: Carrinho
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3c4e834e9eb535447a980dfee0dc5437, type: 3}
+  - id: 10
+    level: 1
+    frase: Celular
+    answer: S16-
+    blocos:
+    - tipo: S16
+      escrita: celular
+      imagem: []
+      voz: {fileID: 8300000, guid: efb228d55349cde42af9e44dc8dd5a93, type: 3}
+    reports:
+      combination: Celular
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: efb228d55349cde42af9e44dc8dd5a93, type: 3}
+  - id: 11
+    level: 1
+    frase: Copo
+    answer: S19-
+    blocos:
+    - tipo: S19
+      escrita: copo
+      imagem: []
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+    reports:
+      combination: Boneca
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
   dataBaseNivels02:
   - id: 0
     level: 2
