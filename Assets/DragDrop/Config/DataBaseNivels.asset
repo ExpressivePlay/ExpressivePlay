@@ -169,11 +169,711 @@ MonoBehaviour:
       level: 1
       tries: 0
     Audio: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+  - id: 12
+    level: 1
+    frase: Dente
+    answer: S20-
+    blocos:
+    - tipo: S20
+      escrita: copo
+      imagem: []
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+    reports:
+      combination: Boneca
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 232ce26e8d9c0ca4b8659faff4dca46d, type: 3}
+  - id: 13
+    level: 1
+    frase: "L\xE1pis"
+    answer: S23-
+    blocos:
+    - tipo: S23
+      escrita: "l\xE1pis"
+      imagem: []
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
+    reports:
+      combination: "L\xE1pis"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
+  - id: 14
+    level: 1
+    frase: "Ma\xE7\xE3"
+    answer: S25-
+    blocos:
+    - tipo: S25
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+  - id: 15
+    level: 1
+    frase: "M\xE3o"
+    answer: S26-
+    blocos:
+    - tipo: S26
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 0e099bbeeb8484241b9dd78e5e7fa254, type: 3}
+  - id: 16
+    level: 1
+    frase: Pente
+    answer: S29-
+    blocos:
+    - tipo: S29
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: e26856bda7a8e2146b9793fe86e7db4e, type: 3}
+  - id: 17
+    level: 1
+    frase: Prato
+    answer: S30-
+    blocos:
+    - tipo: S30
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 52185b8536f30ef4eb715fb43b6b071f, type: 3}
+  - id: 18
+    level: 1
+    frase: Sabonete
+    answer: S32-
+    blocos:
+    - tipo: S32
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: c53e91b8cfe4c2a43aa3aa58c7def04b, type: 3}
+  - id: 19
+    level: 1
+    frase: "Sandu\xEDche"
+    answer: S33-
+    blocos:
+    - tipo: S33
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 12e53752edadf6a40bd72ba9725062c6, type: 3}
+  - id: 20
+    level: 1
+    frase: Sapato
+    answer: S34-
+    blocos:
+    - tipo: S34
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
+  - id: 21
+    level: 1
+    frase: "Televis\xE3o"
+    answer: S37-
+    blocos:
+    - tipo: S37
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Ma\xE7\xE3"
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5a728a83f28157c49824112438906167, type: 3}
+  - id: 22
+    level: 1
+    frase: Torneira
+    answer: S38-
+    blocos:
+    - tipo: S38
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9a3a739da4c102d4ca6dbf330d036bb6, type: 3}
+  - id: 23
+    level: 1
+    frase: Chuveiro
+    answer: S17-
+    blocos:
+    - tipo: S17
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: c841e9d88da02534e96c88a288da09e6, type: 3}
+  - id: 24
+    level: 1
+    frase: Cabelo
+    answer: S11-
+    blocos:
+    - tipo: S11
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: bf5cbf7e809fde74ebbda7ccc0b23ea9, type: 3}
+  - id: 25
+    level: 1
+    frase: Mesa
+    answer: S28-
+    blocos:
+    - tipo: S28
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3f762400681b5df4c942b40cceced82a, type: 3}
+  - id: 26
+    level: 1
+    frase: Laranja
+    answer: S39-
+    blocos:
+    - tipo: S39
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: a38919d8449632f4db2bf835621a44e9, type: 3}
+  - id: 27
+    level: 1
+    frase: "Lim\xE3o"
+    answer: S40-
+    blocos:
+    - tipo: S40
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: c5f579fd8e747bc4f8e96b19b0ebfeb6, type: 3}
+  - id: 28
+    level: 1
+    frase: Uva
+    answer: S41-
+    blocos:
+    - tipo: S41
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 56feda1074178db4eb33546b8bfcac18, type: 3}
+  - id: 29
+    level: 1
+    frase: Manga
+    answer: S42-
+    blocos:
+    - tipo: S42
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: b2e274e7fa14a3e44bde288e77c3c238, type: 3}
+  - id: 30
+    level: 1
+    frase: Morango
+    answer: S43-
+    blocos:
+    - tipo: S43
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
+  - id: 31
+    level: 1
+    frase: Melancia
+    answer: S44-
+    blocos:
+    - tipo: S44
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5a3c32f045870d941a67b327bb77ff9c, type: 3}
+  - id: 32
+    level: 1
+    frase: Abacate
+    answer: S45-
+    blocos:
+    - tipo: S45
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 382e69a7ae0e0224fa9dcbad94957d7a, type: 3}
+  - id: 33
+    level: 1
+    frase: Frutas
+    answer: S46
+    blocos:
+    - tipo: S46
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: b1de0048ec7a729429fb6be9bee3734b, type: 3}
+  - id: 34
+    level: 1
+    frase: Salada
+    answer: S47-
+    blocos:
+    - tipo: S47
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9698f85a2dbf1464eba6a8b35c609290, type: 3}
+  - id: 35
+    level: 1
+    frase: Branco
+    answer: S48-
+    blocos:
+    - tipo: S48
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
+  - id: 36
+    level: 1
+    frase: Preto
+    answer: S49-
+    blocos:
+    - tipo: S49
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
+  - id: 37
+    level: 1
+    frase: Amarelo
+    answer: S50-
+    blocos:
+    - tipo: S50
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
+  - id: 38
+    level: 1
+    frase: Azul
+    answer: S51-
+    blocos:
+    - tipo: S51
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
+  - id: 39
+    level: 1
+    frase: Verde
+    answer: S52-
+    blocos:
+    - tipo: S52
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
+  - id: 40
+    level: 1
+    frase: Vermelho
+    answer: S53-
+    blocos:
+    - tipo: S53
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
+  - id: 41
+    level: 1
+    frase: Rosa
+    answer: S54-
+    blocos:
+    - tipo: S54
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
+  - id: 42
+    level: 1
+    frase: Roxo
+    answer: S55-
+    blocos:
+    - tipo: S55
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
+  - id: 43
+    level: 1
+    frase: Marrom
+    answer: S56-
+    blocos:
+    - tipo: S56
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
+  - id: 44
+    level: 1
+    frase: Banheiro
+    answer: S3-
+    blocos:
+    - tipo: S3
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ba1441372fea4f24a9cf69f0a8a6233d, type: 3}
+  - id: 45
+    level: 1
+    frase: Banheiro
+    answer: S3-
+    blocos:
+    - tipo: S3
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ba1441372fea4f24a9cf69f0a8a6233d, type: 3}
+  - id: 46
+    level: 1
+    frase: Brinquedo
+    answer: S8-
+    blocos:
+    - tipo: S8
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: e2bcfcbfada79ab42bd7e588ce335231, type: 3}
+  - id: 47
+    level: 1
+    frase: "Cabe\xE7a"
+    answer: S10-
+    blocos:
+    - tipo: S10
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
+  - id: 47
+    level: 1
+    frase: "Cabe\xE7a"
+    answer: S10-
+    blocos:
+    - tipo: S10
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
+  - id: 49
+    level: 1
+    frase: Chuveiro
+    answer: S17-
+    blocos:
+    - tipo: S17
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: c841e9d88da02534e96c88a288da09e6, type: 3}
+  - id: 50
+    level: 1
+    frase: Comida
+    answer: S18-
+    blocos:
+    - tipo: S18
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ed094c229d26b8f4bb7376fb9b6c941b, type: 3}
+  - id: 51
+    level: 1
+    frase: Escola
+    answer: S21-
+    blocos:
+    - tipo: S21
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ae929a2086182fb4690138d12b999b67, type: 3}
+  - id: 52
+    level: 1
+    frase: "M\xE9dico"
+    answer: S27-
+    blocos:
+    - tipo: S27
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5a34bc4d37fa1b149bf9719f205e6a10, type: 3}
+  - id: 53
+    level: 1
+    frase: Pipoca
+    answer: S31-
+    blocos:
+    - tipo: S31
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: b3c55e20de848bb4690dbeae47d0097d, type: 3}
+  - id: 54
+    level: 1
+    frase: Shopping
+    answer: S35-
+    blocos:
+    - tipo: S35
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9adf8b4c906014742a01a6a0cc9dc266, type: 3}
+  - id: 55
+    level: 1
+    frase: Quarto
+    answer: S58-
+    blocos:
+    - tipo: S58
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 249e258499f6ba245814b0f6035e220d, type: 3}
+  - id: 56
+    level: 1
+    frase: Parque
+    answer: S59-
+    blocos:
+    - tipo: S59
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: ae039029f32e7fa4ea7237d09a253406, type: 3}
+  - id: 57
+    level: 1
+    frase: Cinema
+    answer: S60-
+    blocos:
+    - tipo: S60
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 63adc7973f99b0b4189b015d181fb0c6, type: 3}
+  - id: 58
+    level: 1
+    frase: Supermercado
+    answer: S61-
+    blocos:
+    - tipo: S61-
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 708a53e198404274683b1508635c16e2, type: 3}
+  - id: 59
+    level: 1
+    frase: Cuscuz
+    answer: S62-
+    blocos:
+    - tipo: S62
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5ab863e3ca509d94fb02365586e8961e, type: 3}
+  - id: 60
+    level: 1
+    frase: Sopa
+    answer: S63-
+    blocos:
+    - tipo: S63
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: a5c4e48677ab66141841a5c57ee17952, type: 3}
+  - id: 61
+    level: 1
+    frase: VideoGame
+    answer: S64-
+    blocos:
+    - tipo: S63
+      escrita: torneira
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: Torneira
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: a1ec1c27348efcc4b8a064e9875a9b6b, type: 3}
   dataBaseNivels02:
-  - id: 0
+  - id: 1
     level: 2
-    frase: "Beber \xC1gua"
-    answer: copoagua
+    frase: "Copo com \xC1gua"
+    answer: S19-S1-
     blocos:
     - tipo: S19
       escrita: copo
@@ -187,26 +887,1361 @@ MonoBehaviour:
       - {fileID: 0}
       voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
     reports:
-      combination: "Beber \xC1gua"
+      combination: "Copo com \xC1gua"
       level: 2
       tries: 0
-    Audio: {fileID: 8300000, guid: 33c2389fe6f33064b88cb8ce8c10eb35, type: 3}
-  - id: 0
+    Audio: {fileID: 8300000, guid: 5b036d52975972c4e91ee13861567002, type: 3}
+  - id: 2
     level: 2
-    frase: Escovar os Dentes
+    frase: Copo com Suco
+    answer: S19-S36-
+    blocos:
+    - tipo: S19
+      escrita: copo
+      imagem: []
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+    - tipo: S36
+      escrita: "\xE1gua"
+      imagem:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
+    reports:
+      combination: "Copo com \xC1gua"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: f932624155ba85e4fa180d7b38ecd950, type: 3}
+  - id: 3
+    level: 2
+    frase: "Suco de Ma\xE7\xE3"
     answer: escovardentes
     blocos:
-    - tipo: V7
-      escrita: desenhar
+    - tipo: S36
+      escrita: suco
       imagem: []
-      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
-    - tipo: S21
-      escrita: dentes
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S25
+      escrita: "ma\xE7\xE3"
       imagem: []
-      voz: {fileID: 8300000, guid: 63489a89377bbe544a8648d8e9015d20, type: 3}
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
-      combination: Escovar os Dentes
+      combination: "Suco de Ma\xE7\xE3"
       level: 2
       tries: 0
-    Audio: {fileID: 8300000, guid: 379c6405b5d3f964a82fd7e444763e73, type: 3}
+    Audio: {fileID: 8300000, guid: 3f722604ce328754582fae75129bc37c, type: 3}
+  - id: 4
+    level: 2
+    frase: Suco de Laranja
+    answer: S36-S39-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S39
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 13fba76a6cf36164c97c52d4a36b0d56, type: 3}
+  - id: 5
+    level: 2
+    frase: "Suco de Lim\xE3o"
+    answer: S36-S40-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S40
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 27d4f21d4da61d64bbc80d0d9f18216a, type: 3}
+  - id: 6
+    level: 2
+    frase: Suco de Uva
+    answer: S36-S41-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S41
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7f004916b43519743afc959428bfb51f, type: 3}
+  - id: 7
+    level: 2
+    frase: Suco de Manga
+    answer: S36-S42-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S42
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 955596be13d8fbb4885cb3b33ba3630e, type: 3}
+  - id: 8
+    level: 2
+    frase: Suco de Morango
+    answer: S36-S43-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S43
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: e04e1113414cc0f40940add23d733263, type: 3}
+  - id: 9
+    level: 2
+    frase: Suco de Melancia
+    answer: S36-S44-
+    blocos:
+    - tipo: S36
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S44
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9b5db53b77b91cc46a0968b8318e8f3a, type: 3}
+  - id: 10
+    level: 2
+    frase: Escova de Dente
+    answer: S22-S20-
+    blocos:
+    - tipo: S22
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S20
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 16d7e096e3f42434a931d692c6408b11, type: 3}
+  - id: 11
+    level: 2
+    frase: Escova de Cabelo
+    answer: S22-S11-
+    blocos:
+    - tipo: S22
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S11
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 523fc21fcdb7e304ea5d64fb62827a57, type: 3}
+  - id: 12
+    level: 2
+    frase: Salada de Frutas
+    answer: S47-S46-
+    blocos:
+    - tipo: S47
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S46
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
+  - id: 13
+    level: 2
+    frase: Carrinho de Brinquedo
+    answer: S15-S8-
+    blocos:
+    - tipo: S15
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S8
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1f35de469883d5942a32640a0d026f8a, type: 3}
+  - id: 14
+    level: 2
+    frase: Bola Branca
+    answer: S5-S48-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: e46db2d743da7dd438134d191adfd35a, type: 3}
+  - id: 14
+    level: 2
+    frase: Bola Branca
+    answer: S5-S48-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: e46db2d743da7dd438134d191adfd35a, type: 3}
+  - id: 16
+    level: 2
+    frase: Bola Preta
+    answer: S5-S49-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 31654d420f06fd548bf54918081bba4e, type: 3}
+  - id: 17
+    level: 2
+    frase: Bola Amarela
+    answer: S5-S50-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9700f6433c2fab54eb6301964da1f9a7, type: 3}
+  - id: 18
+    level: 2
+    frase: Bola Azul
+    answer: S5-S51-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 39e32d32ac83be043942fde2212f1be7, type: 3}
+  - id: 19
+    level: 2
+    frase: Bola Verde
+    answer: S5-S52-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 259c5aa2cf58f59479b537fbe8dfcac6, type: 3}
+  - id: 20
+    level: 2
+    frase: Bola Vermelha
+    answer: S5-S53-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: a8f582c0810dfe94cad4546aea327b9e, type: 3}
+  - id: 21
+    level: 2
+    frase: Bola Vermelha
+    answer: S5-S53-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: a8f582c0810dfe94cad4546aea327b9e, type: 3}
+  - id: 22
+    level: 2
+    frase: Bola Rosa
+    answer: S5-S54-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5e56f3b93a613ab45bd7e7b83467167f, type: 3}
+  - id: 23
+    level: 2
+    frase: Bola Roxa
+    answer: S5-S55-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: ac4de00aa6dc24d4588f7dc6362caa19, type: 3}
+  - id: 24
+    level: 2
+    frase: Bola Marrom
+    answer: S5-S56-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: f16981fcc5be48e43a328e2a9609c0eb, type: 3}
+  - id: 25
+    level: 2
+    frase: Bola Cinza
+    answer: S5-S57-
+    blocos:
+    - tipo: S5
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9c5612a7f77cd5d45b07f2a9d02732f4, type: 3}
+  - id: 26
+    level: 2
+    frase: Copo Branco
+    answer: S19-S48-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: bb5977d8e0cf2014abc7180766456749, type: 3}
+  - id: 27
+    level: 2
+    frase: Copo Preto
+    answer: S19-S49-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 487edb456603735458a449fc3241b5a3, type: 3}
+  - id: 28
+    level: 2
+    frase: Copo Amarelo
+    answer: S19-S50-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4da1af6a6ffdc65489d520c2498010d4, type: 3}
+  - id: 29
+    level: 2
+    frase: Copo Azul
+    answer: S19-S51-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 35c362b11f5c7f34e9eb5014a9162bdb, type: 3}
+  - id: 30
+    level: 2
+    frase: Copo Verde
+    answer: S19-S52-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7c31806f40e5c2f4c8183b728f29ea02, type: 3}
+  - id: 31
+    level: 2
+    frase: Copo Vermelho
+    answer: S19-S53-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 0c64360fc53542b40bc0385dbe965aec, type: 3}
+  - id: 32
+    level: 2
+    frase: Copo Rosa
+    answer: S19-S54-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7ff5157f5402ed34884fa506341b0f96, type: 3}
+  - id: 33
+    level: 2
+    frase: Copo Roxo
+    answer: S19-S55-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 45a72698399598d40a15389ee6b053c6, type: 3}
+  - id: 34
+    level: 2
+    frase: Copo Marrom
+    answer: S19-S56-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 004275ef11d32494f9bc3ff8ea103e9d, type: 3}
+  - id: 35
+    level: 2
+    frase: Copo Cinza
+    answer: S19-S57-
+    blocos:
+    - tipo: S19
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: fc23598367cd6424eaaff8890366aea8, type: 3}
+  - id: 36
+    level: 2
+    frase: Camisa Branca
+    answer: S14-S48-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: a8a5b37de90301f4e8ee5aabc00ced96, type: 3}
+  - id: 37
+    level: 2
+    frase: Camisa Preta
+    answer: S14-S49-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 2b45cb8dfa4e9b54d9c4d30efa12eec6, type: 3}
+  - id: 38
+    level: 2
+    frase: Camisa Amarela
+    answer: S14-S50-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 70a529a97b56bd64d9e6052a46625afd, type: 3}
+  - id: 39
+    level: 2
+    frase: Camisa Azul
+    answer: S14-S51-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 85486e7bbb6de2142b7bcf99ae61bbc8, type: 3}
+  - id: 40
+    level: 2
+    frase: Camisa Verde
+    answer: S14-S52-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5e67000ab6e24af4ab43ae24b30b2201, type: 3}
+  - id: 41
+    level: 2
+    frase: Camisa Vermelha
+    answer: S14-S53-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 38209ff943f3a024caf5677f39e930fa, type: 3}
+  - id: 42
+    level: 2
+    frase: Camisa Rosa
+    answer: S14-S54-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 16e7f820f0793374bb99608b0c314a23, type: 3}
+  - id: 43
+    level: 2
+    frase: Camisa Roxa
+    answer: S14-S55-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 00e0d42fa5757e942b669bdaa3bb8045, type: 3}
+  - id: 44
+    level: 2
+    frase: Camisa Marrom
+    answer: S14-S56-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: eccf3f8bcb25e554eb5cbea4e055ca69, type: 3}
+  - id: 45
+    level: 2
+    frase: Camisa Cinza
+    answer: S14-S57-
+    blocos:
+    - tipo: S14
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3d57d7b7910e3ee4597c11fe975f819b, type: 3}
+  - id: 46
+    level: 2
+    frase: "Cal\xE7a Branca"
+    answer: S12-S48-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8d1351837ef756543abaa685ea7538dd, type: 3}
+  - id: 47
+    level: 2
+    frase: "Cal\xE7a Preta"
+    answer: S12-S49-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: d1776a9c05944554fafd6ba45007ac20, type: 3}
+  - id: 48
+    level: 2
+    frase: "Cal\xE7a Amarela"
+    answer: S12-S50-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: c1bde866bff55914cb279fd761db30a3, type: 3}
+  - id: 49
+    level: 2
+    frase: "Cal\xE7a Azul"
+    answer: S12-S51-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: f9fbe30f7e63c044dab99cb37872829e, type: 3}
+  - id: 50
+    level: 2
+    frase: "Cal\xE7a Verde"
+    answer: S12-S52-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: a777a66469865ff48a837973a504ac7b, type: 3}
+  - id: 51
+    level: 2
+    frase: "Cal\xE7a Vermelha"
+    answer: S12-S53-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3c2295b09334c49429e8f5a4870dc378, type: 3}
+  - id: 52
+    level: 2
+    frase: "Cal\xE7a Rosa"
+    answer: S12-S54-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 815e8b85698b24647bc9da5633ac2cc2, type: 3}
+  - id: 53
+    level: 2
+    frase: "Cal\xE7a Roxa"
+    answer: S12-S55-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: c82cc3dd11b187b4491a9544b29596e4, type: 3}
+  - id: 54
+    level: 2
+    frase: "Cal\xE7a Marrom"
+    answer: S12-S56-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: b11cbab4185febe46bd5173a6231fcc6, type: 3}
+  - id: 55
+    level: 2
+    frase: "Cal\xE7a Cinza"
+    answer: S12-S57-
+    blocos:
+    - tipo: S12
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: a429ee7b4c1933b4b874554a3d980c18, type: 3}
+  - id: 56
+    level: 2
+    frase: "L\xE1pis Branco"
+    answer: S23-S48-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 35cde4b7bd255714db8f63d906ca99a6, type: 3}
+  - id: 57
+    level: 2
+    frase: "L\xE1pis Branco"
+    answer: S23-S48-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 35cde4b7bd255714db8f63d906ca99a6, type: 3}
+  - id: 58
+    level: 2
+    frase: "L\xE1pis Preto"
+    answer: S23-S49-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 32bc4d130f4fb3e46b7bfe5fae9c1837, type: 3}
+  - id: 59
+    level: 2
+    frase: "L\xE1pis Amarelo"
+    answer: S23-S50-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 92bd1953d1698bd40a508d2045f21551, type: 3}
+  - id: 60
+    level: 2
+    frase: "L\xE1pis Azul"
+    answer: S23-S51-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9b4bade6f594e974d9d54fe6bdb9e958, type: 3}
+  - id: 61
+    level: 2
+    frase: "L\xE1pis Verde"
+    answer: S23-S52-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 772fa7ccc20699c428a87302978e0876, type: 3}
+  - id: 62
+    level: 2
+    frase: "L\xE1pis Vermelho"
+    answer: S23-S53-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: abb9de640ab1ac8408be9c932b3c00e0, type: 3}
+  - id: 63
+    level: 2
+    frase: "L\xE1pis Rosa"
+    answer: S23-S54-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: e9e102765b5c4c846a8e23a5c9bf4359, type: 3}
+  - id: 64
+    level: 2
+    frase: "L\xE1pis Roxo"
+    answer: S23-S55-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 58c90aaabd155fe48ba7386940ec46cc, type: 3}
+  - id: 65
+    level: 2
+    frase: "L\xE1pis Marrom"
+    answer: S23-S56-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: ea5baf38aacec1e4bb1f1b0b9046c7b3, type: 3}
+  - id: 66
+    level: 2
+    frase: "L\xE1pis Cinza"
+    answer: S23-S57-
+    blocos:
+    - tipo: S23
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7dd0d0cc014bdf9438140532a954eaa9, type: 3}
+  - id: 67
+    level: 2
+    frase: Sapato Branco
+    answer: S34-S48-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S48
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9cd9e99324bcc654191c8b5b6bb53333, type: 3}
+  - id: 68
+    level: 2
+    frase: Sapato Preto
+    answer: S34-S49-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S49
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: d1dadf3bd262b9241a5d510cccfca58c, type: 3}
+  - id: 69
+    level: 2
+    frase: Sapato Amarelo
+    answer: S34-S50-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S50
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 09f413eb82e30484889839b64db7f854, type: 3}
+  - id: 70
+    level: 2
+    frase: Sapato Azul
+    answer: S34-S51-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S51
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 35d7d07d91b3bb64ba509732e69e30ad, type: 3}
+  - id: 71
+    level: 2
+    frase: Sapato Verde
+    answer: S34-S52-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S52
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 34b7638ca90b65b48a88d862c8ab5b3d, type: 3}
+  - id: 72
+    level: 2
+    frase: Sapato Vermelho
+    answer: S34-S53-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S53
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: b01defb333537344ba1787ac292e4b6b, type: 3}
+  - id: 73
+    level: 2
+    frase: Sapato Rosa
+    answer: S34-S54-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S54
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3681cdfdbba1a5f42998eb2326b98990, type: 3}
+  - id: 74
+    level: 2
+    frase: Sapato Roxo
+    answer: S34-S55-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S55
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 96ca210e42186884293934b2ea3ffb4e, type: 3}
+  - id: 75
+    level: 2
+    frase: Sapato Marrom
+    answer: S34-S56-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S56
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: 31bab9cbcd4b4a34ea0a56ac527e2af2, type: 3}
+  - id: 76
+    level: 2
+    frase: Sapato Cinza
+    answer: S34-S57-
+    blocos:
+    - tipo: S34
+      escrita: suco
+      imagem: []
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+    - tipo: S57
+      escrita: "ma\xE7\xE3"
+      imagem: []
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+    reports:
+      combination: "Suco de Ma\xE7\xE3"
+      level: 2
+      tries: 0
+    Audio: {fileID: 8300000, guid: bdc973b391558784d99dac18fb1c5add, type: 3}
   dataBaseNivels03: []
