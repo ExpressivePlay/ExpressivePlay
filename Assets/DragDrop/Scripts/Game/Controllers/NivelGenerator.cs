@@ -19,7 +19,7 @@ public class NivelGenerator : MonoBehaviour {
 	}
 
 	void Start(){
-		GameController.Instance.audiocontroller.PlayFrase ();
+		StartCoroutine (playFhase ());
 	}
 	
 	// Update is called once per frame
@@ -97,5 +97,10 @@ public class NivelGenerator : MonoBehaviour {
 			}
 			break;
 		}
+	}
+
+	IEnumerator playFhase(){
+		yield return new WaitForSeconds (1f);
+		GameController.Instance.audiocontroller.PlayFrase ();
 	}
 }
