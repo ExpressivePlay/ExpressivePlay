@@ -15,6 +15,20 @@ MonoBehaviour:
   - id: 1
     level: 1
     frase: Bola
+    answer: S5-
+    blocos:
+    - tipo: S5
+      escrita: bola
+      imagem: []
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
+    reports:
+      combination: Bola
+      level: 1
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
+  - id: 1
+    level: 1
+    frase: Bola
     answer: bola
     blocos:
     - tipo: S5
@@ -27,10 +41,10 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
   dataBaseNivels02:
-  - id: 0
+  - id: 999
     level: 2
     frase: "Beber \xC1gua"
-    answer: copoagua
+    answer: S19-S1-
     blocos:
     - tipo: S19
       escrita: copo
@@ -48,10 +62,10 @@ MonoBehaviour:
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 33c2389fe6f33064b88cb8ce8c10eb35, type: 3}
-  - id: 0
+  - id: 12
     level: 2
     frase: Escovar os Dentes
-    answer: escovardentes
+    answer: V7-S21-
     blocos:
     - tipo: V7
       escrita: desenhar
