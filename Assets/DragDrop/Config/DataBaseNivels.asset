@@ -47,7 +47,6 @@ MonoBehaviour:
     level: 1
     frase: Bola
     answer: S5-
-<<<<<<< HEAD
     blocos:
     - tipo: S5
       escrita: bola
@@ -58,29 +57,6 @@ MonoBehaviour:
       level: 1
       tries: 0
     Audio: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
-  - id: 1
-    level: 1
-    frase: Bola
-    answer: bola
-=======
->>>>>>> bb8ef64487db527d0e2dec9e547d704be45defc3
-    blocos:
-    - tipo: S5
-      escrita: bola
-      imagem: []
-      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
-    reports:
-      combination: Bola
-      level: 1
-      tries: 0
-    Audio: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
-<<<<<<< HEAD
-  dataBaseNivels02:
-  - id: 999
-    level: 2
-    frase: "Beber \xC1gua"
-    answer: S19-S1-
-=======
   - id: 4
     level: 1
     frase: Boneca
@@ -183,7 +159,6 @@ MonoBehaviour:
     level: 1
     frase: Copo
     answer: S19-
->>>>>>> bb8ef64487db527d0e2dec9e547d704be45defc3
     blocos:
     - tipo: S19
       escrita: copo
@@ -193,19 +168,11 @@ MonoBehaviour:
       combination: Boneca
       level: 1
       tries: 0
-<<<<<<< HEAD
-    Audio: {fileID: 8300000, guid: 33c2389fe6f33064b88cb8ce8c10eb35, type: 3}
-  - id: 12
-    level: 2
-    frase: Escovar os Dentes
-    answer: V7-S21-
-=======
     Audio: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
   - id: 12
     level: 1
     frase: Dente
     answer: S20-
->>>>>>> bb8ef64487db527d0e2dec9e547d704be45defc3
     blocos:
     - tipo: S20
       escrita: copo

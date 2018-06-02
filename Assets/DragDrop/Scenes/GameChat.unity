@@ -1385,7 +1385,7 @@ MonoBehaviour:
   uiController: {fileID: 0}
   firebaseController: {fileID: 0}
   audiocontroller: {fileID: 0}
-  dataBaseNivels: {fileID: 0}
+  dataBaseNivels: {fileID: 11400000, guid: 1b25099d633b19c4d893e1356546d1ac, type: 2}
   dataBasePalavras: {fileID: 11400000, guid: 238bb5b22c4f31a4c8c62f74378a68ca, type: 2}
 --- !u!4 &900094385 stripped
 Transform:
