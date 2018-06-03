@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UiControllerChat : MonoBehaviour {
 
 	public Text textPhrase;
+	public Button btnPlayAudio;
 
 
 	// Use this for initialization

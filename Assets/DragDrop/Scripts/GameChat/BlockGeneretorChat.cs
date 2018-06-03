@@ -177,27 +177,33 @@ public class BlockGeneretorChat : MonoBehaviour {
 
 	public void InstantietBlocksStart(){
 		int line = 1;
-		int x = 0;
-		int y = 0;
+		float x = 0;
+		float y = 0;
 		foreach (Palavra aux in GameControllerChat.Instance.dataBasePalavras.palavras) {
 			if (aux.tipo.StartsWith ("S") || aux.tipo.StartsWith ("V")) {
-				blocks.Add (aux);
-				auxBlocks.Add (aux);
+				if (aux.imagem.Count != 0) {
+					blocks.Add (aux);
+					auxBlocks.Add (aux);
+				}
 			}
 		}
 		for (int xc = 0; xc < blocks.Count; xc++) {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
 			GameObject auxBlock = Instantiate (block, new Vector2 (GameControllerChat.Instance.panelBlocks.pointsBlocks [0].position.x + x, GameControllerChat.Instance.panelBlocks.pointsBlocks [0].position.y + y), Quaternion.identity, orgBlock.transform);
 			auxBlock.GetComponent<BlockChat> ().palavra = auxBlocks[randomBlock];
-			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [imgRandom];
+			if (auxBlock.GetComponent<BlockChat> ().palavra.imagem.Count == 1) {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<BlockChat> ().palavra.imagem [0];
+			} else {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<BlockChat> ().palavra.imagem [imgRandom];
+			}
 			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 			if (line == 0) {
 				x += 3;
-				y += 2;
+				y += 2.5f;
 				line = 1;
 			} else if (line == 1) {
-				y -= 2;
+				y -= 2.5f;
 				line = 0;
 			}
 		}
@@ -205,22 +211,26 @@ public class BlockGeneretorChat : MonoBehaviour {
 
 	public void InstantietBlocks(){
 		int line = 1;
-		int x = 0;
-		int y = 0;
+		float x = 0;
+		float y = 0;
 		for (int xc=0; xc < blocks.Count; xc++) {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
 			GameObject auxBlock = Instantiate (block, new Vector2(GameControllerChat.Instance.panelBlocks.pointsBlocks[0].position.x + x, GameControllerChat.Instance.panelBlocks.pointsBlocks[0].position.y + y), Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
 			auxBlock.GetComponent<BlockChat> ().palavra = auxBlocks[randomBlock];
-			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [imgRandom];
+			if (auxBlock.GetComponent<BlockChat> ().palavra.imagem.Count == 1) {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<BlockChat> ().palavra.imagem [0];
+			} else {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<BlockChat> ().palavra.imagem [imgRandom];
+			}
 			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 			if (line == 0) {
 				x += 3;
-				y += 2;
+				y += 2.5f;
 				line = 1;
 			} else if (line == 1) {
-				y -= 2;
+				y -= 2.5f;
 				line = 0;
 			}
 		}

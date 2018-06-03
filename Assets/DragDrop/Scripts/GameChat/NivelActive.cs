@@ -13,8 +13,13 @@ public class NivelActive : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (fase.frase != "") {
+		if (GameControllerChat.Instance.panelFhaseChat.answer != "") {
 			GameControllerChat.Instance.uiController.textPhrase.text = fase.frase;
+			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = true;
+		} else {
+			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = false;
+			GameControllerChat.Instance.uiController.textPhrase.text = "Arraste um bloco";
+			fase.frase = "Arraste um bloco";
 		}
 	}
 
@@ -33,7 +38,7 @@ public class NivelActive : MonoBehaviour {
 			if (GameControllerChat.Instance.panelFhaseChat.answer == aux.answer) {
 				fase = aux;
 			}
-
+			
 		}
 		foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels04) {
 			if (GameControllerChat.Instance.panelFhaseChat.answer == aux.answer) {
