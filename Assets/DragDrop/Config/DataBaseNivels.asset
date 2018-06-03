@@ -846,7 +846,7 @@ MonoBehaviour:
     frase: VideoGame
     answer: S64-
     blocos:
-    - tipo: S63
+    - tipo: S64
       escrita: torneira
       imagem: []
       voz: {fileID: 0}
@@ -3475,18 +3475,14 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: 7f5df3033f7d7fc49a6d0693a6c13905, type: 3}
   - id: 56
-    level: 2
+    level: 1
     frase: Tomar Banho
-    answer: V18-S4-
+    answer: S4-
     blocos:
-    - tipo: V18
-      escrita: 
-      imagem: []
-      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
     - tipo: S4
       escrita: 
       imagem: []
-      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
     reports:
       combination: 
       level: 0
