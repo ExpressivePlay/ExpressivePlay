@@ -33,40 +33,60 @@ public class BlockGeneretorChat : MonoBehaviour {
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels01) {
 					if (aux.level == 2) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
-							blocks.Add (aux.blocos [1]);
-							auxBlocks.Add (aux.blocos [1]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [1].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels02) {
 					if (aux.level == 2) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
-							blocks.Add (aux.blocos [1]);
-							auxBlocks.Add (aux.blocos [1]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [1].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels03) {
 					if (aux.level == 2) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
-							blocks.Add (aux.blocos [1]);
-							auxBlocks.Add (aux.blocos [1]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [1].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels04) {
 					if (aux.level == 2) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
-							blocks.Add (aux.blocos [1]);
-							auxBlocks.Add (aux.blocos [1]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [1].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels05) {
 					if (aux.level == 2) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
-							blocks.Add (aux.blocos [1]);
-							auxBlocks.Add (aux.blocos [1]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [1].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
@@ -77,40 +97,60 @@ public class BlockGeneretorChat : MonoBehaviour {
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels01) {
 					if (aux.level == 3) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0] && aux.blocos [1].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [1]) {
-							blocks.Add (aux.blocos [2]);
-							auxBlocks.Add (aux.blocos [2]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [2].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels02) {
 					if (aux.level == 3) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0] && aux.blocos [1].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [1]) {
-							blocks.Add (aux.blocos [2]);
-							auxBlocks.Add (aux.blocos [2]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [2].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels03) {
 					if (aux.level == 3) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0] && aux.blocos [1].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [1]) {
-							blocks.Add (aux.blocos [2]);
-							auxBlocks.Add (aux.blocos [2]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [2].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels04) {
 					if (aux.level == 3) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0] && aux.blocos [1].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [1]) {
-							blocks.Add (aux.blocos [2]);
-							auxBlocks.Add (aux.blocos [2]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [2].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}
 				foreach (Fase aux in GameControllerChat.Instance.dataBaseNivels.dataBaseNivels05) {
 					if (aux.level == 3) {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0] && aux.blocos [1].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [1]) {
-							blocks.Add (aux.blocos [2]);
-							auxBlocks.Add (aux.blocos [2]);
+							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
+								if (auxPalavra.tipo == aux.blocos [2].tipo) {
+									blocks.Add (auxPalavra);
+									auxBlocks.Add (auxPalavra);
+								}
+							}
 						}
 					}
 				}

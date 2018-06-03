@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DragDrop/Scenes/GameMain.unity
     guid: c0e5ce834ad59b547bd656dd795ba4ff
+  - enabled: 1
+    path: Assets/DragDrop/Scenes/GameChat.unity
+    guid: b4cc0d12be48d2b4a8c492443bd97aac

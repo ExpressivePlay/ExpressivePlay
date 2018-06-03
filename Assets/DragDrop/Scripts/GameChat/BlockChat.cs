@@ -46,6 +46,7 @@ public class BlockChat : MonoBehaviour {
 		} else {
 			myTranform.position = posIni;
 			GameControllerChat.Instance.blockGeneratorChat.UpdateBlock ();
+			GameControllerChat.Instance.nivelActive.SetFase ();
 		}
 	}
 
