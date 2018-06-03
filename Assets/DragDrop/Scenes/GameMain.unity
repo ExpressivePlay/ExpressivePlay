@@ -1451,7 +1451,12 @@ Prefab:
     - target: {fileID: 114140642598697880, guid: da4d1f0931d870d4490688203669476b,
         type: 2}
       propertyPath: nivel.id
-      value: 23
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114140642598697880, guid: da4d1f0931d870d4490688203669476b,
+        type: 2}
+      propertyPath: baseNivel
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da4d1f0931d870d4490688203669476b, type: 2}
@@ -2626,8 +2631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gerarPeloId: 0
+  baseNivel: 0
   nivel:
-    id: 23
+    id: 1
     level: 2
     frase: 
     answer: 

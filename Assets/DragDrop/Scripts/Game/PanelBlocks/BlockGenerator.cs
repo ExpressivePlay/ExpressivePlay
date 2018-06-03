@@ -68,7 +68,7 @@ public class BlockGenerator : MonoBehaviour {
 						blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
 						auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
 						count++;
-						if(count == 2){
+						if(count == 1){
 							break;
 						}
 					}
