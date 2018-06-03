@@ -157,7 +157,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: efb228d55349cde42af9e44dc8dd5a93, type: 3}
   - id: 11
     level: 1
-    frase: Copo
+    frase: ln
     answer: S19-
     blocos:
     - tipo: S19
@@ -703,7 +703,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: ed094c229d26b8f4bb7376fb9b6c941b, type: 3}
   - id: 51
     level: 1
-    frase: Escola
+    frase: Arraste um bloco
     answer: S21-
     blocos:
     - tipo: S21
@@ -2387,7 +2387,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: c8fd43c8469ef444789d9c1fc1823db6, type: 3}
   - id: 12
     level: 1
-    frase: Jogar
+    frase: Arraste um bloco
     answer: V12-
     blocos:
     - tipo: V12
@@ -2429,7 +2429,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 4d5b5aa069ecc664a821e536a4a8e172, type: 3}
   - id: 15
     level: 1
-    frase: Limpar
+    frase: Arraste um bloco
     answer: V15-
     blocos:
     - tipo: V15
@@ -2655,7 +2655,7 @@ MonoBehaviour:
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
-    - tipo: S15
+    - tipo: S8
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
