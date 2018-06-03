@@ -18,13 +18,15 @@ public class GameControllerChat : MonoBehaviour {
 	[Header("Scene Game")]
 	public PanelBlocks panelBlocks;
 	public PanelFhaseChat panelFhaseChat;
+	public BlockGeneretorChat blockGeneratorChat;
 	public PointUIChat pointUIChat;
+	public NivelActive nivelActive;
 
 	[Header("UI Controller")]
-	public UIController uiController;
+	public UiControllerChat uiController;
 
 	[Header("FireBase Controller")]
-	public FirebaseController firebaseController;
+	public FirebaseControllerChat firebaseController;
 
 	[Header("Audio Controller")]
 	public AudioController audiocontroller;

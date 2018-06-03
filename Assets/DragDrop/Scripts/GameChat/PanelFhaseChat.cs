@@ -27,7 +27,7 @@ public class PanelFhaseChat : MonoBehaviour {
 		for(int x=0; x<points.transform.childCount; x++){
 			Transform auxPoint = points.transform.GetChild (x);
 			if (auxPoint.childCount != 0) {
-				answer += auxPoint.GetChild (0).GetComponent<Block> ().palavra.tipo + "-";
+				answer += auxPoint.GetChild (0).GetComponent<BlockChat> ().palavra.tipo + "-";
 			}
 		}
 	}
@@ -37,7 +37,7 @@ public class PanelFhaseChat : MonoBehaviour {
 		for(int x=0; x<points.transform.childCount; x++){
 			Transform auxPoint = points.transform.GetChild (x);
 			if (auxPoint.childCount != 0) {
-				nextType.Add (auxPoint.GetChild (0).GetComponent<Block> ().palavra.tipo);
+				nextType.Add (auxPoint.GetChild (0).GetComponent<BlockChat> ().palavra.tipo);
 			}
 		}
 	}

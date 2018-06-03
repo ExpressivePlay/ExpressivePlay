@@ -5,6 +5,8 @@ using UnityEngine;
 public class BlockChat : MonoBehaviour {
 
 
+
+
 	Transform myTranform;
 	Vector3 posIni;
 	Vector3 posPoint;
@@ -39,17 +41,21 @@ public class BlockChat : MonoBehaviour {
 		if (inPanel) {
 			myTranform.position = posPoint;
 			this.transform.parent = auxPoint.transform;
+			GameControllerChat.Instance.blockGeneratorChat.UpdateBlock ();
+			GameControllerChat.Instance.nivelActive.SetFase ();
 		} else {
 			myTranform.position = posIni;
+			GameControllerChat.Instance.blockGeneratorChat.UpdateBlock ();
 		}
 	}
 
 
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.CompareTag ("Panel")) {
-			for(int x=0; x<col.GetComponent<PanelPhase> ().lvlActive.transform.childCount; x++){		//Verifica quantos filhos 
-				auxPoint = col.GetComponent<PanelPhase> ().lvlActive.transform.GetChild(x);
+			for(int x=0; x<col.GetComponent<PanelFhaseChat> ().points.transform.childCount; x++){		//Verifica quantos filhos 
+				auxPoint = col.GetComponent<PanelFhaseChat> ().points.transform.GetChild(x);
 				if (auxPoint.childCount == 0) {
+					this.transform.parent = auxPoint.transform;
 					posPoint = auxPoint.transform.position;
 					inPanel = true;
 					break;
@@ -67,7 +73,7 @@ public class BlockChat : MonoBehaviour {
 	void OnTriggerExit2D(Collider2D col){
 		if (col.gameObject.CompareTag ("Panel")) {
 			inPanel = false;
-			gameObject.transform.parent = GameController.Instance.panelBlocks.GetComponent<BlockGenerator>().orgBlock.transform;
+			gameObject.transform.parent = GameControllerChat.Instance.panelBlocks.GetComponent<BlockGeneretorChat>().orgBlock.transform;
 		}
 	}
 
