@@ -13,10 +13,13 @@ public class BlockGeneretorChat : MonoBehaviour {
 	public List<GameObject> instanceBlocks;
 	public bool canUpdate = true;
 
+
+	int imgRandom;
+
 	// Use this for initialization
 	void Start () {
 		InstantietBlocksStart ();
-		
+		imgRandom = Random.Range (0, 1);
 	}
 	
 	// Update is called once per frame
@@ -186,7 +189,7 @@ public class BlockGeneretorChat : MonoBehaviour {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
 			GameObject auxBlock = Instantiate (block, new Vector2 (GameControllerChat.Instance.panelBlocks.pointsBlocks [0].position.x + x, GameControllerChat.Instance.panelBlocks.pointsBlocks [0].position.y + y), Quaternion.identity, orgBlock.transform);
 			auxBlock.GetComponent<BlockChat> ().palavra = auxBlocks[randomBlock];
-			//auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [0];
+			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [imgRandom];
 			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 			if (line == 0) {
@@ -209,7 +212,7 @@ public class BlockGeneretorChat : MonoBehaviour {
 			GameObject auxBlock = Instantiate (block, new Vector2(GameControllerChat.Instance.panelBlocks.pointsBlocks[0].position.x + x, GameControllerChat.Instance.panelBlocks.pointsBlocks[0].position.y + y), Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
 			auxBlock.GetComponent<BlockChat> ().palavra = auxBlocks[randomBlock];
-			//auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [0];
+			auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [imgRandom];
 			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 			if (line == 0) {

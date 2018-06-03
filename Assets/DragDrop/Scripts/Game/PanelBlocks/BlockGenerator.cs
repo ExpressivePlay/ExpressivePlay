@@ -39,11 +39,13 @@ public class BlockGenerator : MonoBehaviour {
 				while (true) {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
-						blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						count++;
-						if(count == 2){
-							break;
+						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
+							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							count++;
+							if(count == 2){
+								break;
+							}
 						}
 					}
 				}
@@ -52,11 +54,13 @@ public class BlockGenerator : MonoBehaviour {
 				while (true) {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
-						blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						count++;
-						if(count == 2){
-							break;
+						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
+							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							count++;
+							if(count == 2){
+								break;
+							}
 						}
 					}
 				}
@@ -65,11 +69,13 @@ public class BlockGenerator : MonoBehaviour {
 				while (true) {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
-						blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-						count++;
-						if(count == 1){
-							break;
+						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
+							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+							count++;
+							if(count == 1){
+								break;
+							}
 						}
 					}
 				}
@@ -79,12 +85,17 @@ public class BlockGenerator : MonoBehaviour {
 	}
 		
 	public void InstantietBlocks(){
+		int imgRandom = Random.Range (0, 2);
 		for (int x=0; x < blocks.Count; x++) {
 			int randomBlock = Random.Range (0, auxBlocks.Count);
 			GameObject auxBlock = Instantiate (block, GameController.Instance.panelBlocks.pointsBlocks [x].position, Quaternion.identity, orgBlock.transform);
 			//Adicionando as Informações
 			auxBlock.GetComponent<Block> ().palavra = auxBlocks[randomBlock];
-			//auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [0];
+			if (auxBlock.GetComponent<Block> ().palavra.imagem.Count == 1) {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [0];
+			} else {
+				auxBlock.GetComponent<SpriteRenderer> ().sprite = auxBlock.GetComponent<Block> ().palavra.imagem [imgRandom];
+			}
 			auxBlock.GetComponent<BoxCollider2D> ().size = new Vector2 (2.50f, 2);
 			auxBlocks.RemoveAt (randomBlock);
 		}
