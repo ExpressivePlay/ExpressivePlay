@@ -140,7 +140,7 @@ MonoBehaviour:
       combination: Carrinho
       level: 1
       tries: 0
-    Audio: {fileID: 8300000, guid: 3c4e834e9eb535447a980dfee0dc5437, type: 3}
+    Audio: {fileID: 8300000, guid: 9941502f79738d04796e2f751cee8821, type: 3}
   - id: 10
     level: 1
     frase: Celular
@@ -890,7 +890,7 @@ MonoBehaviour:
       combination: "Copo com \xC1gua"
       level: 2
       tries: 0
-    Audio: {fileID: 8300000, guid: 5b036d52975972c4e91ee13861567002, type: 3}
+    Audio: {fileID: 8300000, guid: 5bd0ccdf595d4754e8a55e3cd8990e5d, type: 3}
   - id: 2
     level: 2
     frase: Copo com Suco
@@ -2244,4 +2244,3268 @@ MonoBehaviour:
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: bdc973b391558784d99dac18fb1c5add, type: 3}
-  dataBaseNivels03: []
+  dataBaseNivels03:
+  - id: 1
+    level: 3
+    frase: "Almo\xE7ar"
+    answer: V1-
+    blocos:
+    - tipo: V1
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 14497eac15c26184ab092c8ef82d5ef7, type: 3}
+  - id: 2
+    level: 3
+    frase: Arrumar
+    answer: V2-
+    blocos:
+    - tipo: V2
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+  - id: 3
+    level: 3
+    frase: Assitir
+    answer: V3-
+    blocos:
+    - tipo: V3
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 26b164e9d040c5347a84f2f2df05c841, type: 3}
+  - id: 4
+    level: 3
+    frase: Beber
+    answer: V4-
+    blocos:
+    - tipo: V4
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4ccb66161289e5a4fb21530650deef99, type: 3}
+  - id: 5
+    level: 3
+    frase: Brincar
+    answer: V5-
+    blocos:
+    - tipo: V5
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 453f58aa67fde1b4fb2ad215d5745f2b, type: 3}
+  - id: 6
+    level: 3
+    frase: Comer
+    answer: V6-
+    blocos:
+    - tipo: V6
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 23ed1cbb11b74df4c8779fd82ce5a96f, type: 3}
+  - id: 7
+    level: 3
+    frase: Desenhar
+    answer: V7-
+    blocos:
+    - tipo: V7
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 558c6053ceb58db49ad2d44fd5f65743, type: 3}
+  - id: 8
+    level: 3
+    frase: Escovar
+    answer: V8-
+    blocos:
+    - tipo: V8
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: eff7dc1b401a1504592910678cbc88b7, type: 3}
+  - id: 9
+    level: 3
+    frase: Fazer
+    answer: V9-
+    blocos:
+    - tipo: V9
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: dfcb164e3527843419e53aa030b00375, type: 3}
+  - id: 10
+    level: 3
+    frase: Ir
+    answer: V10-
+    blocos:
+    - tipo: V10
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6cb048f571a8e17409f318a07ed50d72, type: 3}
+  - id: 11
+    level: 3
+    frase: Jantar
+    answer: V11-
+    blocos:
+    - tipo: V11
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c8fd43c8469ef444789d9c1fc1823db6, type: 3}
+  - id: 12
+    level: 3
+    frase: Jogar
+    answer: V12-
+    blocos:
+    - tipo: V12
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5f266304d08cb00429562e27feb29bb2, type: 3}
+  - id: 13
+    level: 3
+    frase: Lavar
+    answer: V13-
+    blocos:
+    - tipo: V13
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ca2c474462a8e4847abb69c10d5661d7, type: 3}
+  - id: 14
+    level: 3
+    frase: Ler
+    answer: V14-
+    blocos:
+    - tipo: V14
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4d5b5aa069ecc664a821e536a4a8e172, type: 3}
+  - id: 15
+    level: 3
+    frase: Limpar
+    answer: V15-
+    blocos:
+    - tipo: V15
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f38b77604150da54289f69cbe687cc0c, type: 3}
+  - id: 16
+    level: 3
+    frase: Pentear
+    answer: V16-
+    blocos:
+    - tipo: V16
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 871e6f4e9b21b0d4a900a68b5e33758d, type: 3}
+  - id: 17
+    level: 3
+    frase: Querer
+    answer: V17-
+    blocos:
+    - tipo: V17
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 203f184ebe9e4df44a60a2690da9b932, type: 3}
+  - id: 18
+    level: 3
+    frase: Dormir
+    answer: V19-
+    blocos:
+    - tipo: V19
+      escrita: "almo\xE7ar"
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 346e323f4dbed904aa3519f446c44c29, type: 3}
+  dataBaseNivels04:
+  - id: 1
+    level: 4
+    frase: Arrumar a Cama
+    answer: V1-S13-
+    blocos:
+    - tipo: V1
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 0941452a6b58f6e449dfea39acc1d6f4, type: 3}
+  - id: 2
+    level: 4
+    frase: Arrumar o Quarto
+    answer: V1-S58-
+    blocos:
+    - tipo: V1
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S58
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ee102af29b333b04bbffbd08a55ba828, type: 3}
+  - id: 3
+    level: 4
+    frase: "Assistir Televis\xE3o"
+    answer: V3-S37-
+    blocos:
+    - tipo: V3
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S37
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e836ebc19e5295448847b20da3f48ced, type: 3}
+  - id: 4
+    level: 4
+    frase: "Beber \xC1gua"
+    answer: V4-S1-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S1
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5d67bc65945fe6046971dba4eb4da341, type: 3}
+  - id: 5
+    level: 4
+    frase: Beber Suco
+    answer: V4-S36-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c7c79754aec49974a9b8b53f4c363181, type: 3}
+  - id: 6
+    level: 4
+    frase: Brincar de Boneca
+    answer: V5-S6-
+    blocos:
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c2ee5f972b2b18f49b7d6c9d9d7d7efc, type: 3}
+  - id: 7
+    level: 4
+    frase: Brincar com o Boneco
+    answer: V5-S7-
+    blocos:
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S7
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: d88ff0ee2f4ffc04bb6de9a0b12c611d, type: 3}
+  - id: 8
+    level: 4
+    frase: Brincar com o Celular
+    answer: V5-S16-
+    blocos:
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S16
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 80c0edaef1f9b624791dfc9d29db3feb, type: 3}
+  - id: 9
+    level: 4
+    frase: Brincar com o Carrinho
+    answer: V5-S15-
+    blocos:
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S15
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4046e812f064f5845b1bb4371ac75bdd, type: 3}
+  - id: 10
+    level: 4
+    frase: Brincar com o Brinquedo
+    answer: V5-S8-
+    blocos:
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S15
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 66cadbd2f732c93429f70b9ba3c9822f, type: 3}
+  - id: 11
+    level: 4
+    frase: Comer banana
+    answer: V6-S2-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S2
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e60084a63c4460645b04213b1b5fb98d, type: 3}
+  - id: 12
+    level: 4
+    frase: Comer Pipoca
+    answer: V6-S31-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S31
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e6ed025331dd35e4fa36f78a773815e3, type: 3}
+  - id: 13
+    level: 4
+    frase: "Comer Ma\xE7\xE3"
+    answer: V6-S25-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S25
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 281318072149fa240b87bdbd7006b5bd, type: 3}
+  - id: 14
+    level: 4
+    frase: "Comer Sandu\xEDche"
+    answer: V6-S33-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S33
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 07129275cf8b52a44954197b724e421f, type: 3}
+  - id: 15
+    level: 4
+    frase: Comer Uva
+    answer: V6-S41-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S41
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ac36e34c1fcb47d4e80ee24d8d2134f3, type: 3}
+  - id: 16
+    level: 4
+    frase: Comer Manga
+    answer: V6-S42-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S42
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 95087cb942d5c6c448015c3efbbd757d, type: 3}
+  - id: 17
+    level: 4
+    frase: Comer Morango
+    answer: V6-S43-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S43
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 00ba370555d607644b0925275b6924db, type: 3}
+  - id: 18
+    level: 4
+    frase: Comer Melancia
+    answer: V6-S44-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S44
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e8017b15a29a1f148beed0d85671fbde, type: 3}
+  - id: 19
+    level: 4
+    frase: Comer Abacate
+    answer: V6-S45-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S45
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 37de068b4951785408cbbca1a5933c13, type: 3}
+  - id: 20
+    level: 4
+    frase: Comer Frutas
+    answer: V6-S46-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S46
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 922f7a64af425d24f8f818280440537f, type: 3}
+  - id: 21
+    level: 4
+    frase: Comer Salada
+    answer: V6-S47-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S47
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: beeeae8273eddb04e9a1b2707887cb6d, type: 3}
+  - id: 22
+    level: 4
+    frase: Comer Cuscuz
+    answer: V6-S62-
+    blocos:
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S47
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 694391dea9f20bd419c236c318ec1aa0, type: 3}
+  - id: 23
+    level: 4
+    frase: "Desenhar com L\xE1pis"
+    answer: V7-S23-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6c2ae4616246a434799368bfdb50ad63, type: 3}
+  - id: 24
+    level: 4
+    frase: Desenhar Frutas
+    answer: V7-S46-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S46
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: cbca43607910f8647b7c517dd9fc2eea, type: 3}
+  - id: 25
+    level: 4
+    frase: Desenhar um Brinquedo
+    answer: V7-S8-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S8
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 08109a0ff52aebd4e93bf9511c14d137, type: 3}
+  - id: 26
+    level: 4
+    frase: Desenhar um Copo
+    answer: V7-S19-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4ab76c4bbdf5a8849813552570327fb7, type: 3}
+  - id: 27
+    level: 4
+    frase: Escovar os Dentes
+    answer: V8-S20-
+    blocos:
+    - tipo: V8
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S20
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 713d14b1b21b85142b5a3c62ec8142ac, type: 3}
+  - id: 28
+    level: 4
+    frase: Fazer Comida
+    answer: V9-S18-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S18
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: dab946a0eb0331d45b7980ea880855e5, type: 3}
+  - id: 29
+    level: 4
+    frase: "Fazer um Sandu\xEDche"
+    answer: V9-S33-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S33
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 43848d30839e01141ac49527b080a273, type: 3}
+  - id: 30
+    level: 4
+    frase: Fazer um Suco
+    answer: V9-S36-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 49e5ed3b147735245a34dbfede41d7ac, type: 3}
+  - id: 31
+    level: 4
+    frase: Ir para o Quarto
+    answer: V10-S58-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S58
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7047dfb59ef02784682b6927a6f65f89, type: 3}
+  - id: 32
+    level: 4
+    frase: Ir ao Banheiro
+    answer: V10-S3-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S3
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b6e7401aca8552640a5d7eaa8997d626, type: 3}
+  - id: 33
+    level: 4
+    frase: Ir para Casa
+    answer: V10-S9-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S9
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: d8527a411f20a194d9a81cb01e09d182, type: 3}
+  - id: 34
+    level: 4
+    frase: Ir ao Shopping
+    answer: V10-S35-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S35
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ee067d3210caf5340894051ac62df13f, type: 3}
+  - id: 35
+    level: 4
+    frase: Ir ao Parque
+    answer: V10-S59-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S59
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b2415a007e26a1543a6e2e9975da6286, type: 3}
+  - id: 36
+    level: 4
+    frase: Ir ao Cinema
+    answer: V10-S60-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S60
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8eaecb5f291eb1c4ab76a3252dfcf3ad, type: 3}
+  - id: 37
+    level: 4
+    frase: "Ir ao M\xE9dico"
+    answer: V10-S27-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S27
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6e1f3f06953996d43b5aa9a32ae5bdd2, type: 3}
+  - id: 38
+    level: 4
+    frase: Ir ao Supermercado
+    answer: V10-S61-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S61
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3e4aa8b70a6f02848b43132c82498a73, type: 3}
+  - id: 39
+    level: 4
+    frase: Ir para a Escola
+    answer: V10-S21-
+    blocos:
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S21
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8bda543a3f0c06146aa6694774699563, type: 3}
+  - id: 40
+    level: 4
+    frase: Jantar Sopa
+    answer: V11-S63-
+    blocos:
+    - tipo: V11
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S63
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f7807f3c29402df45ac221f6128445a8, type: 3}
+  - id: 41
+    level: 4
+    frase: Jogar Bola
+    answer: V12-S5-
+    blocos:
+    - tipo: V12
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S5
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1b92a930f62074c43b3b74852f4b77e6, type: 3}
+  - id: 42
+    level: 4
+    frase: Jogar Videogame
+    answer: V12-S64-
+    blocos:
+    - tipo: V12
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S64
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: db09bc5d6661fc94ab861783b3c02e10, type: 3}
+  - id: 43
+    level: 4
+    frase: "Lavar as M\xE3os"
+    answer: V13-S26-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S26
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c543c8c8210c50d499a2067c777ea6be, type: 3}
+  - id: 44
+    level: 4
+    frase: Lavar o Prato
+    answer: V13-S30-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S30
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f8b19f601c0374346bb314612d404a87, type: 3}
+  - id: 45
+    level: 4
+    frase: Lavar o Copo
+    answer: V13-S19-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c9ae1d3012b7ef4478a9969d35c9519a, type: 3}
+  - id: 46
+    level: 4
+    frase: Lavar a Camisa
+    answer: V13-S14-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S14
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 14c060db58a772d488649955657ea3bc, type: 3}
+  - id: 47
+    level: 4
+    frase: "Lavar a Cal\xE7a"
+    answer: V13-S12-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S12
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ffdcf718fd900314b883a8664c390df2, type: 3}
+  - id: 48
+    level: 4
+    frase: Lavar o Sapato
+    answer: V13-S34-
+    blocos:
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S34
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e035aa7b2d3c34d4dbcdcaced07e1ed3, type: 3}
+  - id: 49
+    level: 4
+    frase: Ler um Livro
+    answer: V14-S24-
+    blocos:
+    - tipo: V14
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S24
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 0ad6593502899da488b72d1749283d61, type: 3}
+  - id: 50
+    level: 4
+    frase: Limpar a Casa
+    answer: V15-S9-
+    blocos:
+    - tipo: V15
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S9
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5429a0989088f1e47b381073526f45c2, type: 3}
+  - id: 51
+    level: 4
+    frase: Pentear o Cabelo
+    answer: V16-S11-
+    blocos:
+    - tipo: V16
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S11
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 58e5bc1782c5db14da5428085f3b5713, type: 3}
+  - id: 52
+    level: 4
+    frase: Quero Comer
+    answer: V17-V6-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: a53859c59d66ee044b1548ef407dd32a, type: 3}
+  - id: 53
+    level: 4
+    frase: "Quero \xC1gua"
+    answer: V17-S1-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S1
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 01ba2c306e3f1404ca46f91f35635936, type: 3}
+  - id: 54
+    level: 4
+    frase: Quero Suco
+    answer: V17-S36-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4544cd35439732f478369d8dc76c2624, type: 3}
+  - id: 55
+    level: 4
+    frase: Quero Brincar
+    answer: V17-V4-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7f5df3033f7d7fc49a6d0693a6c13905, type: 3}
+  - id: 56
+    level: 4
+    frase: Tomar Banho
+    answer: V18-S4-
+    blocos:
+    - tipo: V18
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+    - tipo: S4
+      escrita: 
+      imagem: []
+      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 666fca8d2bbb6694aabd388105f8d4c1, type: 3}
+  dataBaseNivels05:
+  - id: 1
+    level: 5
+    frase: "Copo com Suco de Ma\xE7\xE3"
+    answer: S19-S36-S25-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S25
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ae63e4ed23eddb04eaf9901972c87ced, type: 3}
+  - id: 2
+    level: 5
+    frase: Copo com Suco de Laranja
+    answer: S19-S36-S39-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S39
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 11d1bdc996848064c9b5ae26f78c2b16, type: 3}
+  - id: 3
+    level: 5
+    frase: "Copo com Suco de Lim\xE3o"
+    answer: S19-S36-S40-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S40
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e41fdfc6f69b22e47b385d0c41c28c6e, type: 3}
+  - id: 4
+    level: 5
+    frase: Copo com Suco de Uva
+    answer: S19-S36-S41-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S41
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5aafed3a0d824514190b460a0a1e1049, type: 3}
+  - id: 5
+    level: 5
+    frase: Copo com Suco de Manga
+    answer: S19-S36-S42-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S42
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5f5b2ef9ec1fdcd43b9d7b3911a234b6, type: 3}
+  - id: 6
+    level: 5
+    frase: Copo com Suco de Morango
+    answer: S19-S36-S43-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S43
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4c4303088153fc946b4936e41f27f872, type: 3}
+  - id: 7
+    level: 5
+    frase: Copo com Suco de Melancia
+    answer: S19-S36-S44-
+    blocos:
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S44
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: dd3d516f39d867c4aa23a2bb4cf68c52, type: 3}
+  - id: 8
+    level: 5
+    frase: "Beber Suco de Ma\xE7a"
+    answer: V4-S36-S25-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S25
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9f69e8dd7ac13a2469ba6aa7fc962aab, type: 3}
+  - id: 9
+    level: 5
+    frase: Beber Suco de Laranja
+    answer: V4-S36-S39-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S39
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8491daa58a12f6f46a0dbea04d746e61, type: 3}
+  - id: 9
+    level: 5
+    frase: "Beber Suco de Lim\xE3o"
+    answer: V4-S36-S40-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S40
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 056e929a1d8a47244bf9b682bd17d4b0, type: 3}
+  - id: 10
+    level: 5
+    frase: Beber Suco de Uva
+    answer: V4-S36-S41-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S41
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: eaffbebf1ebb6b344b75d72f6f5acbe5, type: 3}
+  - id: 12
+    level: 5
+    frase: Beber Suco de Manga
+    answer: V4-S36-S42-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S42
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b98f9da26f4f90642af976a0bdc47f9f, type: 3}
+  - id: 13
+    level: 5
+    frase: Beber Suco de Morango
+    answer: V4-S36-S43-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S43
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 822a3b2461dab1b43b4ad007a6cb071d, type: 3}
+  - id: 14
+    level: 5
+    frase: Beber Suco de Melancia
+    answer: V4-S36-S44-
+    blocos:
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S44
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 767e216186198274883bce52422b51b7, type: 3}
+  - id: 15
+    level: 5
+    frase: "Desenhar com o L\xE1pis Branco"
+    answer: V7-S23-S48-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S48
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: db857e300fede794ab066df03957009c, type: 3}
+  - id: 16
+    level: 5
+    frase: "Desenhar com o L\xE1pis Preto"
+    answer: V7-S23-S49-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S49
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 87657f04519268e489d4afc0c1fa6fdd, type: 3}
+  - id: 17
+    level: 5
+    frase: "Desenhar com o L\xE1pis Amarelo"
+    answer: V7-S23-S50-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S50
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6781ec5f6d9896441ac0d7cc130ee919, type: 3}
+  - id: 18
+    level: 5
+    frase: "Desenhar com o L\xE1pis Azul"
+    answer: V7-S23-S51-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S51
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9852d21cb068ced4ab89de6d7e00b942, type: 3}
+  - id: 19
+    level: 5
+    frase: "Desenhar com o L\xE1pis Verde"
+    answer: V7-S23-S52-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S52
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 7e334b3bacfd1664ba70e22670ffeb9a, type: 3}
+  - id: 20
+    level: 5
+    frase: "Desenhar com o L\xE1pis Vermelho"
+    answer: V7-S23-S53-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S53
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: dac7b63474d81684cbd5cf5ac965466f, type: 3}
+  - id: 21
+    level: 5
+    frase: "Desenhar com o L\xE1pis Rosa"
+    answer: V7-S23-S54-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S54
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e6cbf764bcd5a0a4e90c7a4be05d5761, type: 3}
+  - id: 22
+    level: 5
+    frase: "Desenhar com o L\xE1pis Roxo"
+    answer: V7-S23-S55-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S55
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1f7ab1782c867954a89d5904b11b6c80, type: 3}
+  - id: 23
+    level: 5
+    frase: "Desenhar com o L\xE1pis Marrom"
+    answer: V7-S23-S56-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S56
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b0d4b51e4eca5ac4c81fa8de47439148, type: 3}
+  - id: 24
+    level: 5
+    frase: "Desenhar com o L\xE1pis Cinza"
+    answer: V7-S23-S57-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S57
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f50a93c872484fe44b60b3d76cb5dfe1, type: 3}
+  - id: 25
+    level: 5
+    frase: Desenhar um Copo Branco
+    answer: V7-S19-S48-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S48
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1402f07154b6dbf4883f66748667e73f, type: 3}
+  - id: 26
+    level: 5
+    frase: Desenhar um Copo Preto
+    answer: V7-S19-S49-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S49
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 125ca9cfc0a85a64d85e847a14e9adae, type: 3}
+  - id: 27
+    level: 5
+    frase: Desenhar um Copo Amarelo
+    answer: V7-S19-S50-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S50
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: aa867e20e2b1977499505e3a6bc3b749, type: 3}
+  - id: 28
+    level: 5
+    frase: Desenhar um Copo Azul
+    answer: V7-S19-S51-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S51
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: d3f2bb0dd527a4b4fa96194243c4d663, type: 3}
+  - id: 29
+    level: 5
+    frase: Desenhar um Copo Verde
+    answer: V7-S19-S52-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S52
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3995df3d55742854f89328ef125bbb62, type: 3}
+  - id: 30
+    level: 5
+    frase: Desenhar um Copo Vermelho
+    answer: V7-S19-S53-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S53
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 89a99a7cccc663649a6c9dc2bbbb6525, type: 3}
+  - id: 30
+    level: 5
+    frase: Desenhar um Copo Rosa
+    answer: V7-S19-S54-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S54
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ed6c77d195708e2459823ca0c5ce8d3b, type: 3}
+  - id: 31
+    level: 5
+    frase: Desenhar um Copo Roxo
+    answer: V7-S19-S55-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S55
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: d049c04f5771e244eb44c4e34cebfbe1, type: 3}
+  - id: 32
+    level: 5
+    frase: Desenhar um Copo Marrom
+    answer: V7-S19-S56-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S56
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5fb97a5842bd80b4da8248febfccbd3f, type: 3}
+  - id: 34
+    level: 5
+    frase: Desenhar um Copo Cinza
+    answer: V7-S19-S57-
+    blocos:
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S57
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: fcaf27438e6570b418b3ba3f940f4ad0, type: 3}
+  - id: 35
+    level: 5
+    frase: "Fazer um Suco de Ma\xE7\xE3"
+    answer: V9-S36-S25-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S25
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 542fbc2efdb4abe4589da1b664e485c4, type: 3}
+  - id: 36
+    level: 5
+    frase: Fazer um Suco de Laranja
+    answer: V9-S36-S39-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S39
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ddf523106481c78448f98f47fcec8226, type: 3}
+  - id: 37
+    level: 5
+    frase: "Fazer um Suco de Lim\xE3o"
+    answer: V9-S36-S40-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S40
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f37dcbc41c9e5014fa1fa7718f06b0b5, type: 3}
+  - id: 38
+    level: 5
+    frase: Fazer um Suco de Uva
+    answer: V9-S36-S41-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S41
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: a7087db76f30499409287c917a585d9e, type: 3}
+  - id: 39
+    level: 5
+    frase: Fazer um Suco de Manga
+    answer: V9-S36-S42-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S42
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 46495dee9475ae84a85e100b7b1b9e31, type: 3}
+  - id: 40
+    level: 5
+    frase: Fazer um Suco de Morango
+    answer: V9-S36-S43-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S43
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5f78322c7b0c29948a29029b4e8f2512, type: 3}
+  - id: 41
+    level: 5
+    frase: Fazer um Suco de Melancia
+    answer: V9-S36-S44-
+    blocos:
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S44
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b8366137dc54421418857af3fdbbdce3, type: 3}
+  - id: 42
+    level: 5
+    frase: Quero Arrumar a Cama
+    answer: V17-V1-S13-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V1
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5b2071ad3b743eb48a12f7967b438c47, type: 3}
+  - id: 43
+    level: 5
+    frase: Quero Arrumar a Quarto
+    answer: V17-V1-S58-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V1
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S58
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8a187bce0695d26499d1ce0d4f24da9d, type: 3}
+  - id: 44
+    level: 5
+    frase: "Quero Assistir Televis\xE3o"
+    answer: V17-V3-S37-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V3
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S37
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 0636b9dc6a90e724390501d5a945b7b8, type: 3}
+  - id: 45
+    level: 5
+    frase: "Quero Beber \xC1gua"
+    answer: V17-V4-S1-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S1
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3256f3a07630a8743ae77f63d7b83e63, type: 3}
+  - id: 46
+    level: 5
+    frase: Quero Beber Suco
+    answer: V17-V4-S36-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 98c44339866368844a0ae593e9ae63a3, type: 3}
+  - id: 47
+    level: 5
+    frase: Quero Brincar de Boneca
+    answer: V17-V5-S6-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4c2a792e654c0b84c99e7e92ae741daf, type: 3}
+  - id: 48
+    level: 5
+    frase: Quero Brincar com Celular
+    answer: V17-V5-S16-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S16
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 5f72207242234774aa0f49ac92bba537, type: 3}
+  - id: 49
+    level: 5
+    frase: Quero Brincar com Carrinho
+    answer: V17-V5-S15-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V5
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S15
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1aff360ef36f54741b47918e127c8155, type: 3}
+  - id: 49
+    level: 5
+    frase: Quero Comer Banana
+    answer: V17-V6-S2-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S2
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ba04b70f0c40e534ca01498a64174cfa, type: 3}
+  - id: 51
+    level: 5
+    frase: Quero Comer Pipcca
+    answer: V17-V6-S31-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S31
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: b187ea38bdbc83846861d36d267a1a5c, type: 3}
+  - id: 52
+    level: 5
+    frase: "Quero Comer Ma\xE7\xE3"
+    answer: V17-V6-S25-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S25
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: fe9612a3990e01f439532e339102b55e, type: 3}
+  - id: 53
+    level: 5
+    frase: "Quero Comer Sandu\xEDche"
+    answer: V17-V6-S33-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S33
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 10e5b41e5123ad7469e39f8a0b678b97, type: 3}
+  - id: 54
+    level: 5
+    frase: Quero Comer Uva
+    answer: V17-V6-S41-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S41
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: d862ff4ca3455b244b42b4c903e8d940, type: 3}
+  - id: 55
+    level: 5
+    frase: Quero Comer Manga
+    answer: V17-V6-S42-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S42
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8a4f2361816a78340b260a7463dfb07d, type: 3}
+  - id: 56
+    level: 5
+    frase: Quero Comer Morango
+    answer: V17-V6-S43-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S43
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 43e87c2c65b157f4f97d6a92e34de99d, type: 3}
+  - id: 57
+    level: 5
+    frase: Quero Comer Melancia
+    answer: V17-V6-S44-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S44
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 16a11b5a4e1a37e44bea240bc56ec1bb, type: 3}
+  - id: 58
+    level: 5
+    frase: Quero Comer Abacate
+    answer: V17-V6-S45-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S45
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: c0cef9e4cf58a8546a68c5975f650d99, type: 3}
+  - id: 59
+    level: 5
+    frase: Quero Comer Frutas
+    answer: V17-V6-S46-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S46
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 42bad0b67505f634bb65c33deb714e8e, type: 3}
+  - id: 60
+    level: 5
+    frase: Quero Comer Salada
+    answer: V17-V6-S47-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S47
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 8b243e9b8cbe9e341944c5c95aa68d7a, type: 3}
+  - id: 61
+    level: 5
+    frase: Quero Comer Cuscuz
+    answer: V17-V6-S62-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V6
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S62
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 25eb7d65fdce0b143a06da686a2781f1, type: 3}
+  - id: 62
+    level: 5
+    frase: "Quero Desenhar com L\xE1pis"
+    answer: V17-V7-S23-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S23
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 1a23658c4d62fee469502a8d740b84f5, type: 3}
+  - id: 63
+    level: 5
+    frase: Quero Desenhar Frutas
+    answer: V17-V7-S46-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S46
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: fe86bd4c75267c248b03329ab6372759, type: 3}
+  - id: 64
+    level: 5
+    frase: Quero Desenhar um Brinquedo
+    answer: V17-V7-S8-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S8
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 9744ef1632b907e41b0ee879d71b507c, type: 3}
+  - id: 65
+    level: 5
+    frase: Quero Desenhar um Copo
+    answer: V17-V7-S19-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V7
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: f500301f46c20ee488393ffa8b42181e, type: 3}
+  - id: 66
+    level: 5
+    frase: Quero Escovar os Dentes
+    answer: V17-V8-S20-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V8
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S20
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 65920d8669b90054e90af3c069170166, type: 3}
+  - id: 67
+    level: 5
+    frase: Quero Fazer Comida
+    answer: V17-V9-S18-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S18
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 78f0eb60c4245294fafcaef185384e02, type: 3}
+  - id: 68
+    level: 5
+    frase: "Quero Fazer um Sandu\xEDche"
+    answer: V17-V9-S33-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S33
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 60887f2528305064fa188ab6f6218009, type: 3}
+  - id: 69
+    level: 5
+    frase: Quero Fazer um Suco
+    answer: V17-V9-S36-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S36
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 2fc6b1845df1c344f8a69b06548ecf61, type: 3}
+  - id: 70
+    level: 5
+    frase: Quero Ir para o Quarto
+    answer: V17-V10-S58-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S58
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: bd8a45c72c66541428ba6e2c231fa083, type: 3}
+  - id: 71
+    level: 5
+    frase: Quero Ir ao Banheiro
+    answer: V17-V10-S3-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S3
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 359ea887991ab8146816d0575fd547ac, type: 3}
+  - id: 72
+    level: 5
+    frase: Quero Ir para Casa
+    answer: V17-V10-S9-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6c7a77bd1a601094698f1003078e9cee, type: 3}
+  - id: 73
+    level: 5
+    frase: Quero Ir ao Shopping
+    answer: V17-V10-S35-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S35
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 008f7c9a98e5f614db05ea2fc868040e, type: 3}
+  - id: 74
+    level: 5
+    frase: Quero Ir ao Parque
+    answer: V17-V10-S59-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S59
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 6654bbaee21146542808cc0f26e24d13, type: 3}
+  - id: 75
+    level: 5
+    frase: Quero Ir ao Cinema
+    answer: V17-V10-S60-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S60
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3708df7d87aa78f4d8cc784e3c210f9e, type: 3}
+  - id: 76
+    level: 5
+    frase: "Quero Ir ao M\xE9dico"
+    answer: V17-V10-S27-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S27
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 4f3c3dff88ff3a744b0b6f60e8238881, type: 3}
+  - id: 77
+    level: 5
+    frase: Quero Ir ao Supermercado
+    answer: V17-V10-S61-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S61
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 2b9ddd7b1bfaa4f41b7c63ecf96a0410, type: 3}
+  - id: 78
+    level: 5
+    frase: Quero Ir para a Escola
+    answer: V17-V10-S21-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V10
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S21
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 854f3ea246fb14a41affd2b35ebf35e4, type: 3}
+  - id: 79
+    level: 5
+    frase: Quero Jantar Sopa
+    answer: V17-V11-S63-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V11
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S63
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 716ca8c6f2e84ad4797d7fd1f143c83a, type: 3}
+  - id: 80
+    level: 5
+    frase: Quero Jogar Bola
+    answer: V17-V12-S5-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V12
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S5
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 053e001ede35eca4199762c96f1027ef, type: 3}
+  - id: 81
+    level: 5
+    frase: Quero Jogar Videogame
+    answer: V17-V12-S64-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V12
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S64
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 369c58c32738e4445b997a7a909bb92b, type: 3}
+  - id: 82
+    level: 5
+    frase: "Quero Lavar as M\xE3os"
+    answer: V17-V13-S26-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S26
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 20e1bbfacde00ff4d8b89942e0e29df8, type: 3}
+  - id: 83
+    level: 5
+    frase: Quero Lavar o Prato
+    answer: V17-V13-S30-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S30
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 3a2dbe61f5029b44cb258251cdc19043, type: 3}
+  - id: 84
+    level: 5
+    frase: Quero Lavar o Copo
+    answer: V17-V13-S19-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S19
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: ca9213c30b86f0c42a24608fb14988e8, type: 3}
+  - id: 85
+    level: 5
+    frase: Quero Lavar a Camisa
+    answer: V17-V13-S14-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S14
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 81de1d81bbb65fe42bafbe22762dad29, type: 3}
+  - id: 86
+    level: 5
+    frase: "Quero Lavar a Cal\xE7a"
+    answer: V17-V13-S12-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S12
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 73dbfe553fe8bef4f89d03f25b7e1ffe, type: 3}
+  - id: 87
+    level: 5
+    frase: Quero Lavar o Sapato
+    answer: V17-V13-S34-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V13
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S34
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 48b9030e6c6260f499697fd54e2eb78f, type: 3}
+  - id: 87
+    level: 5
+    frase: Quero Ler um Livro
+    answer: V17-V14-S24
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V14
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S24
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 790ccc75241d91343b330cad53d83834, type: 3}
+  - id: 89
+    level: 5
+    frase: Quero Limpar a Casa
+    answer: V17-V15-S9-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V15
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S9
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 27baf8dc8ffa37f46b7bc0945bc26659, type: 3}
+  - id: 90
+    level: 5
+    frase: Quero Pentear o Cabelo
+    answer: V17-V16-S11-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V16
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S11
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: e6b44bd935a97284bbfe2cfd5159ca27, type: 3}
+  - id: 91
+    level: 5
+    frase: Quero Tomar Banho
+    answer: V17-V18-S4-
+    blocos:
+    - tipo: V17
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: V18
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    - tipo: S4
+      escrita: 
+      imagem: []
+      voz: {fileID: 0}
+    reports:
+      combination: 
+      level: 0
+      tries: 0
+    Audio: {fileID: 8300000, guid: 03ea8233bf86be34a89dbd0b96c0ca41, type: 3}

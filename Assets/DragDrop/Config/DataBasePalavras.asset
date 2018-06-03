@@ -63,7 +63,7 @@ MonoBehaviour:
     escrita: "cal\xE7a"
     imagem: []
     voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
-  - tipo: S2
+  - tipo: S13
     escrita: banana
     imagem: []
     voz: {fileID: 8300000, guid: 4d14437eb50cb6e4984ea071608d10b6, type: 3}
@@ -336,21 +336,9 @@ MonoBehaviour:
     imagem: []
     voz: {fileID: 8300000, guid: 51c5ffc982f4b3145a3d8290cffe5085, type: 3}
   - tipo: V19
-    escrita: usar
+    escrita: dormir
     imagem: []
-    voz: {fileID: 8300000, guid: a9f9494e6f2138b4fbbd49bee600b019, type: 3}
-  - tipo: V20
-    escrita: vir
-    imagem: []
-    voz: {fileID: 8300000, guid: e6e7b32e6e39ba446b70ddac423a68c1, type: 3}
-  - tipo: V12
-    escrita: jogar
-    imagem: []
-    voz: {fileID: 8300000, guid: cdebc554a3d4e814ea602fa46526d785, type: 3}
-  - tipo: V12
-    escrita: jogar
-    imagem: []
-    voz: {fileID: 8300000, guid: cdebc554a3d4e814ea602fa46526d785, type: 3}
+    voz: {fileID: 8300000, guid: 346e323f4dbed904aa3519f446c44c29, type: 3}
   - tipo: C1
     escrita: com
     imagem: []
