@@ -17,8 +17,9 @@ public class NivelGenerator : MonoBehaviour {
 		GetFase ();
 		FindWord ();
 		nivel.reports = new Reports ();
-		nivel.reports.level = nivel.level;
+		nivel.reports.level = PlayerPrefs.GetInt("SelectNivel");
 		nivel.reports.combination = nivel.frase;
+		//nivel.reports.combination = nivel.answer;
 	}
 
 	void Start(){
