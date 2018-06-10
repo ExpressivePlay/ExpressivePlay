@@ -482,7 +482,7 @@ MonoBehaviour:
   - id: 33
     level: 1
     frase: Frutas
-    answer: S46
+    answer: S46-
     blocos:
     - tipo: S46
       escrita: torneira
@@ -723,7 +723,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: ed094c229d26b8f4bb7376fb9b6c941b, type: 3}
   - id: 51
     level: 1
-    frase: Arraste um bloco
+    frase: Escola
     answer: S21-
     blocos:
     - tipo: S21
@@ -1051,95 +1051,61 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: 9b5db53b77b91cc46a0968b8318e8f3a, type: 3}
   - id: 10
-    level: 2
+    level: 1
     frase: Escova de Dente
-    answer: S22-S20-
+    answer: S22-
     blocos:
     - tipo: S22
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S20
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Suco de Ma\xE7\xE3"
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 16d7e096e3f42434a931d692c6408b11, type: 3}
   - id: 11
-    level: 2
+    level: 1
     frase: Escova de Cabelo
-    answer: S22-S11-
+    answer: S29-
     blocos:
-    - tipo: S22
+    - tipo: S29
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S11
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Suco de Ma\xE7\xE3"
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 523fc21fcdb7e304ea5d64fb62827a57, type: 3}
   - id: 12
-    level: 2
+    level: 1
     frase: Salada de Frutas
-    answer: S47-S46-
+    answer: P1-
     blocos:
-    - tipo: S47
+    - tipo: P1
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S46
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Suco de Ma\xE7\xE3"
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
   - id: 13
-    level: 2
+    level: 1
     frase: Carrinho de Brinquedo
-    answer: S15-S8-
+    answer: S15-
     blocos:
     - tipo: S15
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S8
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Suco de Ma\xE7\xE3"
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 1f35de469883d5942a32640a0d026f8a, type: 3}
-  - id: 14
-    level: 2
-    frase: Bola Branca
-    answer: S5-S48-
-    blocos:
-    - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
-    reports:
-      combination: "Suco de Ma\xE7\xE3"
-      level: 2
-      tries: 0
-    Audio: {fileID: 8300000, guid: e46db2d743da7dd438134d191adfd35a, type: 3}
   - id: 14
     level: 2
     frase: Bola Branca
@@ -1231,24 +1197,6 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: 259c5aa2cf58f59479b537fbe8dfcac6, type: 3}
   - id: 20
-    level: 2
-    frase: Bola Vermelha
-    answer: S5-S53-
-    blocos:
-    - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
-    reports:
-      combination: "Suco de Ma\xE7\xE3"
-      level: 2
-      tries: 0
-    Audio: {fileID: 8300000, guid: a8f582c0810dfe94cad4546aea327b9e, type: 3}
-  - id: 21
     level: 2
     frase: Bola Vermelha
     answer: S5-S53-
@@ -1896,24 +1844,6 @@ MonoBehaviour:
       level: 2
       tries: 0
     Audio: {fileID: 8300000, guid: 35cde4b7bd255714db8f63d906ca99a6, type: 3}
-  - id: 57
-    level: 2
-    frase: "L\xE1pis Branco"
-    answer: S23-S48-
-    blocos:
-    - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
-    - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
-    reports:
-      combination: "Suco de Ma\xE7\xE3"
-      level: 2
-      tries: 0
-    Audio: {fileID: 8300000, guid: 35cde4b7bd255714db8f63d906ca99a6, type: 3}
   - id: 58
     level: 2
     frase: "L\xE1pis Preto"
@@ -2413,7 +2343,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: c8fd43c8469ef444789d9c1fc1823db6, type: 3}
   - id: 12
     level: 1
-    frase: Arraste um bloco
+    frase: Jogar
     answer: V12-
     blocos:
     - tipo: V12
@@ -2455,7 +2385,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 4d5b5aa069ecc664a821e536a4a8e172, type: 3}
   - id: 15
     level: 1
-    frase: Arraste um bloco
+    frase: Limpar
     answer: V15-
     blocos:
     - tipo: V15
@@ -2513,9 +2443,9 @@ MonoBehaviour:
   - id: 1
     level: 2
     frase: Arrumar a Cama
-    answer: V1-S13-
+    answer: V2-S13-
     blocos:
-    - tipo: V1
+    - tipo: V2
       escrita: "almo\xE7ar"
       imagem: []
       voz: {fileID: 8300000, guid: 453ff42baddeaa34aa9d139a465c177f, type: 3}
@@ -2531,9 +2461,9 @@ MonoBehaviour:
   - id: 2
     level: 2
     frase: Arrumar o Quarto
-    answer: V1-S58-
+    answer: V2-S58-
     blocos:
-    - tipo: V1
+    - tipo: V2
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
@@ -2897,7 +2827,7 @@ MonoBehaviour:
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
-    - tipo: S47
+    - tipo: S62
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
