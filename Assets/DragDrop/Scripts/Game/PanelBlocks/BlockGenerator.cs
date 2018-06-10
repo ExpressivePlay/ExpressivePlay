@@ -40,11 +40,20 @@ public class BlockGenerator : MonoBehaviour {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
 						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
-							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							count++;
-							if(count == 2){
-								break;
+							bool repetida = false;
+							foreach (Palavra aux in blocks) {
+								if (GameController.Instance.dataBasePalavras.palavras [random].tipo == aux.tipo) {
+									print ("Repetio:" + GameController.Instance.dataBasePalavras.palavras [random].escrita);
+									repetida = true;
+								}
+							}
+							if(!repetida){
+								blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								count++;
+								if(count == 2){
+									break;
+								}
 							}
 						}
 					}
@@ -55,11 +64,21 @@ public class BlockGenerator : MonoBehaviour {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
 						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
-							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							count++;
-							if(count == 2){
-								break;
+							bool repetida = false;
+							foreach (Palavra aux in blocks) {
+								print (GameController.Instance.dataBasePalavras.palavras [random].tipo + "\n" + aux.tipo);
+								if (GameController.Instance.dataBasePalavras.palavras [random].tipo == aux.tipo) {
+									print ("Repetio:" + GameController.Instance.dataBasePalavras.palavras [random].escrita);
+									repetida = true;
+								}
+							}
+							if (!repetida) {
+								blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								count++;
+								if (count == 2) {
+									break;
+								}
 							}
 						}
 					}
@@ -70,11 +89,20 @@ public class BlockGenerator : MonoBehaviour {
 					int random = Random.Range (0, GameController.Instance.dataBasePalavras.palavras.Count);
 					if (GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("S") || GameController.Instance.dataBasePalavras.palavras [random].tipo.StartsWith ("V")) {
 						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
-							blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
-							count++;
-							if(count == 1){
-								break;
+							bool repetida = false;
+							foreach (Palavra aux in blocks) {
+								if (GameController.Instance.dataBasePalavras.palavras [random].tipo == aux.tipo) {
+									print ("Repetio:" + GameController.Instance.dataBasePalavras.palavras [random].escrita);
+									repetida = true;
+								}
+							}
+							if (!repetida) {
+								blocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								auxBlocks.Add (GameController.Instance.dataBasePalavras.palavras [random]);
+								count++;
+								if (count == 1) {
+									break;
+								}
 							}
 						}
 					}

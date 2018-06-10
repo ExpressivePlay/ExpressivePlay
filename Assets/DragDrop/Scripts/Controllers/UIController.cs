@@ -31,10 +31,17 @@ public class UIController : MonoBehaviour {
 
 	public void NextLevel(){
 		GameController.Instance.firebaseController.EnviarReport ();
+		if (PlayerPrefs.GetInt ("debugOn", 0) == 1) {
+			int aux = PlayerPrefs.GetInt ("SelectFase");
+			aux += 1;
+			PlayerPrefs.SetInt ("SelectFase", aux);
+		}
 	}
 
 	public void LevelSelect(int nivel){
 		PlayerPrefs.SetInt ("SelectNivel", nivel);
+		if (PlayerPrefs.GetInt ("debugOn", 1) == 1) {
+			PlayerPrefs.SetInt ("SelectFase", 0);
+		}
 	}
-
 }

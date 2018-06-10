@@ -7,6 +7,7 @@ public class PanelPhase : MonoBehaviour {
 
 	public GameObject lvlActive;
 	public GameObject[] lvls;
+	public GameObject[] tracado;
 
 	public string answer;
 
@@ -30,14 +31,17 @@ public class PanelPhase : MonoBehaviour {
 		switch(GameController.Instance.nivelGenerator.nivel.level){
 		case 1:
 			lvls [0].SetActive (true);
+			tracado[0].SetActive (true);
 			lvlActive = lvls [0];
 			break;
 		case 2:
 			lvls [1].SetActive (true);
+			tracado[1].SetActive (true);
 			lvlActive = lvls [1];
 			break;
 		case 3:
 			lvls [2].SetActive (true);
+			tracado[2].SetActive (true);
 			lvlActive = lvls [2];
 			break;
 

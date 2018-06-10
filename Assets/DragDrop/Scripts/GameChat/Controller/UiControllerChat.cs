@@ -37,6 +37,5 @@ public class UiControllerChat : MonoBehaviour {
 	}
 
 	public void LevelSelect(int nivel){
-		PlayerPrefs.SetInt ("SelectNivel", nivel);
 	}
 }

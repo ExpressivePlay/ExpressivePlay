@@ -30,6 +30,9 @@ public class GameController : MonoBehaviour {
 	[Header("Audio Controller")]
 	public AudioController audiocontroller;
 
+	[Header("FireBase Controller")]
+	public DebugController debugController;
+
 	[Header("ScriptableObject")]
 	public DataBaseNivels dataBaseNivels;
 	public Palavras dataBasePalavras;
