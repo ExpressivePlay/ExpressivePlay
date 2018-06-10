@@ -136,7 +136,6 @@ MonoBehaviour:
     escrita: escola
     imagem:
     - {fileID: 21300000, guid: cfe446e417071df4bbe9c6128a149aa9, type: 3}
-    - {fileID: 0}
     voz: {fileID: 8300000, guid: ae929a2086182fb4690138d12b999b67, type: 3}
   - tipo: S22
     escrita: escova
@@ -220,7 +219,6 @@ MonoBehaviour:
     escrita: shopping
     imagem:
     - {fileID: 21300000, guid: 7c8eb5d269c71304ba66c35ad3f52b73, type: 3}
-    - {fileID: 0}
     voz: {fileID: 8300000, guid: 9adf8b4c906014742a01a6a0cc9dc266, type: 3}
   - tipo: S36
     escrita: suco
