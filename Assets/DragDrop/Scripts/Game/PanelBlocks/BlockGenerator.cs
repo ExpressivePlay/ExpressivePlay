@@ -66,7 +66,6 @@ public class BlockGenerator : MonoBehaviour {
 						if (GameController.Instance.dataBasePalavras.palavras [random].imagem.Count != 0) {
 							bool repetida = false;
 							foreach (Palavra aux in blocks) {
-								print (GameController.Instance.dataBasePalavras.palavras [random].tipo + "\n" + aux.tipo);
 								if (GameController.Instance.dataBasePalavras.palavras [random].tipo == aux.tipo) {
 									print ("Repetio:" + GameController.Instance.dataBasePalavras.palavras [random].escrita);
 									repetida = true;

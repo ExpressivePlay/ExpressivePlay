@@ -9,6 +9,8 @@ public class PanelFhaseChat : MonoBehaviour {
 
 	public string answer;
 
+	public string frase;
+
 	public List<string> nextType;
 
 	// Use this for initialization
@@ -20,6 +22,16 @@ public class PanelFhaseChat : MonoBehaviour {
 	void Update () {
 		GetAnswer ();
 		GetNextType ();
+
+		if (answer != "") {
+			frase = GameControllerChat.Instance.nivelActive.fase.frase.ToString();
+			GameControllerChat.Instance.uiController.textPhrase.text = frase;
+			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = true;
+		} else {
+			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = false;
+			GameControllerChat.Instance.uiController.textPhrase.text = "Arraste um bloco";
+		}
+
 	}
 
 	public void GetAnswer(){

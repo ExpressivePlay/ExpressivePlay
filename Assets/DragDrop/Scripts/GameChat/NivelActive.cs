@@ -13,14 +13,7 @@ public class NivelActive : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameControllerChat.Instance.panelFhaseChat.answer != "") {
-			GameControllerChat.Instance.uiController.textPhrase.text = fase.frase;
-			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = true;
-		} else {
-			GameControllerChat.Instance.uiController.btnPlayAudio.interactable = false;
-			GameControllerChat.Instance.uiController.textPhrase.text = "Arraste um bloco";
-			fase.frase = "Arraste um bloco";
-		}
+		
 	}
 
 	public void SetFase(){
