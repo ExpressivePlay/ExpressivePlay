@@ -73,11 +73,11 @@ public class PanelPhase : MonoBehaviour {
 	}
 
 	IEnumerator waitToResetBlockPos(){
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (1f);
 		for (int x = 0; x < lvlActive.transform.childCount; x++) {
 			lvlActive.transform.GetChild (x).GetChild (0).GetComponent<Block> ().ResetPos ();
-			GameController.Instance.nivelGenerator.nivel.reports.tries += 1;
 		}
+		GameController.Instance.nivelGenerator.nivel.reports.tries += 1;
 		StopAllCoroutines();
 	}
 }

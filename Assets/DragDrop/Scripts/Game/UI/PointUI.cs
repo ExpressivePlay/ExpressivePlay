@@ -13,10 +13,15 @@ public class PointUI : MonoBehaviour {
 	public GameObject pointPlay;
 	public GameObject playButton;
 
+	[Header("Posição do Nivel")]
+	public GameObject pointNivel;
+	public Text textNivel;
+
 	// Use this for initialization
 	void Start () {
 		SetButtonPlayPosition ();
 		SetPhrasePosition ();
+		SetNivelPosition ();
 	}
 	
 	// Update is called once per frame
@@ -31,5 +36,10 @@ public class PointUI : MonoBehaviour {
 
 	void SetButtonPlayPosition(){
 		playButton.transform.position = Camera.main.WorldToScreenPoint (pointPlay.transform.position);
+	}
+
+	void SetNivelPosition(){
+		textNivel.transform.position = Camera.main.WorldToScreenPoint (pointNivel.transform.position);
+		textNivel.text = "Nivel " + PlayerPrefs.GetInt("SelectNivel");
 	}
 }
