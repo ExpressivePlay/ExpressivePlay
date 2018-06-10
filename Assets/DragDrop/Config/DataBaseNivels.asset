@@ -3056,17 +3056,21 @@ MonoBehaviour:
     answer: V10-S58-
     blocos:
     - tipo: V10
-      escrita: 
-      imagem: []
-      voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
+      escrita: ir
+      imagem:
+      - {fileID: 21300000, guid: bc59bd361e1f14940803274215f912fe, type: 3}
+      - {fileID: 21300000, guid: 2aec922a59617784abd605d9660b4ea2, type: 3}
+      voz: {fileID: 8300000, guid: a263b94dc60aeb5449b6307eec533cec, type: 3}
     - tipo: S58
-      escrita: 
-      imagem: []
-      voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
+      escrita: quarto
+      imagem:
+      - {fileID: 21300000, guid: 2a67c56859419ed4e833311baf8ab570, type: 3}
+      - {fileID: 21300000, guid: cd113ae5effbffe4bb1ba8cbbaa89909, type: 3}
+      voz: {fileID: 8300000, guid: 249e258499f6ba245814b0f6035e220d, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Ir para o Quarto
+      level: 4
+      tries: 2
     Audio: {fileID: 8300000, guid: 7047dfb59ef02784682b6927a6f65f89, type: 3}
   - id: 32
     level: 2
@@ -3522,20 +3526,26 @@ MonoBehaviour:
     blocos:
     - tipo: S19
       escrita: copo
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
       voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S25
       escrita: "ma\xE7\xE3"
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: a05c5a09020f440468ab550909d0e9f5, type: 3}
+      - {fileID: 21300000, guid: 4e84f97c9e4d3b04ea775db467afc1b7, type: 3}
       voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Copo com Suco de Ma\xE7\xE3"
-      level: 3
-      tries: 0
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: ae63e4ed23eddb04eaf9901972c87ced, type: 3}
   - id: 2
     level: 3
@@ -3543,21 +3553,27 @@ MonoBehaviour:
     answer: S19-S36-S39-
     blocos:
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S39
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: laranja
+      imagem:
+      - {fileID: 21300000, guid: 8f69bfd7dab0c444084a7be98b54db28, type: 3}
+      - {fileID: 21300000, guid: 0afc39bb361b321418d6cc3c5e6bf5ae, type: 3}
+      voz: {fileID: 8300000, guid: a38919d8449632f4db2bf835621a44e9, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Copo com Suco de Laranja
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 11d1bdc996848064c9b5ae26f78c2b16, type: 3}
   - id: 3
     level: 3
@@ -3566,20 +3582,26 @@ MonoBehaviour:
     blocos:
     - tipo: S19
       escrita: copo
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
       voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S40
       escrita: "lim\xE3o"
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 5fcc03a5a2e41174bb9323fdb02f0082, type: 3}
+      - {fileID: 21300000, guid: 8e3f63191b0bea149a4faeda56d53ea1, type: 3}
       voz: {fileID: 8300000, guid: c5f579fd8e747bc4f8e96b19b0ebfeb6, type: 3}
     reports:
       combination: "Copo com Suco de Lim\xE3o"
-      level: 3
-      tries: 0
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: e41fdfc6f69b22e47b385d0c41c28c6e, type: 3}
   - id: 4
     level: 3
@@ -3587,21 +3609,27 @@ MonoBehaviour:
     answer: S19-S36-S41-
     blocos:
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S41
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: uva
+      imagem:
+      - {fileID: 21300000, guid: fa5b0fd032b5df640afdd44fdaf60be9, type: 3}
+      - {fileID: 21300000, guid: 375d5a96ef3322a4f9d4e6be20a349d6, type: 3}
+      voz: {fileID: 8300000, guid: 56feda1074178db4eb33546b8bfcac18, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Copo com Suco de Uva
+      level: 5
+      tries: 6
     Audio: {fileID: 8300000, guid: 5aafed3a0d824514190b460a0a1e1049, type: 3}
   - id: 5
     level: 3
@@ -3609,21 +3637,27 @@ MonoBehaviour:
     answer: S19-S36-S42-
     blocos:
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S42
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: manga
+      imagem:
+      - {fileID: 21300000, guid: d52e58b6f2d493441b0a440d00f4f33d, type: 3}
+      - {fileID: 21300000, guid: 8690dfda8994a8f41a07ddbfa7c5a930, type: 3}
+      voz: {fileID: 8300000, guid: b2e274e7fa14a3e44bde288e77c3c238, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Copo com Suco de Manga
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 5f5b2ef9ec1fdcd43b9d7b3911a234b6, type: 3}
   - id: 6
     level: 3
@@ -3631,21 +3665,27 @@ MonoBehaviour:
     answer: S19-S36-S43-
     blocos:
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S43
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: morango
+      imagem:
+      - {fileID: 21300000, guid: 020adb1c1445c154889e7d47948906e4, type: 3}
+      - {fileID: 21300000, guid: b1371742d6d22be44a96ce91a04cbe5e, type: 3}
+      voz: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Copo com Suco de Morango
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 4c4303088153fc946b4936e41f27f872, type: 3}
   - id: 7
     level: 3
@@ -3653,21 +3693,27 @@ MonoBehaviour:
     answer: S19-S36-S44-
     blocos:
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S44
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: melancia
+      imagem:
+      - {fileID: 21300000, guid: dc5237f29196e0b4093a76c666b728ca, type: 3}
+      - {fileID: 21300000, guid: efd98021e8628694181f9bffc7b12f9d, type: 3}
+      voz: {fileID: 8300000, guid: 5a3c32f045870d941a67b327bb77ff9c, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Copo com Suco de Melancia
+      level: 5
+      tries: 6
     Audio: {fileID: 8300000, guid: dd3d516f39d867c4aa23a2bb4cf68c52, type: 3}
   - id: 8
     level: 3
@@ -3675,21 +3721,27 @@ MonoBehaviour:
     answer: V4-S36-S25-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S25
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "ma\xE7\xE3"
+      imagem:
+      - {fileID: 21300000, guid: a05c5a09020f440468ab550909d0e9f5, type: 3}
+      - {fileID: 21300000, guid: 4e84f97c9e4d3b04ea775db467afc1b7, type: 3}
+      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Beber Suco de Ma\xE7a"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 9f69e8dd7ac13a2469ba6aa7fc962aab, type: 3}
   - id: 9
     level: 3
@@ -3697,21 +3749,27 @@ MonoBehaviour:
     answer: V4-S36-S39-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S39
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: laranja
+      imagem:
+      - {fileID: 21300000, guid: 8f69bfd7dab0c444084a7be98b54db28, type: 3}
+      - {fileID: 21300000, guid: 0afc39bb361b321418d6cc3c5e6bf5ae, type: 3}
+      voz: {fileID: 8300000, guid: a38919d8449632f4db2bf835621a44e9, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Beber Suco de Laranja
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 8491daa58a12f6f46a0dbea04d746e61, type: 3}
   - id: 9
     level: 3
@@ -3719,21 +3777,27 @@ MonoBehaviour:
     answer: V4-S36-S40-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S40
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "lim\xE3o"
+      imagem:
+      - {fileID: 21300000, guid: 5fcc03a5a2e41174bb9323fdb02f0082, type: 3}
+      - {fileID: 21300000, guid: 8e3f63191b0bea149a4faeda56d53ea1, type: 3}
+      voz: {fileID: 8300000, guid: c5f579fd8e747bc4f8e96b19b0ebfeb6, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Beber Suco de Lim\xE3o"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 056e929a1d8a47244bf9b682bd17d4b0, type: 3}
   - id: 10
     level: 3
@@ -3741,21 +3805,27 @@ MonoBehaviour:
     answer: V4-S36-S41-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S41
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: uva
+      imagem:
+      - {fileID: 21300000, guid: fa5b0fd032b5df640afdd44fdaf60be9, type: 3}
+      - {fileID: 21300000, guid: 375d5a96ef3322a4f9d4e6be20a349d6, type: 3}
+      voz: {fileID: 8300000, guid: 56feda1074178db4eb33546b8bfcac18, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Beber Suco de Uva
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: eaffbebf1ebb6b344b75d72f6f5acbe5, type: 3}
   - id: 12
     level: 3
@@ -3763,21 +3833,27 @@ MonoBehaviour:
     answer: V4-S36-S42-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S42
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: manga
+      imagem:
+      - {fileID: 21300000, guid: d52e58b6f2d493441b0a440d00f4f33d, type: 3}
+      - {fileID: 21300000, guid: 8690dfda8994a8f41a07ddbfa7c5a930, type: 3}
+      voz: {fileID: 8300000, guid: b2e274e7fa14a3e44bde288e77c3c238, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Beber Suco de Manga
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: b98f9da26f4f90642af976a0bdc47f9f, type: 3}
   - id: 13
     level: 3
@@ -3785,21 +3861,27 @@ MonoBehaviour:
     answer: V4-S36-S43-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S43
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: morango
+      imagem:
+      - {fileID: 21300000, guid: 020adb1c1445c154889e7d47948906e4, type: 3}
+      - {fileID: 21300000, guid: b1371742d6d22be44a96ce91a04cbe5e, type: 3}
+      voz: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Beber Suco de Morango
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 822a3b2461dab1b43b4ad007a6cb071d, type: 3}
   - id: 14
     level: 3
@@ -3807,21 +3889,27 @@ MonoBehaviour:
     answer: V4-S36-S44-
     blocos:
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S44
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: melancia
+      imagem:
+      - {fileID: 21300000, guid: dc5237f29196e0b4093a76c666b728ca, type: 3}
+      - {fileID: 21300000, guid: efd98021e8628694181f9bffc7b12f9d, type: 3}
+      voz: {fileID: 8300000, guid: 5a3c32f045870d941a67b327bb77ff9c, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Beber Suco de Melancia
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 767e216186198274883bce52422b51b7, type: 3}
   - id: 15
     level: 3
@@ -3829,21 +3917,26 @@ MonoBehaviour:
     answer: V7-S23-S48-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S48
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Branco"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: db857e300fede794ab066df03957009c, type: 3}
   - id: 16
     level: 3
@@ -3851,21 +3944,26 @@ MonoBehaviour:
     answer: V7-S23-S49-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S49
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Preto"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 87657f04519268e489d4afc0c1fa6fdd, type: 3}
   - id: 17
     level: 3
@@ -3873,21 +3971,26 @@ MonoBehaviour:
     answer: V7-S23-S50-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S50
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Amarelo"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 6781ec5f6d9896441ac0d7cc130ee919, type: 3}
   - id: 18
     level: 3
@@ -3895,21 +3998,26 @@ MonoBehaviour:
     answer: V7-S23-S51-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S51
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Azul"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 9852d21cb068ced4ab89de6d7e00b942, type: 3}
   - id: 19
     level: 3
@@ -3917,21 +4025,26 @@ MonoBehaviour:
     answer: V7-S23-S52-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S52
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Verde"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 7e334b3bacfd1664ba70e22670ffeb9a, type: 3}
   - id: 20
     level: 3
@@ -3939,20 +4052,25 @@ MonoBehaviour:
     answer: V7-S23-S53-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S53
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: "Desenhar com o L\xE1pis Vermelho"
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: dac7b63474d81684cbd5cf5ac965466f, type: 3}
   - id: 21
@@ -3961,21 +4079,26 @@ MonoBehaviour:
     answer: V7-S23-S54-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S54
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Rosa"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: e6cbf764bcd5a0a4e90c7a4be05d5761, type: 3}
   - id: 22
     level: 3
@@ -3983,21 +4106,26 @@ MonoBehaviour:
     answer: V7-S23-S55-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S55
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Roxo"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 1f7ab1782c867954a89d5904b11b6c80, type: 3}
   - id: 23
     level: 3
@@ -4005,21 +4133,26 @@ MonoBehaviour:
     answer: V7-S23-S56-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S56
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Marrom"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: b0d4b51e4eca5ac4c81fa8de47439148, type: 3}
   - id: 24
     level: 3
@@ -4027,21 +4160,26 @@ MonoBehaviour:
     answer: V7-S23-S57-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S23
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S57
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: "Desenhar com o L\xE1pis Cinza"
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: f50a93c872484fe44b60b3d76cb5dfe1, type: 3}
   - id: 25
     level: 3
@@ -4049,21 +4187,26 @@ MonoBehaviour:
     answer: V7-S19-S48-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S48
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Branco
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 1402f07154b6dbf4883f66748667e73f, type: 3}
   - id: 26
     level: 3
@@ -4071,21 +4214,26 @@ MonoBehaviour:
     answer: V7-S19-S49-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S49
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Preto
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 125ca9cfc0a85a64d85e847a14e9adae, type: 3}
   - id: 27
     level: 3
@@ -4093,21 +4241,26 @@ MonoBehaviour:
     answer: V7-S19-S50-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S50
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Amarelo
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: aa867e20e2b1977499505e3a6bc3b749, type: 3}
   - id: 28
     level: 3
@@ -4115,21 +4268,26 @@ MonoBehaviour:
     answer: V7-S19-S51-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S51
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Azul
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: d3f2bb0dd527a4b4fa96194243c4d663, type: 3}
   - id: 29
     level: 3
@@ -4137,21 +4295,26 @@ MonoBehaviour:
     answer: V7-S19-S52-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S52
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Verde
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 3995df3d55742854f89328ef125bbb62, type: 3}
   - id: 30
     level: 3
@@ -4159,42 +4322,52 @@ MonoBehaviour:
     answer: V7-S19-S53-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S53
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Vermelho
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 89a99a7cccc663649a6c9dc2bbbb6525, type: 3}
   - id: 30
-    level: 5
+    level: 3
     frase: Desenhar um Copo Rosa
     answer: V7-S19-S54-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S54
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Desenhar um Copo Rosa
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: ed6c77d195708e2459823ca0c5ce8d3b, type: 3}
   - id: 31
@@ -4225,21 +4398,26 @@ MonoBehaviour:
     answer: V7-S19-S56-
     blocos:
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S56
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Desenhar um Copo Marrom
+      level: 5
+      tries: 4
     Audio: {fileID: 8300000, guid: 5fb97a5842bd80b4da8248febfccbd3f, type: 3}
   - id: 34
     level: 3
@@ -4379,21 +4557,27 @@ MonoBehaviour:
     answer: V9-S36-S43-
     blocos:
     - tipo: V9
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: fazer
+      imagem:
+      - {fileID: 21300000, guid: ad834a74e5bf6f245a07974ff5ae2247, type: 3}
+      - {fileID: 21300000, guid: 8bc50fc567066374cac6a119218133e8, type: 3}
+      voz: {fileID: 8300000, guid: 0d46bf5c8f9f65f499eb8b71cc1132c2, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S43
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: morango
+      imagem:
+      - {fileID: 21300000, guid: 020adb1c1445c154889e7d47948906e4, type: 3}
+      - {fileID: 21300000, guid: b1371742d6d22be44a96ce91a04cbe5e, type: 3}
+      voz: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Fazer um Suco de Morango
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 5f78322c7b0c29948a29029b4e8f2512, type: 3}
   - id: 41
     level: 3
@@ -4511,21 +4695,27 @@ MonoBehaviour:
     answer: V17-V4-S36-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: beber
+      imagem:
+      - {fileID: 21300000, guid: a8d4a86f0bee1954d9de8ac3b7db14ca, type: 3}
+      - {fileID: 21300000, guid: 45608a790f222824a8ee9faf5b3b2b3a, type: 3}
+      voz: {fileID: 8300000, guid: 0936238e91a7e6e45981a658c7305c6a, type: 3}
     - tipo: S36
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: suco
+      imagem:
+      - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
+      - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Quero Beber Suco
+      level: 5
+      tries: 2
     Audio: {fileID: 8300000, guid: 98c44339866368844a0ae593e9ae63a3, type: 3}
   - id: 47
     level: 3
@@ -4731,20 +4921,26 @@ MonoBehaviour:
     answer: V17-V6-S43-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V6
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: comer
+      imagem:
+      - {fileID: 21300000, guid: 677e523380f3d4f4da9a2d50e4adb0d5, type: 3}
+      - {fileID: 21300000, guid: 0c2c91203b3084342ba1da7adc744534, type: 3}
+      voz: {fileID: 8300000, guid: 4b444894d92046b4e94beaf8eedcac53, type: 3}
     - tipo: S43
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: morango
+      imagem:
+      - {fileID: 21300000, guid: 020adb1c1445c154889e7d47948906e4, type: 3}
+      - {fileID: 21300000, guid: b1371742d6d22be44a96ce91a04cbe5e, type: 3}
+      voz: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Comer Morango
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: 43e87c2c65b157f4f97d6a92e34de99d, type: 3}
   - id: 57
@@ -4797,20 +4993,26 @@ MonoBehaviour:
     answer: V17-V6-S46-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V6
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: comer
+      imagem:
+      - {fileID: 21300000, guid: 677e523380f3d4f4da9a2d50e4adb0d5, type: 3}
+      - {fileID: 21300000, guid: 0c2c91203b3084342ba1da7adc744534, type: 3}
+      voz: {fileID: 8300000, guid: 4b444894d92046b4e94beaf8eedcac53, type: 3}
     - tipo: S46
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: frutas
+      imagem:
+      - {fileID: 21300000, guid: 45faf8971ac671c41894fd229b17357c, type: 3}
+      - {fileID: 21300000, guid: 430bb0a6d8e5d664686485f186f24447, type: 3}
+      voz: {fileID: 8300000, guid: b1de0048ec7a729429fb6be9bee3734b, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Comer Frutas
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: 42bad0b67505f634bb65c33deb714e8e, type: 3}
   - id: 60
@@ -4907,21 +5109,27 @@ MonoBehaviour:
     answer: V17-V7-S8-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S8
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: brinquedo
+      imagem:
+      - {fileID: 21300000, guid: e3449c890ebe95946a2472cd57967c59, type: 3}
+      - {fileID: 21300000, guid: c9051af5b980a744ca816f00174b195e, type: 3}
+      voz: {fileID: 8300000, guid: e2bcfcbfada79ab42bd7e588ce335231, type: 3}
     reports:
-      combination: 
-      level: 0
-      tries: 0
+      combination: Quero Desenhar um Brinquedo
+      level: 5
+      tries: 1
     Audio: {fileID: 8300000, guid: 9744ef1632b907e41b0ee879d71b507c, type: 3}
   - id: 65
     level: 3
@@ -4929,20 +5137,26 @@ MonoBehaviour:
     answer: V17-V7-S19-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V7
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: desenhar
+      imagem:
+      - {fileID: 21300000, guid: a7e280421d46b73499970ab2e6de7c31, type: 3}
+      - {fileID: 21300000, guid: 4cd61119c9e882148948021e4f5c5429, type: 3}
+      voz: {fileID: 8300000, guid: b3800993218d5084a8e73fbc25ba0a1f, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Desenhar um Copo
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: f500301f46c20ee488393ffa8b42181e, type: 3}
   - id: 66
@@ -5347,20 +5561,26 @@ MonoBehaviour:
     answer: V17-V13-S19-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V13
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: lavar
+      imagem:
+      - {fileID: 21300000, guid: 2bfc9aac1fdf3ac4dac44230f13055d6, type: 3}
+      - {fileID: 21300000, guid: aaf6e7289dd213e45b04cd8c72c17e18, type: 3}
+      voz: {fileID: 8300000, guid: 00123473114f6bd45a2649191b3273c0, type: 3}
     - tipo: S19
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
+      - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Lavar o Copo
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: ca9213c30b86f0c42a24608fb14988e8, type: 3}
   - id: 85
@@ -5479,41 +5699,47 @@ MonoBehaviour:
     answer: V17-V16-S11-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: V16
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: pentear
+      imagem:
+      - {fileID: 21300000, guid: af48973eda663ed4b9467a3094d06a31, type: 3}
+      - {fileID: 21300000, guid: e3e45bbe39a950c4aa995217daa6d979, type: 3}
+      voz: {fileID: 8300000, guid: 57efa05caff80be45a30982ff6382fb3, type: 3}
     - tipo: S11
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: cabelo
+      imagem:
+      - {fileID: 21300000, guid: 05f38275b7dfb8546afda2bd077a719a, type: 3}
+      - {fileID: 21300000, guid: 8c5a89ca1fce4094fa61e0481783daef, type: 3}
+      voz: {fileID: 8300000, guid: bf5cbf7e809fde74ebbda7ccc0b23ea9, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Pentear o Cabelo
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: e6b44bd935a97284bbfe2cfd5159ca27, type: 3}
   - id: 91
-    level: 3
+    level: 2
     frase: Quero Tomar Banho
-    answer: V17-V18-S4-
+    answer: V17-S4-
     blocos:
     - tipo: V17
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
-    - tipo: V18
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: querer
+      imagem:
+      - {fileID: 21300000, guid: 79d6fbbf884fc97478b977b974e1c70d, type: 3}
+      - {fileID: 21300000, guid: 9140435cd0f20304cbee0701a2659799, type: 3}
+      voz: {fileID: 8300000, guid: f08de7d4268c6c945bb352e1c6a93553, type: 3}
     - tipo: S4
-      escrita: 
-      imagem: []
-      voz: {fileID: 0}
+      escrita: banho
+      imagem:
+      - {fileID: 21300000, guid: eb2a3e55679abaf40a646f726641a184, type: 3}
+      - {fileID: 21300000, guid: aea6a88e82f5bea4ab61ef2d2d75d534, type: 3}
+      voz: {fileID: 8300000, guid: 8d9a2cf5a10bd1947b822eba698d59f7, type: 3}
     reports:
-      combination: 
-      level: 0
+      combination: Quero Tomar Banho
+      level: 5
       tries: 0
     Audio: {fileID: 8300000, guid: 03ea8233bf86be34a89dbd0b96c0ca41, type: 3}
