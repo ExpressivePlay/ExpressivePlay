@@ -141,7 +141,7 @@ MonoBehaviour:
   - tipo: S22
     escrita: escova
     imagem:
-    - {fileID: 21300000, guid: 6b6780d2384339548a97c62e7db7215d, type: 3}
+    - {fileID: 21300000, guid: a46f059a828f1ba41b89ac2f6befc358, type: 3}
     - {fileID: 21300000, guid: 73b58667a64d60940a19b8b74258d908, type: 3}
     voz: {fileID: 8300000, guid: 170a20c702982f942abd0e08291019a8, type: 3}
   - tipo: S23
@@ -225,8 +225,8 @@ MonoBehaviour:
   - tipo: S36
     escrita: suco
     imagem:
-    - {fileID: 21300000, guid: 63157fed2fa930343930aa8fb8edb5b0, type: 3}
-    - {fileID: 21300000, guid: d630eaeeeac2ba34aac9b2921fa63115, type: 3}
+    - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+    - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
     voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
   - tipo: S37
     escrita: "televis\xE3o"
@@ -386,6 +386,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: bd264c4ef29d1244c835d06676155d8c, type: 3}
     - {fileID: 21300000, guid: 719027c30c9471a43a04802d06f3e687, type: 3}
     voz: {fileID: 8300000, guid: a1ec1c27348efcc4b8a064e9875a9b6b, type: 3}
+  - tipo: P1
+    escrita: salada de frutas
+    imagem:
+    - {fileID: 21300000, guid: 8b7db9536322a054ea54cac7cb5eaa43, type: 3}
+    - {fileID: 21300000, guid: ff4bc248a3c7f2841afeb9cc1da0f8ea, type: 3}
+    voz: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
   - tipo: V1
     escrita: "almo\xE7ar"
     imagem:
