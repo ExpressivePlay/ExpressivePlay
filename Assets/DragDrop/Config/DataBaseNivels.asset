@@ -679,20 +679,6 @@ MonoBehaviour:
       level: 1
       tries: 0
     Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
-  - id: 47
-    level: 1
-    frase: "Cabe\xE7a"
-    answer: S10-
-    blocos:
-    - tipo: S10
-      escrita: torneira
-      imagem: []
-      voz: {fileID: 0}
-    reports:
-      combination: Torneira
-      level: 1
-      tries: 0
-    Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
   - id: 49
     level: 1
     frase: Chuveiro
@@ -828,7 +814,7 @@ MonoBehaviour:
     frase: Supermercado
     answer: S61-
     blocos:
-    - tipo: S61-
+    - tipo: S61
       escrita: torneira
       imagem: []
       voz: {fileID: 0}
@@ -889,19 +875,20 @@ MonoBehaviour:
     blocos:
     - tipo: S19
       escrita: copo
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
       voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S1
       escrita: "\xE1gua"
       imagem:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: 21300000, guid: 168d2ba5c79112b47912d135bba14a96, type: 3}
+      - {fileID: 21300000, guid: 218bbaa76a51f694e9ffb22c4e300323, type: 3}
       voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
     reports:
       combination: "Copo com \xC1gua"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 5bd0ccdf595d4754e8a55e3cd8990e5d, type: 3}
   - id: 2
     level: 2
@@ -910,19 +897,20 @@ MonoBehaviour:
     blocos:
     - tipo: S19
       escrita: copo
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
       voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S36
-      escrita: "\xE1gua"
+      escrita: suco
       imagem:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      voz: {fileID: 8300000, guid: ea83b0796ceb51049a41fac8aef99575, type: 3}
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
+      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     reports:
-      combination: "Copo com \xC1gua"
+      combination: Copo com Suco
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: f932624155ba85e4fa180d7b38ecd950, type: 3}
   - id: 3
     level: 2
@@ -931,16 +919,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S25
       escrita: "ma\xE7\xE3"
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: a05c5a09020f440468ab550909d0e9f5, type: 3}
+      - {fileID: 21300000, guid: 4e84f97c9e4d3b04ea775db467afc1b7, type: 3}
       voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
     reports:
       combination: "Suco de Ma\xE7\xE3"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 3f722604ce328754582fae75129bc37c, type: 3}
   - id: 4
     level: 2
@@ -949,16 +941,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S39
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: laranja
+      imagem:
+      - {fileID: 21300000, guid: 8f69bfd7dab0c444084a7be98b54db28, type: 3}
+      - {fileID: 21300000, guid: 0afc39bb361b321418d6cc3c5e6bf5ae, type: 3}
+      voz: {fileID: 8300000, guid: a38919d8449632f4db2bf835621a44e9, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Suco de Laranja
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 13fba76a6cf36164c97c52d4a36b0d56, type: 3}
   - id: 5
     level: 2
@@ -967,16 +963,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S40
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: "lim\xE3o"
+      imagem:
+      - {fileID: 21300000, guid: 5fcc03a5a2e41174bb9323fdb02f0082, type: 3}
+      - {fileID: 21300000, guid: 8e3f63191b0bea149a4faeda56d53ea1, type: 3}
+      voz: {fileID: 8300000, guid: c5f579fd8e747bc4f8e96b19b0ebfeb6, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Suco de Lim\xE3o"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 27d4f21d4da61d64bbc80d0d9f18216a, type: 3}
   - id: 6
     level: 2
@@ -985,16 +985,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S41
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: uva
+      imagem:
+      - {fileID: 21300000, guid: fa5b0fd032b5df640afdd44fdaf60be9, type: 3}
+      - {fileID: 21300000, guid: 375d5a96ef3322a4f9d4e6be20a349d6, type: 3}
+      voz: {fileID: 8300000, guid: 56feda1074178db4eb33546b8bfcac18, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Suco de Uva
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 7f004916b43519743afc959428bfb51f, type: 3}
   - id: 7
     level: 2
@@ -1003,16 +1007,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S42
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: manga
+      imagem:
+      - {fileID: 21300000, guid: d52e58b6f2d493441b0a440d00f4f33d, type: 3}
+      - {fileID: 21300000, guid: 8690dfda8994a8f41a07ddbfa7c5a930, type: 3}
+      voz: {fileID: 8300000, guid: b2e274e7fa14a3e44bde288e77c3c238, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Suco de Manga
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 955596be13d8fbb4885cb3b33ba3630e, type: 3}
   - id: 8
     level: 2
@@ -1021,16 +1029,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S43
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: morango
+      imagem:
+      - {fileID: 21300000, guid: 020adb1c1445c154889e7d47948906e4, type: 3}
+      - {fileID: 21300000, guid: b1371742d6d22be44a96ce91a04cbe5e, type: 3}
+      voz: {fileID: 8300000, guid: 96030a7b11b4aca42b9102324ad59367, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Suco de Morango
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: e04e1113414cc0f40940add23d733263, type: 3}
   - id: 9
     level: 2
@@ -1039,16 +1051,20 @@ MonoBehaviour:
     blocos:
     - tipo: S36
       escrita: suco
-      imagem: []
+      imagem:
+      - {fileID: 21300000, guid: 54cbe00ba377abb4db8d7b56fa1d4a88, type: 3}
+      - {fileID: 21300000, guid: be161d9a83d5e4c4cb6f477dca4e298e, type: 3}
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
     - tipo: S44
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: melancia
+      imagem:
+      - {fileID: 21300000, guid: dc5237f29196e0b4093a76c666b728ca, type: 3}
+      - {fileID: 21300000, guid: efd98021e8628694181f9bffc7b12f9d, type: 3}
+      voz: {fileID: 8300000, guid: 5a3c32f045870d941a67b327bb77ff9c, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Suco de Melancia
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 9b5db53b77b91cc46a0968b8318e8f3a, type: 3}
   - id: 10
     level: 1
@@ -1056,13 +1072,15 @@ MonoBehaviour:
     answer: S22-
     blocos:
     - tipo: S22
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: escova
+      imagem:
+      - {fileID: 21300000, guid: a46f059a828f1ba41b89ac2f6befc358, type: 3}
+      - {fileID: 21300000, guid: 73b58667a64d60940a19b8b74258d908, type: 3}
+      voz: {fileID: 8300000, guid: 170a20c702982f942abd0e08291019a8, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Escova de Dente
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 16d7e096e3f42434a931d692c6408b11, type: 3}
   - id: 11
     level: 1
@@ -1070,13 +1088,15 @@ MonoBehaviour:
     answer: S29-
     blocos:
     - tipo: S29
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: pente
+      imagem:
+      - {fileID: 21300000, guid: 1694e9a6eb19e8142b101e806115881e, type: 3}
+      - {fileID: 21300000, guid: 6da787232ec30d649a8342ad057f1736, type: 3}
+      voz: {fileID: 8300000, guid: d5fce41366556f14fbe483e183499bd5, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Escova de Cabelo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 523fc21fcdb7e304ea5d64fb62827a57, type: 3}
   - id: 12
     level: 1
@@ -1084,13 +1104,15 @@ MonoBehaviour:
     answer: P1-
     blocos:
     - tipo: P1
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: salada de frutas
+      imagem:
+      - {fileID: 21300000, guid: 8b7db9536322a054ea54cac7cb5eaa43, type: 3}
+      - {fileID: 21300000, guid: ff4bc248a3c7f2841afeb9cc1da0f8ea, type: 3}
+      voz: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Salada de Frutas
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
   - id: 13
     level: 1
@@ -1098,13 +1120,15 @@ MonoBehaviour:
     answer: S15-
     blocos:
     - tipo: S15
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: carrinho
+      imagem:
+      - {fileID: 21300000, guid: 9e5615c7757ab8e4cb2502d93e885696, type: 3}
+      - {fileID: 21300000, guid: 7db10d7bebc27924ba722c0e06992922, type: 3}
+      voz: {fileID: 8300000, guid: 3c4e834e9eb535447a980dfee0dc5437, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Carrinho de Brinquedo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 1f35de469883d5942a32640a0d026f8a, type: 3}
   - id: 14
     level: 2
@@ -1112,17 +1136,20 @@ MonoBehaviour:
     answer: S5-S48-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Branca
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: e46db2d743da7dd438134d191adfd35a, type: 3}
   - id: 16
     level: 2
@@ -1130,17 +1157,20 @@ MonoBehaviour:
     answer: S5-S49-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Preta
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 31654d420f06fd548bf54918081bba4e, type: 3}
   - id: 17
     level: 2
@@ -1148,17 +1178,20 @@ MonoBehaviour:
     answer: S5-S50-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Amarela
       level: 2
-      tries: 0
+      tries: 2
     Audio: {fileID: 8300000, guid: 9700f6433c2fab54eb6301964da1f9a7, type: 3}
   - id: 18
     level: 2
@@ -1166,17 +1199,20 @@ MonoBehaviour:
     answer: S5-S51-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Azul
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 39e32d32ac83be043942fde2212f1be7, type: 3}
   - id: 19
     level: 2
@@ -1184,17 +1220,20 @@ MonoBehaviour:
     answer: S5-S52-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Verde
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 259c5aa2cf58f59479b537fbe8dfcac6, type: 3}
   - id: 20
     level: 2
@@ -1202,17 +1241,20 @@ MonoBehaviour:
     answer: S5-S53-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Vermelha
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: a8f582c0810dfe94cad4546aea327b9e, type: 3}
   - id: 22
     level: 2
@@ -1220,17 +1262,20 @@ MonoBehaviour:
     answer: S5-S54-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Rosa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 5e56f3b93a613ab45bd7e7b83467167f, type: 3}
   - id: 23
     level: 2
@@ -1238,17 +1283,20 @@ MonoBehaviour:
     answer: S5-S55-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Roxa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: ac4de00aa6dc24d4588f7dc6362caa19, type: 3}
   - id: 24
     level: 2
@@ -1256,17 +1304,20 @@ MonoBehaviour:
     answer: S5-S56-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Marrom
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: f16981fcc5be48e43a328e2a9609c0eb, type: 3}
   - id: 25
     level: 2
@@ -1274,17 +1325,20 @@ MonoBehaviour:
     answer: S5-S57-
     blocos:
     - tipo: S5
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: bola
+      imagem:
+      - {fileID: 21300000, guid: 46846aed8d0e1a846995941de23867f3, type: 3}
+      - {fileID: 21300000, guid: 35d61e490f157604694f4e00975b4aea, type: 3}
+      voz: {fileID: 8300000, guid: 3fa26d929e7a6aa47b9d8ac733985ceb, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Bola Cinza
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 9c5612a7f77cd5d45b07f2a9d02732f4, type: 3}
   - id: 26
     level: 2
@@ -1292,17 +1346,20 @@ MonoBehaviour:
     answer: S19-S48-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Branco
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: bb5977d8e0cf2014abc7180766456749, type: 3}
   - id: 27
     level: 2
@@ -1310,17 +1367,20 @@ MonoBehaviour:
     answer: S19-S49-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Preto
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 487edb456603735458a449fc3241b5a3, type: 3}
   - id: 28
     level: 2
@@ -1328,17 +1388,20 @@ MonoBehaviour:
     answer: S19-S50-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Amarelo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 4da1af6a6ffdc65489d520c2498010d4, type: 3}
   - id: 29
     level: 2
@@ -1346,17 +1409,20 @@ MonoBehaviour:
     answer: S19-S51-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Azul
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 35c362b11f5c7f34e9eb5014a9162bdb, type: 3}
   - id: 30
     level: 2
@@ -1364,17 +1430,20 @@ MonoBehaviour:
     answer: S19-S52-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Verde
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 7c31806f40e5c2f4c8183b728f29ea02, type: 3}
   - id: 31
     level: 2
@@ -1382,17 +1451,20 @@ MonoBehaviour:
     answer: S19-S53-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Vermelho
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 0c64360fc53542b40bc0385dbe965aec, type: 3}
   - id: 32
     level: 2
@@ -1400,17 +1472,20 @@ MonoBehaviour:
     answer: S19-S54-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Rosa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 7ff5157f5402ed34884fa506341b0f96, type: 3}
   - id: 33
     level: 2
@@ -1418,17 +1493,20 @@ MonoBehaviour:
     answer: S19-S55-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Roxo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 45a72698399598d40a15389ee6b053c6, type: 3}
   - id: 34
     level: 2
@@ -1436,17 +1514,20 @@ MonoBehaviour:
     answer: S19-S56-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Marrom
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 004275ef11d32494f9bc3ff8ea103e9d, type: 3}
   - id: 35
     level: 2
@@ -1454,17 +1535,20 @@ MonoBehaviour:
     answer: S19-S57-
     blocos:
     - tipo: S19
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: copo
+      imagem:
+      - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+      - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+      voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Copo Cinza
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: fc23598367cd6424eaaff8890366aea8, type: 3}
   - id: 36
     level: 2
@@ -1472,17 +1556,20 @@ MonoBehaviour:
     answer: S14-S48-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Branca
       level: 2
-      tries: 0
+      tries: 2
     Audio: {fileID: 8300000, guid: a8a5b37de90301f4e8ee5aabc00ced96, type: 3}
   - id: 37
     level: 2
@@ -1490,17 +1577,20 @@ MonoBehaviour:
     answer: S14-S49-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Preta
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 2b45cb8dfa4e9b54d9c4d30efa12eec6, type: 3}
   - id: 38
     level: 2
@@ -1508,17 +1598,20 @@ MonoBehaviour:
     answer: S14-S50-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Amarela
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 70a529a97b56bd64d9e6052a46625afd, type: 3}
   - id: 39
     level: 2
@@ -1526,17 +1619,20 @@ MonoBehaviour:
     answer: S14-S51-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Azul
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 85486e7bbb6de2142b7bcf99ae61bbc8, type: 3}
   - id: 40
     level: 2
@@ -1544,17 +1640,20 @@ MonoBehaviour:
     answer: S14-S52-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Verde
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 5e67000ab6e24af4ab43ae24b30b2201, type: 3}
   - id: 41
     level: 2
@@ -1562,17 +1661,20 @@ MonoBehaviour:
     answer: S14-S53-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Vermelha
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 38209ff943f3a024caf5677f39e930fa, type: 3}
   - id: 42
     level: 2
@@ -1580,17 +1682,20 @@ MonoBehaviour:
     answer: S14-S54-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Rosa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 16e7f820f0793374bb99608b0c314a23, type: 3}
   - id: 43
     level: 2
@@ -1598,17 +1703,20 @@ MonoBehaviour:
     answer: S14-S55-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Roxa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 00e0d42fa5757e942b669bdaa3bb8045, type: 3}
   - id: 44
     level: 2
@@ -1616,17 +1724,20 @@ MonoBehaviour:
     answer: S14-S56-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Marrom
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: eccf3f8bcb25e554eb5cbea4e055ca69, type: 3}
   - id: 45
     level: 2
@@ -1634,17 +1745,20 @@ MonoBehaviour:
     answer: S14-S57-
     blocos:
     - tipo: S14
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: camisa
+      imagem:
+      - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+      - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+      voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Camisa Cinza
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 3d57d7b7910e3ee4597c11fe975f819b, type: 3}
   - id: 46
     level: 2
@@ -1652,17 +1766,20 @@ MonoBehaviour:
     answer: S12-S48-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Branca"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 8d1351837ef756543abaa685ea7538dd, type: 3}
   - id: 47
     level: 2
@@ -1670,17 +1787,20 @@ MonoBehaviour:
     answer: S12-S49-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Preta"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: d1776a9c05944554fafd6ba45007ac20, type: 3}
   - id: 48
     level: 2
@@ -1688,17 +1808,20 @@ MonoBehaviour:
     answer: S12-S50-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Amarela"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: c1bde866bff55914cb279fd761db30a3, type: 3}
   - id: 49
     level: 2
@@ -1706,17 +1829,20 @@ MonoBehaviour:
     answer: S12-S51-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Azul"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: f9fbe30f7e63c044dab99cb37872829e, type: 3}
   - id: 50
     level: 2
@@ -1724,17 +1850,20 @@ MonoBehaviour:
     answer: S12-S52-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Verde"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: a777a66469865ff48a837973a504ac7b, type: 3}
   - id: 51
     level: 2
@@ -1742,17 +1871,20 @@ MonoBehaviour:
     answer: S12-S53-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Vermelha"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 3c2295b09334c49429e8f5a4870dc378, type: 3}
   - id: 52
     level: 2
@@ -1760,17 +1892,20 @@ MonoBehaviour:
     answer: S12-S54-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Rosa"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 815e8b85698b24647bc9da5633ac2cc2, type: 3}
   - id: 53
     level: 2
@@ -1778,17 +1913,20 @@ MonoBehaviour:
     answer: S12-S55-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Roxa"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: c82cc3dd11b187b4491a9544b29596e4, type: 3}
   - id: 54
     level: 2
@@ -1796,17 +1934,20 @@ MonoBehaviour:
     answer: S12-S56-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Marrom"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: b11cbab4185febe46bd5173a6231fcc6, type: 3}
   - id: 55
     level: 2
@@ -1814,17 +1955,20 @@ MonoBehaviour:
     answer: S12-S57-
     blocos:
     - tipo: S12
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "cal\xE7a"
+      imagem:
+      - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+      - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+      voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "Cal\xE7a Cinza"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: a429ee7b4c1933b4b874554a3d980c18, type: 3}
   - id: 56
     level: 2
@@ -1832,17 +1976,20 @@ MonoBehaviour:
     answer: S23-S48-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Branco"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 35cde4b7bd255714db8f63d906ca99a6, type: 3}
   - id: 58
     level: 2
@@ -1850,17 +1997,20 @@ MonoBehaviour:
     answer: S23-S49-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Preto"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 32bc4d130f4fb3e46b7bfe5fae9c1837, type: 3}
   - id: 59
     level: 2
@@ -1868,17 +2018,20 @@ MonoBehaviour:
     answer: S23-S50-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Amarelo"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 92bd1953d1698bd40a508d2045f21551, type: 3}
   - id: 60
     level: 2
@@ -1886,17 +2039,20 @@ MonoBehaviour:
     answer: S23-S51-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Azul"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 9b4bade6f594e974d9d54fe6bdb9e958, type: 3}
   - id: 61
     level: 2
@@ -1904,17 +2060,20 @@ MonoBehaviour:
     answer: S23-S52-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Verde"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 772fa7ccc20699c428a87302978e0876, type: 3}
   - id: 62
     level: 2
@@ -1922,17 +2081,20 @@ MonoBehaviour:
     answer: S23-S53-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Vermelho"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: abb9de640ab1ac8408be9c932b3c00e0, type: 3}
   - id: 63
     level: 2
@@ -1940,17 +2102,20 @@ MonoBehaviour:
     answer: S23-S54-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Rosa"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: e9e102765b5c4c846a8e23a5c9bf4359, type: 3}
   - id: 64
     level: 2
@@ -1958,17 +2123,20 @@ MonoBehaviour:
     answer: S23-S55-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Roxo"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 58c90aaabd155fe48ba7386940ec46cc, type: 3}
   - id: 65
     level: 2
@@ -1976,17 +2144,20 @@ MonoBehaviour:
     answer: S23-S56-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Marrom"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: ea5baf38aacec1e4bb1f1b0b9046c7b3, type: 3}
   - id: 66
     level: 2
@@ -1994,17 +2165,20 @@ MonoBehaviour:
     answer: S23-S57-
     blocos:
     - tipo: S23
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: "l\xE1pis"
+      imagem:
+      - {fileID: 21300000, guid: c8d9164eda6cc55488c0184bfbfbd6af, type: 3}
+      - {fileID: 21300000, guid: 020d9327c0ed4a6488ebc4cc5f28ee3c, type: 3}
+      voz: {fileID: 8300000, guid: 335e0d07fe78e2746a2c1edf236c3663, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: "L\xE1pis Cinza"
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 7dd0d0cc014bdf9438140532a954eaa9, type: 3}
   - id: 67
     level: 2
@@ -2012,17 +2186,20 @@ MonoBehaviour:
     answer: S34-S48-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S48
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: branco
+      imagem:
+      - {fileID: 21300000, guid: a5bde0fb8006ed648a1775d03219bb6f, type: 3}
+      voz: {fileID: 8300000, guid: cd1226783e870ea49b90855eaeba8268, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Branco
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 9cd9e99324bcc654191c8b5b6bb53333, type: 3}
   - id: 68
     level: 2
@@ -2030,17 +2207,20 @@ MonoBehaviour:
     answer: S34-S49-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S49
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: preto
+      imagem:
+      - {fileID: 21300000, guid: 2fbe0652115bbd740b3d8773703e96ae, type: 3}
+      voz: {fileID: 8300000, guid: 6684ab5e020313643b855ad73d84e2c2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Preto
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: d1dadf3bd262b9241a5d510cccfca58c, type: 3}
   - id: 69
     level: 2
@@ -2048,17 +2228,20 @@ MonoBehaviour:
     answer: S34-S50-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S50
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: amarelo
+      imagem:
+      - {fileID: 21300000, guid: c425e01a61e82684f84a6ce5d6f051a3, type: 3}
+      voz: {fileID: 8300000, guid: 35bfe69dcaa095f42845dcab34c30443, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Amarelo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 09f413eb82e30484889839b64db7f854, type: 3}
   - id: 70
     level: 2
@@ -2066,17 +2249,20 @@ MonoBehaviour:
     answer: S34-S51-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S51
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: azul
+      imagem:
+      - {fileID: 21300000, guid: bf3dd534d19196f45a0e37713f72a21c, type: 3}
+      voz: {fileID: 8300000, guid: 64a1ea4f24caf6a469306126c9759353, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Azul
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 35d7d07d91b3bb64ba509732e69e30ad, type: 3}
   - id: 71
     level: 2
@@ -2084,17 +2270,20 @@ MonoBehaviour:
     answer: S34-S52-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S52
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: verde
+      imagem:
+      - {fileID: 21300000, guid: c6c07d19be732d149b186321e7af31f2, type: 3}
+      voz: {fileID: 8300000, guid: 97548a4f138d4fb49b1e27087feb3876, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Verde
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 34b7638ca90b65b48a88d862c8ab5b3d, type: 3}
   - id: 72
     level: 2
@@ -2102,17 +2291,20 @@ MonoBehaviour:
     answer: S34-S53-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S53
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: vermelho
+      imagem:
+      - {fileID: 21300000, guid: 2312dde1f556e6d45a936eb8b78aa4b3, type: 3}
+      voz: {fileID: 8300000, guid: 8c76c353b668bd540bed7a49704540f1, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Vermelho
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: b01defb333537344ba1787ac292e4b6b, type: 3}
   - id: 73
     level: 2
@@ -2120,17 +2312,20 @@ MonoBehaviour:
     answer: S34-S54-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S54
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: rosa
+      imagem:
+      - {fileID: 21300000, guid: b275cf464f3553a4ba4d4df2e4e9e6fa, type: 3}
+      voz: {fileID: 8300000, guid: 995c0164587ad594b96823dfc05c3347, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Rosa
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 3681cdfdbba1a5f42998eb2326b98990, type: 3}
   - id: 74
     level: 2
@@ -2138,17 +2333,20 @@ MonoBehaviour:
     answer: S34-S55-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S55
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: roxo
+      imagem:
+      - {fileID: 21300000, guid: f315e71b1cfaa9d4c8cf89c1119bf76d, type: 3}
+      voz: {fileID: 8300000, guid: 08b575f8f7fb6ff4386ba72b63c058e2, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Roxo
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 96ca210e42186884293934b2ea3ffb4e, type: 3}
   - id: 75
     level: 2
@@ -2156,17 +2354,20 @@ MonoBehaviour:
     answer: S34-S56-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S56
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: marrom
+      imagem:
+      - {fileID: 21300000, guid: 031a07829a757ab479b13bbc5d26293b, type: 3}
+      voz: {fileID: 8300000, guid: 2991a79f9ce925d43a1465cd9bc33c9f, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Marrom
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: 31bab9cbcd4b4a34ea0a56ac527e2af2, type: 3}
   - id: 76
     level: 2
@@ -2174,17 +2375,20 @@ MonoBehaviour:
     answer: S34-S57-
     blocos:
     - tipo: S34
-      escrita: suco
-      imagem: []
-      voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
+      escrita: sapato
+      imagem:
+      - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+      - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+      voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
     - tipo: S57
-      escrita: "ma\xE7\xE3"
-      imagem: []
-      voz: {fileID: 8300000, guid: 078c041662e197d42b83fc6203bfd284, type: 3}
+      escrita: cinza
+      imagem:
+      - {fileID: 21300000, guid: f7f91995eb7dddc40822a3e827580919, type: 3}
+      voz: {fileID: 8300000, guid: b1101e3a47f33b84d8b4fcd250ebfd93, type: 3}
     reports:
-      combination: "Suco de Ma\xE7\xE3"
+      combination: Sapato Cinza
       level: 2
-      tries: 0
+      tries: 1
     Audio: {fileID: 8300000, guid: bdc973b391558784d99dac18fb1c5add, type: 3}
   dataBaseNivels03:
   - id: 1
@@ -3419,13 +3623,13 @@ MonoBehaviour:
   - id: 55
     level: 2
     frase: Quero Brincar
-    answer: V17-V4-
+    answer: V17-V5-
     blocos:
     - tipo: V17
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
-    - tipo: V4
+    - tipo: V5
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
@@ -4372,7 +4576,7 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: fcaf27438e6570b418b3ba3f940f4ad0, type: 3}
   - id: 35
-    level: 5
+    level: 3
     frase: "Fazer um Suco de Ma\xE7\xE3"
     answer: V9-S36-S25-
     blocos:
@@ -4737,7 +4941,7 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: ba04b70f0c40e534ca01498a64174cfa, type: 3}
   - id: 51
     level: 3
-    frase: Quero Comer Pipcca
+    frase: Quero Comer Pipoca
     answer: V17-V6-S31-
     blocos:
     - tipo: V17

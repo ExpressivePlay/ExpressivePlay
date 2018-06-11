@@ -81,8 +81,8 @@ MonoBehaviour:
   - tipo: S12
     escrita: "cal\xE7a"
     imagem:
-    - {fileID: 21300000, guid: 7faae889e57c65540af51a23cf694508, type: 3}
-    - {fileID: 21300000, guid: b731843805b3bd348a78c6a3eb7195ba, type: 3}
+    - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+    - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
     voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
   - tipo: S13
     escrita: cama
@@ -93,8 +93,8 @@ MonoBehaviour:
   - tipo: S14
     escrita: camisa
     imagem:
-    - {fileID: 21300000, guid: 419131226a8ba0b4a9128a43ea030dd1, type: 3}
-    - {fileID: 21300000, guid: f62f1f73ac0f8cd43b41b688bbc5218b, type: 3}
+    - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+    - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
     voz: {fileID: 8300000, guid: 319f23573d9716449a7f9681943e0bbb, type: 3}
   - tipo: S15
     escrita: carrinho
@@ -123,8 +123,8 @@ MonoBehaviour:
   - tipo: S19
     escrita: copo
     imagem:
-    - {fileID: 21300000, guid: 5c016f53491117041bf15f13265a0417, type: 3}
-    - {fileID: 21300000, guid: 571f224c23609d44d9c7764fa79450a2, type: 3}
+    - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+    - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
     voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
   - tipo: S20
     escrita: dente
@@ -212,8 +212,8 @@ MonoBehaviour:
   - tipo: S34
     escrita: sapato
     imagem:
-    - {fileID: 21300000, guid: 404153575b1de064181daf44d80d9b27, type: 3}
-    - {fileID: 21300000, guid: 983b153d732e33343a084eb1419d57ba, type: 3}
+    - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+    - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
     voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
   - tipo: S35
     escrita: shopping
