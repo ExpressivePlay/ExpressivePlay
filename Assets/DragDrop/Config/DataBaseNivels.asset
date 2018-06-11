@@ -679,20 +679,6 @@ MonoBehaviour:
       level: 1
       tries: 0
     Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
-  - id: 47
-    level: 1
-    frase: "Cabe\xE7a"
-    answer: S10-
-    blocos:
-    - tipo: S10
-      escrita: torneira
-      imagem: []
-      voz: {fileID: 0}
-    reports:
-      combination: Torneira
-      level: 1
-      tries: 0
-    Audio: {fileID: 8300000, guid: 5e33bc78eab4e90449fdd960ca1686df, type: 3}
   - id: 49
     level: 1
     frase: Chuveiro
@@ -828,7 +814,7 @@ MonoBehaviour:
     frase: Supermercado
     answer: S61-
     blocos:
-    - tipo: S61-
+    - tipo: S61
       escrita: torneira
       imagem: []
       voz: {fileID: 0}
@@ -1127,9 +1113,9 @@ MonoBehaviour:
   - id: 16
     level: 2
     frase: Bola Preta
-    answer: S5-S49-
+    answer: P2-S49-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1145,9 +1131,9 @@ MonoBehaviour:
   - id: 17
     level: 2
     frase: Bola Amarela
-    answer: S5-S50-
+    answer: P2-S50-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1163,9 +1149,9 @@ MonoBehaviour:
   - id: 18
     level: 2
     frase: Bola Azul
-    answer: S5-S51-
+    answer: P2-S51-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1181,9 +1167,9 @@ MonoBehaviour:
   - id: 19
     level: 2
     frase: Bola Verde
-    answer: S5-S52-
+    answer: P2-S52-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1199,9 +1185,9 @@ MonoBehaviour:
   - id: 20
     level: 2
     frase: Bola Vermelha
-    answer: S5-S53-
+    answer: P2-S53-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1217,9 +1203,9 @@ MonoBehaviour:
   - id: 22
     level: 2
     frase: Bola Rosa
-    answer: S5-S54-
+    answer: P2-S54-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1235,9 +1221,9 @@ MonoBehaviour:
   - id: 23
     level: 2
     frase: Bola Roxa
-    answer: S5-S55-
+    answer: P2-S55-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1253,9 +1239,9 @@ MonoBehaviour:
   - id: 24
     level: 2
     frase: Bola Marrom
-    answer: S5-S56-
+    answer: P2-S56-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1271,9 +1257,9 @@ MonoBehaviour:
   - id: 25
     level: 2
     frase: Bola Cinza
-    answer: S5-S57-
+    answer: P2-S57-
     blocos:
-    - tipo: S5
+    - tipo: P2
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1307,9 +1293,9 @@ MonoBehaviour:
   - id: 27
     level: 2
     frase: Copo Preto
-    answer: S19-S49-
+    answer: P3-S49-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1325,9 +1311,9 @@ MonoBehaviour:
   - id: 28
     level: 2
     frase: Copo Amarelo
-    answer: S19-S50-
+    answer: P3-S50-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1343,9 +1329,9 @@ MonoBehaviour:
   - id: 29
     level: 2
     frase: Copo Azul
-    answer: S19-S51-
+    answer: P3-S51-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1361,9 +1347,9 @@ MonoBehaviour:
   - id: 30
     level: 2
     frase: Copo Verde
-    answer: S19-S52-
+    answer: P3-S52-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1379,9 +1365,9 @@ MonoBehaviour:
   - id: 31
     level: 2
     frase: Copo Vermelho
-    answer: S19-S53-
+    answer: P3-S53-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1397,9 +1383,9 @@ MonoBehaviour:
   - id: 32
     level: 2
     frase: Copo Rosa
-    answer: S19-S54-
+    answer: P3-S54-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1415,9 +1401,9 @@ MonoBehaviour:
   - id: 33
     level: 2
     frase: Copo Roxo
-    answer: S19-S55-
+    answer: P3-S55-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1433,9 +1419,9 @@ MonoBehaviour:
   - id: 34
     level: 2
     frase: Copo Marrom
-    answer: S19-S56-
+    answer: P3-S56-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1451,9 +1437,9 @@ MonoBehaviour:
   - id: 35
     level: 2
     frase: Copo Cinza
-    answer: S19-S57-
+    answer: P3-S57-
     blocos:
-    - tipo: S19
+    - tipo: P3
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1487,9 +1473,9 @@ MonoBehaviour:
   - id: 37
     level: 2
     frase: Camisa Preta
-    answer: S14-S49-
+    answer: P4-S49-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1505,9 +1491,9 @@ MonoBehaviour:
   - id: 38
     level: 2
     frase: Camisa Amarela
-    answer: S14-S50-
+    answer: P4-S50-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1523,9 +1509,9 @@ MonoBehaviour:
   - id: 39
     level: 2
     frase: Camisa Azul
-    answer: S14-S51-
+    answer: P4-S51-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1541,9 +1527,9 @@ MonoBehaviour:
   - id: 40
     level: 2
     frase: Camisa Verde
-    answer: S14-S52-
+    answer: P4-S52-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1559,9 +1545,9 @@ MonoBehaviour:
   - id: 41
     level: 2
     frase: Camisa Vermelha
-    answer: S14-S53-
+    answer: P4-S53-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1577,9 +1563,9 @@ MonoBehaviour:
   - id: 42
     level: 2
     frase: Camisa Rosa
-    answer: S14-S54-
+    answer: P4-S54-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1595,9 +1581,9 @@ MonoBehaviour:
   - id: 43
     level: 2
     frase: Camisa Roxa
-    answer: S14-S55-
+    answer: P4-S55-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1613,9 +1599,9 @@ MonoBehaviour:
   - id: 44
     level: 2
     frase: Camisa Marrom
-    answer: S14-S56-
+    answer: P4-S56-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1631,9 +1617,9 @@ MonoBehaviour:
   - id: 45
     level: 2
     frase: Camisa Cinza
-    answer: S14-S57-
+    answer: P4-S57-
     blocos:
-    - tipo: S14
+    - tipo: P4
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1667,9 +1653,9 @@ MonoBehaviour:
   - id: 47
     level: 2
     frase: "Cal\xE7a Preta"
-    answer: S12-S49-
+    answer: P5-S49-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1685,9 +1671,9 @@ MonoBehaviour:
   - id: 48
     level: 2
     frase: "Cal\xE7a Amarela"
-    answer: S12-S50-
+    answer: P5-S50-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1703,9 +1689,9 @@ MonoBehaviour:
   - id: 49
     level: 2
     frase: "Cal\xE7a Azul"
-    answer: S12-S51-
+    answer: P5-S51-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1721,9 +1707,9 @@ MonoBehaviour:
   - id: 50
     level: 2
     frase: "Cal\xE7a Verde"
-    answer: S12-S52-
+    answer: P5-S52-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1739,9 +1725,9 @@ MonoBehaviour:
   - id: 51
     level: 2
     frase: "Cal\xE7a Vermelha"
-    answer: S12-S53-
+    answer: P5-S53-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1757,9 +1743,9 @@ MonoBehaviour:
   - id: 52
     level: 2
     frase: "Cal\xE7a Rosa"
-    answer: S12-S54-
+    answer: P5-S54-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1775,9 +1761,9 @@ MonoBehaviour:
   - id: 53
     level: 2
     frase: "Cal\xE7a Roxa"
-    answer: S12-S55-
+    answer: P5-S55-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1793,9 +1779,9 @@ MonoBehaviour:
   - id: 54
     level: 2
     frase: "Cal\xE7a Marrom"
-    answer: S12-S56-
+    answer: P5-S56-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -1811,9 +1797,9 @@ MonoBehaviour:
   - id: 55
     level: 2
     frase: "Cal\xE7a Cinza"
-    answer: S12-S57-
+    answer: P5-S57-
     blocos:
-    - tipo: S12
+    - tipo: P5
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2027,9 +2013,9 @@ MonoBehaviour:
   - id: 68
     level: 2
     frase: Sapato Preto
-    answer: S34-S49-
+    answer: P6-S49-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2045,9 +2031,9 @@ MonoBehaviour:
   - id: 69
     level: 2
     frase: Sapato Amarelo
-    answer: S34-S50-
+    answer: P6-S50-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2063,9 +2049,9 @@ MonoBehaviour:
   - id: 70
     level: 2
     frase: Sapato Azul
-    answer: S34-S51-
+    answer: P6-S51-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2081,9 +2067,9 @@ MonoBehaviour:
   - id: 71
     level: 2
     frase: Sapato Verde
-    answer: S34-S52-
+    answer: P6-S52-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2099,9 +2085,9 @@ MonoBehaviour:
   - id: 72
     level: 2
     frase: Sapato Vermelho
-    answer: S34-S53-
+    answer: P6-S53-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2117,9 +2103,9 @@ MonoBehaviour:
   - id: 73
     level: 2
     frase: Sapato Rosa
-    answer: S34-S54-
+    answer: P6-S54-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2135,9 +2121,9 @@ MonoBehaviour:
   - id: 74
     level: 2
     frase: Sapato Roxo
-    answer: S34-S55-
+    answer: P6-S55-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2153,9 +2139,9 @@ MonoBehaviour:
   - id: 75
     level: 2
     frase: Sapato Marrom
-    answer: S34-S56-
+    answer: P6-S56-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -2171,9 +2157,9 @@ MonoBehaviour:
   - id: 76
     level: 2
     frase: Sapato Cinza
-    answer: S34-S57-
+    answer: P6-S57-
     blocos:
-    - tipo: S34
+    - tipo: P6
       escrita: suco
       imagem: []
       voz: {fileID: 8300000, guid: d0dfa6e94f5d3fe49ba5679853c92e3e, type: 3}
@@ -3419,13 +3405,13 @@ MonoBehaviour:
   - id: 55
     level: 2
     frase: Quero Brincar
-    answer: V17-V4-
+    answer: V17-V5-
     blocos:
     - tipo: V17
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 464410e0dc1075649afc3a636cb54dd8, type: 3}
-    - tipo: V4
+    - tipo: V5
       escrita: 
       imagem: []
       voz: {fileID: 8300000, guid: 02751fded64cec44a8627527b7bdce63, type: 3}
@@ -4372,7 +4358,7 @@ MonoBehaviour:
       tries: 0
     Audio: {fileID: 8300000, guid: fcaf27438e6570b418b3ba3f940f4ad0, type: 3}
   - id: 35
-    level: 5
+    level: 3
     frase: "Fazer um Suco de Ma\xE7\xE3"
     answer: V9-S36-S25-
     blocos:

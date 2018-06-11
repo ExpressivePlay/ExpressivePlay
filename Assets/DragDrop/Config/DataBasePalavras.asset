@@ -390,6 +390,35 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 8b7db9536322a054ea54cac7cb5eaa43, type: 3}
     - {fileID: 21300000, guid: ff4bc248a3c7f2841afeb9cc1da0f8ea, type: 3}
     voz: {fileID: 8300000, guid: 928dd660349a85743b536572e327617a, type: 3}
+  - tipo: P2
+    escrita: "bola gen\xE9rica"
+    imagem:
+    - {fileID: 21300000, guid: afc37aa21e7ee1b43925c23c19533e78, type: 3}
+    voz: {fileID: 8300000, guid: 6b9e0db4c2387d4418f9276674ec0bf1, type: 3}
+  - tipo: P3
+    escrita: "copo gen\xE9rico"
+    imagem:
+    - {fileID: 21300000, guid: 04bf340a43bdbca45981a8616611a059, type: 3}
+    - {fileID: 21300000, guid: da381d5618be97b4ba63fa6c4aa3ace1, type: 3}
+    voz: {fileID: 8300000, guid: c2178353dec189d44a62be637c4dcd58, type: 3}
+  - tipo: P4
+    escrita: "camisa gen\xE9rica"
+    imagem:
+    - {fileID: 21300000, guid: fac1de58770465b4cbc5bf581e0bca06, type: 3}
+    - {fileID: 21300000, guid: f0b56842b1cb6a94e9cabd71c890f558, type: 3}
+    voz: {fileID: 8300000, guid: 2e419cf9bca1ceb48ba424c2e25fddfb, type: 3}
+  - tipo: P5
+    escrita: "cal\xE7a gen\xE9rica"
+    imagem:
+    - {fileID: 21300000, guid: 2a733adb644ecca498febb824082ce42, type: 3}
+    - {fileID: 21300000, guid: ffa97f6c7ef97fe4181aef4780d51888, type: 3}
+    voz: {fileID: 8300000, guid: 6d3af8127d61db0409a1fc13c891f5b1, type: 3}
+  - tipo: P6
+    escrita: "sapato gen\xE9rico"
+    imagem:
+    - {fileID: 21300000, guid: 5c3770837c1236f4d92db1431b13b62e, type: 3}
+    - {fileID: 21300000, guid: 66cb6299569f5b64bb03767faddec3bd, type: 3}
+    voz: {fileID: 8300000, guid: 9595b7dd68ee10b4681099dd6f4c876d, type: 3}
   - tipo: V1
     escrita: "almo\xE7ar"
     imagem:
