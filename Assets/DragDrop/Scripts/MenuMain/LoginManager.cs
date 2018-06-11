@@ -96,7 +96,7 @@ public class LoginManager : MonoBehaviour {
 	}
 
 	IEnumerator CarregaScene(){
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (2);
 		SceneManager.LoadScene ("MainMenu");
 	}
 
