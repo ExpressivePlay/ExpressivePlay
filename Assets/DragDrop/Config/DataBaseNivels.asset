@@ -4738,7 +4738,7 @@ MonoBehaviour:
   - id: 42
     level: 3
     frase: Quero Arrumar a Cama
-    answer: V17-V1-S13-
+    answer: V17-V2-S13-
     blocos:
     - tipo: V17
       escrita: 
@@ -4760,7 +4760,7 @@ MonoBehaviour:
   - id: 43
     level: 3
     frase: Quero Arrumar a Quarto
-    answer: V17-V1-S58-
+    answer: V17-V2-S58-
     blocos:
     - tipo: V17
       escrita: 
