@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PanelPhase : MonoBehaviour {
 
+	public bool gameRunning = true;
 
 	public GameObject lvlActive;
 	public GameObject[] lvls;
@@ -60,6 +61,7 @@ public class PanelPhase : MonoBehaviour {
 
 	public void ValidAnswer(){
 		if (answer == GameController.Instance.nivelGenerator.nivel.answer) {
+			gameRunning = false;
 			GameController.Instance.uiController.panelWin.SetActive (true);
 		} else {
 			StartCoroutine (waitToResetBlockPos ());
