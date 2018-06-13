@@ -38,7 +38,6 @@ public class BlockGeneretorChat : MonoBehaviour {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
 							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
 								if (auxPalavra.tipo == aux.blocos [1].tipo) {
-									print (aux.id);
 									blocks.Add (auxPalavra);
 									auxBlocks.Add (auxPalavra);
 								}
@@ -51,7 +50,6 @@ public class BlockGeneretorChat : MonoBehaviour {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
 							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
 								if (auxPalavra.tipo == aux.blocos [1].tipo) {
-									print (aux.id);
 									blocks.Add (auxPalavra);
 									auxBlocks.Add (auxPalavra);
 								}
@@ -64,7 +62,6 @@ public class BlockGeneretorChat : MonoBehaviour {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
 							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
 								if (auxPalavra.tipo == aux.blocos [1].tipo) {
-									print (aux.id);
 									blocks.Add (auxPalavra);
 									auxBlocks.Add (auxPalavra);
 								}
@@ -77,7 +74,6 @@ public class BlockGeneretorChat : MonoBehaviour {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
 							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
 								if (auxPalavra.tipo == aux.blocos [1].tipo) {
-									print (aux.id);
 									blocks.Add (auxPalavra);
 									auxBlocks.Add (auxPalavra);
 								}
@@ -90,7 +86,6 @@ public class BlockGeneretorChat : MonoBehaviour {
 						if (aux.blocos [0].tipo == GameControllerChat.Instance.panelFhaseChat.nextType [0]) {
 							foreach(Palavra auxPalavra in GameControllerChat.Instance.dataBasePalavras.palavras){
 								if (auxPalavra.tipo == aux.blocos [1].tipo) {
-									print (aux.id);
 									blocks.Add (auxPalavra);
 									auxBlocks.Add (auxPalavra);
 								}
