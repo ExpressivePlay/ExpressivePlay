@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1075269345593",
+    "firebase_url": "https://expressive-play.firebaseio.com",
+    "project_id": "expressive-play",
+    "storage_bucket": "expressive-play.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075269345593:android:41bb902776ce8b12",
+        "android_client_info": {
+          "package_name": "com.projectaplicado.expressiveplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075269345593-pvja28j0g8t8vdsa8imeu75ubk3v6tka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFr3dcYtg8jTZEjNR2zCud-Xx-HFP_ubg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
